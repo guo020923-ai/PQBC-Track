@@ -1,155 +1,213 @@
-# UVLTrack
+# PQBC-Track
 
-The official implementation of our AAAI 2024 paper [**Unifying Visual and Vision-Language Tracking via Contrastive Learning**](https://arxiv.org/abs/2401.11228)
-![](fig/arch.png)
+Official code release for **PQBC-Track**, a quality-aware extension of
+[UVLTrack](https://arxiv.org/abs/2401.11228) for vision-language object
+tracking.
 
+PQBC-Track retains the unified visual-language tracker and introduces two
+additional components:
 
-## Brief Introduction
-Single object tracking aims to locate the target object in a video sequence according to the state specified by different modal references, including the initial bounding box (BBOX), natural language (NL), or both (NL+BBOX). Different previous modality-specific trackers, we present a unified tracker called UVLTrack, which can simultaneously handle all three reference settings (BBOX, NL, NL+BBOX) with the same parameters, allowing wider appliation scenarios. The proposed UVLTrack enjoys several merits. First, we design a modality-unified feature extractor for joint visual and language feature learning and propose a multi-modal contrastive loss to align the visual and language features into a unified semantic space. Second, a modality-adaptive box head is proposed, which makes full use of the target reference to mine ever-changing scenario features dynamically from video contexts and distinguish the target in a contrastive way, enabling robust performance in different reference settings.
+- **RQC**, which produces a quality-controlled candidate box from the shared
+  tracker representation;
+- **ERC**, which compares executable candidate actions against `KEEP`, applies
+  TRAIN-only calibration, and uses guarded feedback to prevent invalid state
+  updates.
 
-## Strong Performance
-UVLTrack presents strong performance under different reference settings. 
-|        Reference Modality       |       NL       |       BBOX       |       NL+BBOX       |
-|:--------------:|:---------:|:---------:|:---------:|
-| Methods      | TNL2K (AUC / P)      | TNL2K(AUC / P)     | TNL2K(AUC / P)     |
-| OSTrack-256  | -/- |54.3/-|-/-|
-| OSTrack-384  | -/- |55.9/-|-/-|
-| VLTTT |-/-|-/-|53.1/53.3|
-| JointNLT  | 54.6/55.0 | -/- | 56.9/58.1 |
-| UVLTrack-B   |   **55.7/57.2**    |   **62.7/65.4**    |   **63.1/66.7**    |
-| UVLTrack-L   |   **58.2/60.9**    |   **64.8/68.8**    |   **64.9/69.3**    |
+The final ERC configuration uses 25 candidate actions, a 48-dimensional action
+descriptor, KEEP-relative pairwise utility learning, a TRAIN-only threshold of
+`0.36725926399230957`, and an eight-frame cooldown.
 
-Raw results can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1UZTrGcL3YlxvNpHi0wKsO_sKsTYuYnFo?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xSRgHHZKv8MyqMKwtT_JsA?pwd=8v0p).
+> **Release status.** Source code and reproducibility metadata are available in
+> this repository. Datasets and trained checkpoints are not stored in Git.
+> Checkpoint downloads will be provided through the
+> [GitHub Releases](https://github.com/guo020923-ai/PQBC-Track/releases) page.
 
-![](fig/results.png)
+## Results
 
-## Checkpoints
-You can download the model weights from [Google Drive](https://drive.google.com/drive/folders/1UZTrGcL3YlxvNpHi0wKsO_sKsTYuYnFo?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xSRgHHZKv8MyqMKwtT_JsA?pwd=8v0p).
+### Contextual benchmark comparison
 
-|             Methods             |         UVLTrack-B       |       UVLTrack-L       |
-|:-------------------------------:|:------------------------:|:------------------------:|
-|       Reference Modality        |     TNL2K (AUC / P)      | TNL2K(AUC / P)     |
-| NL      |   55.0/56.8  | 58.2/60.9 |
-| BBOX    |   63.0/66.3  | 65.2/69.5 |
-| NL+BBOX |   62.9/66.5  | 64.8/69.2 |
+| Method | TNL2K AUC | TNL2K P | LaSOT AUC | LaSOT P | OTB-Lang AUC | OTB-Lang P |
+|---|---:|---:|---:|---:|---:|---:|
+| Reproduced UVLTrack-B | 62.73 | 66.21 | 68.39 | 74.49 | 69.39 | 89.89 |
+| **PQBC-Track** | **63.27** | **66.83** | **68.60** | **74.52** | **69.79** | **90.18** |
 
-## Install the environment
-Use the Anaconda
+`P` denotes center-location precision under the protocol used by each
+benchmark.
+
+### Final TNL2K FULL700 evaluation
+
+| AUC | OP50 | OP75 | Precision | Normalized Precision |
+|---:|---:|---:|---:|---:|
+| 63.2737 | 74.1890 | 59.3355 | 66.8281 | 80.7188 |
+
+The final run contains 700 sequences, 516,038 frames, and 515,338 search
+frames. No automatic retry was used.
+
+## Repository layout
+
+```text
+PQBC-Track/
+├── change/        # RQC/ERC implementation and reproducibility entry points
+├── experiments/   # UVLTrack, RQC, and consolidated PQBC-Track configurations
+├── lib/           # UVLTrack base framework plus PQBC-Track modifications
+├── tracking/      # training, testing, profiling, and analysis entry points
+├── LICENSE
+├── install.sh
+└── uvltrack_env.yaml
 ```
+
+Important entry points:
+
+- `experiments/uvltrack/PQBC-Track.yaml`
+- `change/run_pqbc_track_yaml.py`
+- `change/recheck_pqbc_tnl2k_metrics.py`
+- `change/erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123/`
+- `change/erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124/`
+- `change/erc_rqc30_output_only_ablation_20261109_130/`
+- `change/erc_rqc30_unary_objective_ablation_20261109_132/`
+
+## Installation
+
+Linux with a CUDA-capable GPU is recommended.
+
+```bash
 conda env create -f uvltrack_env.yaml
-```
-or
-```
-conda create -n uvltrack python=3.6
 conda activate uvltrack
 bash install.sh
 ```
 
-## Data Preparation
-Put the tracking datasets in ./data. It should look like:
-   ```
-   ${UVLTrack_ROOT}
-    -- data
-        -- lasot
-            |-- airplane
-            |-- basketball
-            |-- bear
-            ...
-        -- lasotext
-            |-- atv
-            |-- badminton
-            |-- cosplay
-            ...
-        -- got10k
-            |-- test
-            |-- train
-            |-- val
-        -- coco
-            |-- annotations
-            |-- train2017
-        -- trackingnet
-            |-- TRAIN_0
-            |-- TRAIN_1
-            ...
-            |-- TRAIN_11
-            |-- TEST
-        -- otb99
-            |-- OTB_query_test
-            |-- OTB_query_train
-            |-- OTB_videos
-        -- refcocog
-            |-- refcocog
-            |-- split # download this folder from VLTVG (https://github.com/yangli18/VLTVG/blob/master/docs/get_started.md)
-            |-- train2014 # coco 2014
-            |-- val2014 # coco 2014
-        -- tnl2k
-            |-- test
-            |-- train
-   ```
+## Data preparation
 
-## Train UVLTrack
-Download the pretrained [MAE](https://github.com/facebookresearch/mae) and [BERT](https://drive.google.com/drive/folders/1UZTrGcL3YlxvNpHi0wKsO_sKsTYuYnFo?usp=sharing), put it under ```<PROJECT_ROOT>/pretrain```.
+Datasets are not included. Download them from their official sources and place
+them under `data/`:
 
-Training with multiple GPUs using DDP.
-```
-# UVLTrack
-sh scripts/train.sh uvltrack baseline_base
+```text
+data/
+├── got10k/
+│   └── train/
+├── lasot/
+├── lasotext/
+├── otb99/
+└── tnl2k/
+    ├── train/
+    └── test/
 ```
 
-## Evaluation
-Download the model weight from [Google Drive](https://drive.google.com/drive/folders/1UZTrGcL3YlxvNpHi0wKsO_sKsTYuYnFo?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1xSRgHHZKv8MyqMKwtT_JsA?pwd=8v0p).
+Update the dataset locations in the UVLTrack local environment files under
+`lib/train/admin/` and `lib/test/evaluation/` when your directory layout is
+different.
 
-Put the downloaded weights on ```<PROJECT_ROOT>/checkpoints/train/uvltrack/baseline_base``` and ```<PROJECT_ROOT>/checkpoints/train/uvltrack/baseline_large``` correspondingly.
+## Configuration validation
 
-Notably, the modality of target reference (NL, BBOX or NLBBOX) is specified in config ```TEST.MODE```
+After configuring the artifact paths, validate the release configuration:
 
-```
-# Testing
-sh scripts/test.sh uvltrack baseline_base <dataset_name> <num_threads_per_gpu> <num_gpu>
-
-# Evaluation
-python tracking/analysis_results.py --tracker_name uvltrack --tracker_param baseline_base --dataset_name <dataset_name>_<reference_modality>_<EPOCH>
-
-# Example
-sh scripts/test.sh uvltrack baseline_base otb99 4 2
-python tracking/analysis_results.py --tracker_name uvltrack --tracker_param baseline_base --dataset_name otb99_NL_300
+```bash
+python -B -m change.run_pqbc_track_yaml check \
+  --config experiments/uvltrack/PQBC-Track.yaml \
+  --project-root . \
+  --hash-artifacts
 ```
 
-## Run UVLTrack on your own video
-Specify the target by bounding box or natural language, which should keep consistent with ```TEST.MODE``` in config.
-```
-sh scripts/demo.sh uvltrack baseline_base \
-                   <input video path> \
-                   <output video path> \
-                   <language description of target> \
-                   <initial bbox of target: x y w h>
+A valid setup prints:
+
+```text
+PQBC_TRACK_CONFIG_VALID
 ```
 
-## Test Speed
+## TNL2K evaluation
+
+Preview the complete evaluation command without starting a run:
+
+```bash
+python -B -m change.run_pqbc_track_yaml evaluate-command \
+  --config experiments/uvltrack/PQBC-Track.yaml \
+  --project-root . \
+  --output outputs/pqbc_tnl2k \
+  --result-name pqbc_track_tnl2k \
+  --run-id 110925 \
+  --processes 8
 ```
-# UVLTrack-B: About 60 FPS on NVIDIA RTX 3090 GPU
-python tracking/profile_model.py --script uvltrack --config baseline_base
-# UVLTrack-L: About 34 FPS on NVIDIA RTX 3090 GPU
-python tracking/profile_model.py --script uvltrack --config baseline_large
+
+Run the evaluation by replacing `evaluate-command` with `evaluate`:
+
+```bash
+python -B -m change.run_pqbc_track_yaml evaluate \
+  --config experiments/uvltrack/PQBC-Track.yaml \
+  --project-root . \
+  --output outputs/pqbc_tnl2k \
+  --result-name pqbc_track_tnl2k \
+  --run-id 110925 \
+  --processes 8
+```
+
+All output directories and run identifiers must be new; the reproducibility
+entry point does not overwrite an existing run.
+
+## Recompute metrics from saved predictions
+
+Place the completed tracker predictions in the UVLTrack result directory and
+configure the local test environment. Then run:
+
+```bash
+python -B -m change.recheck_pqbc_tnl2k_metrics \
+  --report outputs/metric_recheck
+```
+
+This command evaluates the saved predictions only; it does not run network
+inference.
+
+## Reproducibility controls
+
+- final pairwise checkpoint: fixed Epoch 100;
+- optimizer steps: 187,500;
+- training seed: `20261109`;
+- calibration scope: TRAIN-only;
+- ERC threshold: `0.36725926399230957`;
+- cooldown: eight frames;
+- invalid feedback: post-selection KEEP fallback;
+- final benchmark evaluation: FULL700;
+- automatic retry: disabled.
+
+See `experiments/uvltrack/PQBC-Track.yaml` and the implementation manifests in
+`change/` for the complete protocol.
+
+## License and acknowledgements
+
+PQBC-Track is built on UVLTrack, the official implementation of
+*Unifying Visual and Vision-Language Tracking via Contrastive Learning*
+(AAAI 2024). We thank the UVLTrack authors for releasing their code.
+
+The inherited UVLTrack components are redistributed and modified under the MIT
+License. The original copyright notice is retained in `LICENSE`:
+
+```text
+Copyright (c) 2023 University of Science and Technology of China
+```
+
+The repository also inherits components or ideas acknowledged by UVLTrack,
+including JointNLT, MixFormer, OSTrack, Timm, and
+`pytorch_pretrained_bert`. Please follow the licenses of the corresponding
+upstream projects.
+
+## Citation
+
+The PQBC-Track citation will be added after the paper metadata is finalized.
+If you use the UVLTrack base implementation, please also cite:
+
+```bibtex
+@misc{ma2024unifying,
+  title={Unifying Visual and Vision-Language Tracking via Contrastive Learning},
+  author={Yinchao Ma and Yuyang Tang and Wenfei Yang and Tianzhu Zhang and
+          Jinpeng Zhang and Mengxue Kang},
+  year={2024},
+  eprint={2401.11228},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
 ```
 
 ## Contact
-For questions about our paper or code, please contact [Yinchao Ma](imyc@mail.ustc.edu.cn) or [Yuyang Tang](yuyangtang@mail.ustc.edu.cn)
 
-## Acknowledgments
-* Thanks for [JointNLT](https://github.com/lizhou-cs/JointNLT), [Mixformer](https://github.com/MCG-NJU/MixFormer) and [OSTrack](https://github.com/botaoye/OSTrack) Library, which helps us to quickly implement our ideas.
-
-* We use the implementation of the ViT from the [Timm](https://github.com/huggingface/pytorch-image-models) repo and BERT from the [pytorch_pretrained_bert](https://github.com/Meelfy/pytorch_pretrained_BERT).
-
-## Citation
-If our work is useful for your research, please consider cite:
-```
-@misc{ma2024unifying,
-      title={Unifying Visual and Vision-Language Tracking via Contrastive Learning}, 
-      author={Yinchao Ma and Yuyang Tang and Wenfei Yang and Tianzhu Zhang and Jinpeng Zhang and Mengxue Kang},
-      year={2024},
-      eprint={2401.11228},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+Please use the repository's
+[Issues](https://github.com/guo020923-ai/PQBC-Track/issues) page for questions
+about the released code and reproducibility protocol.

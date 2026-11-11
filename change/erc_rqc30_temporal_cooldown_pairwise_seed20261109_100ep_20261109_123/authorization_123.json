@@ -1,0 +1,16 @@
+{
+  "status": "AUTHORIZED_INDEPENDENT_SEED_REPLICATION",
+  "replication_of": "Round73",
+  "only_changed_variable": "training_seed",
+  "original_training_seed": 20261105,
+  "replication_training_seed": 20261109,
+  "temporal_cooldown_frames": 8,
+  "source_rqc_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+  "source_cache_manifest_sha256": "26162a2efa52becdbb1f95e2a1a81eeecdfc25bc912f737591749d5f44ac9d1d",
+  "epochs": 100,
+  "optimizer_steps": 187500,
+  "fixed_checkpoint": "Epoch100",
+  "automatic_retry": false,
+  "test_data_for_training_or_calibration": false,
+  "user_authorized_date": "2026-11-09"
+}

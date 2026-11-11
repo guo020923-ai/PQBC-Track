@@ -1,0 +1,26 @@
+{
+  "deployed_unix": 1793799978.3812242,
+  "files": {
+    "__init__.py": "dcf8f827148e968e1f39c63af025a1ebe7cba576d2af12e35cd56429a6812088",
+    "authorization_41.json": "510cf04dfafea994cf0c4d30e30b5e462b56e90bd5ca667437441ad2486ac735",
+    "cache.py": "edf06b2786921a8e70aaa0add1b09b4493b977816b100e5565478537cf5ae3d9",
+    "check_cpu.py": "ee523438bcac11046ed6d3251570d4dfc4419dc207912f39f80b36adf88a08bb",
+    "checkpoint.py": "a21b4043dfaeed35b04886909b93ac20c31526d63bbe73879cc5283ecea35b95",
+    "config.py": "3ca042646b71b1401442653d92b245a3d178076c1849f0f2b8672aa554b32c25",
+    "failure_analysis_41.md": "320681394871b72f4091ce9b05a3deefa2ecf8c58a3db01056e4963c54cc4ae7",
+    "io_utils.py": "ca6488e8beba0ee1eda0c880f97c89415ad40b70b36963229970e39d1c7cfc6c",
+    "model.py": "3726ed14962263508aa0cab93ac72b622f9f7ee0726fb40145fd52122b6273ac",
+    "objective.py": "4d07edbcb90d4c440b5490774117c06a8f325dcf59c312d6e01caa9aead5acdf",
+    "post_result_revision_41.json": "0976fe88e3972956b0db3047b9e414c6baa771dc1b88221e0864bd438254e177",
+    "protocol.md": "7d009608db04aa41683fe1f10089ac58dcda98ae7966f9f66080e72a29dac5a7",
+    "provider.py": "d6ed2bce4fc83f08eabd7c8071670a921021a55f6adbfbba09edf5c994a1d799",
+    "runner.py": "4b806ad7f088c102201cd5de124b61d31eb14e45f8aaeea8f62734b421a283cc",
+    "runtime.py": "80c9ada993680e494f17c57820b1c7c873fc83a9bf73d828d6cb0c013002b3a6",
+    "train_reuse_cache.py": "470eb206b23c0ccd3c109e1a98ff62f456a59f1c1b87a597eaf5f01dfdc48b9e",
+    "training.py": "0398e87646705a3f0c8202dbb9941339ea06c0f44371f319b3b47caacd475948"
+  },
+  "gpu_processes_at_deploy": [],
+  "status": "V2_SOURCE_DEPLOYED",
+  "target": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_epoch_supervised_abstention_20261104_41",
+  "training_started": false
+}

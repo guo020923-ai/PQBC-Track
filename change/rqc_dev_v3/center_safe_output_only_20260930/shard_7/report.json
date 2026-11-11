@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "sequence": "drone-10",
+      "domain": "lasot_train",
+      "frames": 1449,
+      "valid_frames": 1449,
+      "baseline_mean_iou": 0.7977790658303828,
+      "refined_mean_iou": 0.7993842784152262,
+      "gain": 0.001605212584843325,
+      "beneficial": 0.2111801242236025,
+      "harmful": 0.08971704623878538,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Chess_video_4-8-Done",
+      "domain": "tnl2k_train",
+      "frames": 64,
+      "valid_frames": 55,
+      "baseline_mean_iou": 0.8201529253160283,
+      "refined_mean_iou": 0.8233169532267746,
+      "gain": 0.0031640279107463315,
+      "beneficial": 0.12727272727272726,
+      "harmful": 0.03636363636363636,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 112.4800341129303,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

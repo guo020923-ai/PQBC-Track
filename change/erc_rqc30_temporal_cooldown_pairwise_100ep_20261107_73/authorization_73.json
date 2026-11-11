@@ -1,0 +1,12 @@
+{
+  "status": "AUTHORIZED_EVIDENCE_BASED_TEMPORAL_COOLDOWN_ITERATION",
+  "scientific_variable": "train_only_selected_temporal_feedback_cooldown",
+  "temporal_cooldown_frames": 8,
+  "evidence": "evidence_73.json",
+  "standing_authorization": "change/erc_iterative_research_authorization_20261106_63.json",
+  "epochs": 100,
+  "optimizer_steps": 187500,
+  "fixed_checkpoint": "Epoch100",
+  "automatic_retry": false,
+  "test_data_for_training_or_calibration": false
+}

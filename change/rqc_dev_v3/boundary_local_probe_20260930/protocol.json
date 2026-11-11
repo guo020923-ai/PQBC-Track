@@ -1,0 +1,14 @@
+{
+  "epochs": 20,
+  "lr": 0.0001,
+  "batch_size": 64,
+  "folds": 4,
+  "seed": 42,
+  "checkpoint_rule": "final epoch only",
+  "parameters": 20076,
+  "old_parameters": 19332,
+  "action_loss_limits_unchanged": true,
+  "paired_batch_order": true,
+  "source_sha256": "9287cb3acca37adf8945d9c32669062f020ea4ee97932f3bd2fd5f2e740a1437",
+  "warning": "Previously inspected development data. Input projection and 3.85% capacity difference prevent pure feature-only causal attribution."
+}

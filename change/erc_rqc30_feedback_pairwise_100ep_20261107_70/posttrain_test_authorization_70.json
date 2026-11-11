@@ -1,0 +1,13 @@
+{
+  "status": "AUTHORIZED_ONE_TNL2K_FULL700_AFTER_VERIFIED_FEEDBACK_TRAINING",
+  "dataset": "TNL2K",
+  "mode": "NLBBOX",
+  "sequences": 700,
+  "frames": 516038,
+  "searches": 515338,
+  "persistent_workers": 8,
+  "fixed_checkpoint": "Epoch100",
+  "fallback_guarantees_evaluation": true,
+  "automatic_retry": false,
+  "test_gt_parameter_selection": false
+}

@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "config": "baseline_base_head_output_center_safe_joint_bs16_30ep_20260930",
+    "config_sha256": "e97ff4aeeb2f48467802342512dcb87ba0d9b9188c31b7f79c9812e7dea00e97",
+    "source_checkpoint": "/root/autodl-tmp/UVLTrack-master/checkpoints/train/uvltrack/baseline_base/UVLTrack_ep0300.pth.tar",
+    "source_checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+    "epochs": 30,
+    "samples_per_epoch": 30000,
+    "batch": 16,
+    "vl_ratio": 0.44,
+    "grounding_ratio": 0.11,
+    "head_trainable": 15718505,
+    "backbone_trainable": 0,
+    "refiner_trainable": 19202,
+    "head_lr": 1e-06,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "head_bn_running_stats_fixed": true,
+    "refiner_to_head_gradient": false,
+    "gradient_clip": "per_group",
+    "output_only": true,
+    "ddp": false,
+    "validation_interval": 1,
+    "source_files": {
+      "center_safe_refiner_20260930.py": "404fc57f5c1700f7065953eb83010fb04091bff2e4be070049eab3b424c3ed1c",
+      "relative_local_objective_20260930.py": "d9febd730682ebdee8038a891fbe9289ce26f0b00dc7f3a49961d6bf146731b2",
+      "local_box_refiner_20260930.py": "643a4eb9ab8cb6d2d44d256fc20c9931aa18e6f587bdb2f850e32368d6745b1c",
+      "center_formal_contract_20260930.py": "8fa7a70c1f63feecdd0fdf7267c4b49774b6ab85a0b2531d24bcf21cbea9afd1",
+      "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+      "center_joint_contract_20260930.py": "84e73383a7e905c325e45e0796e13f30afe09d0bcf47f09e23236002def09187",
+      "center_joint_metadata_exact_20260930.py": "7e66630b0571592c26f96485891578fe96360fc1ab8accd9f1f4c277886ccb49",
+      "train_center_joint_20260930.py": "880c75472483eabc70cbc30e41493f8db0130624d0f13bec23c069af6cd153a0",
+      "center_joint_tracker_20260930.py": "c82edb6574eae7612566d78ecc3dce4eb10e705dab7d57a9ac54c865adcd56c1",
+      "../../lib/train/actors/uvltrack.py": "7040427dbb488fa8f4563db5b2bf7d7328cbc768851e92ae7cfb47ce99ef27b1",
+      "../../lib/models/uvltrack/uvltrack.py": "728ba4be7cfa4d604a94150e947670137c7c2c41cb1e6d4da7946ab618dec0db",
+      "../../lib/config/uvltrack/config.py": "b402ca0803076cc15247bd14c6beb1f6f641af05f0068b58b82c610537098d06",
+      "../../lib/test/tracker/uvltrack.py": "7481b611c22947dfe30259aba5c3f1daeee2aa808d2d3b66a889d091b35a07b8"
+    }
+  },
+  "boundary": {
+    "old_side": 1167,
+    "native_side": 1168,
+    "fixed_side": 1168,
+    "original_images_labels_exact": true,
+    "rng_exact": true,
+    "flip_and_no_flip": true,
+    "assertion_tolerance_unchanged": true
+  },
+  "loaders": [
+    {
+      "loader": "train",
+      "batches": 1875,
+      "search_frames": 60000
+    },
+    {
+      "loader": "tr_LASOT_test",
+      "batches": 400,
+      "search_frames": 12800
+    },
+    {
+      "loader": "gr_OTB99_test",
+      "batches": 3,
+      "search_frames": 48
+    },
+    {
+      "loader": "gr_TNL2K_test",
+      "batches": 44,
+      "search_frames": 700
+    },
+    {
+      "loader": "gr_LASOT_test",
+      "batches": 18,
+      "search_frames": 280
+    },
+    {
+      "loader": "vl_LASOT_test",
+      "batches": 400,
+      "search_frames": 12800
+    }
+  ],
+  "seconds": 327.3519570827484,
+  "optimizer_steps": 0,
+  "formal_training_started": false
+}

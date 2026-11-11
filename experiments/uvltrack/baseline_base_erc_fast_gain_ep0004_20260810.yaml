@@ -1,0 +1,43 @@
+DATA:
+  MEAN: [0.485, 0.456, 0.406]
+  STD: [0.229, 0.224, 0.225]
+  SEARCH:
+    SIZE: 256
+  TEMPLATE:
+    SIZE: 128
+MODEL:
+  BACKBONE:
+    FUSION_LAYER: [6, 7, 8, 9, 10, 11]
+    TYPE: modality_unified_feature_extractor
+    PRETRAINED_PATH: 'pretrain/mae_pretrain_vit_base.pth'
+    CONT_LOSS_LAYER: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+    TXT_TOKEN_MODE: 'cls'
+    LANGUAGE:
+      TYPE: 'pretrain/bert'
+      PATH: 'pretrain/bert/bert-base-uncased.tar.gz'
+      VOCAB_PATH: 'pretrain/bert/bert-base-uncased-vocab.txt'
+  HEAD:
+    HEAD_DIM: 256
+    TYPE: modality_adaptive_box_head
+    OFFSET_SIGMOID: true
+    CLS_TOKENIZE: false
+    JOINT_CLS: false
+    SOFTMAX_ONE: true
+    ERC:
+      ENABLED: true
+      HIDDEN_DIM: 64
+      DROP: 0.0
+      MAX_ALPHA: 0.1
+      EPS: 0.000001
+      LOG_RATIO_CLIP: 8.0
+      DETACH_FEATURES: true
+  HIDDEN_DIM: 768
+  POSITION_EMBEDDING: sine
+TEST:
+  MODE: NLBBOX
+  EPOCH: 4
+  SEARCH_FACTOR: 4.0
+  SEARCH_SIZE: 256
+  TEMPLATE_FACTOR: 2.0
+  TEMPLATE_SIZE: 128
+  UPDATE_INTERVAL: 20

@@ -1,0 +1,14 @@
+{
+  "status": "OUTPUT_ONLY_ABLATION_IMPLEMENTATION_SEALED",
+  "only_variable": "accepted ERC output is not written to the next-frame search state",
+  "frozen_reference": "Round124 final implementation and Round123 Epoch100 numeric weights",
+  "test_scope": "TNL2K FULL700 once",
+  "automatic_retry": false,
+  "files": {
+    "__init__.py": "769f993e3f0f844822528f24389da2dd17edae039f6e72b8c75bcd87e86a34e4",
+    "runtime.py": "021d0c0869e3568446410c4a0fcf85476c02535782350ba846e0ce24220d7ddd",
+    "fast_runner.py": "fe40ab4fa4b2c78a7762df1b2d187443fb94c42fa2b08eb0739d020ebf051af3",
+    "stage.py": "0b064d96f860a268bcdb6d0fa58d56c082ac1ed8515c717f9ff274bb1bec3ed7",
+    "run_output_only_test.py": "87d75b19c6f4fd59ccd57b3237dbab885004c62a335602ce19d2a84ea8ad9715"
+  }
+}

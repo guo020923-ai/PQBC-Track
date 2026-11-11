@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "sequence": "motorcycle-14",
+      "domain": "lasot_train",
+      "frames": 2554,
+      "valid_frames": 2550,
+      "baseline_mean_iou": 0.8655871463808921,
+      "refined_mean_iou": 0.859270039156571,
+      "gain": -0.006317107224321252,
+      "beneficial": 0.21058823529411766,
+      "harmful": 0.4235294117647059,
+      "severe": 0.0027450980392156863
+    },
+    {
+      "sequence": "book-1",
+      "domain": "lasot_train",
+      "frames": 1143,
+      "valid_frames": 1143,
+      "baseline_mean_iou": 0.9489360655001458,
+      "refined_mean_iou": 0.9493993468053231,
+      "gain": 0.00046328130517716464,
+      "beneficial": 0.28433945756780404,
+      "harmful": 0.25021872265966755,
+      "severe": 0.0
+    },
+    {
+      "sequence": "monitor_man & bag & bike",
+      "domain": "tnl2k_train",
+      "frames": 433,
+      "valid_frames": 433,
+      "baseline_mean_iou": 0.6966170336809429,
+      "refined_mean_iou": 0.5163440669260602,
+      "gain": -0.18027296675488264,
+      "beneficial": 0.3071593533487298,
+      "harmful": 0.4780600461893764,
+      "severe": 0.3117782909930716
+    }
+  ],
+  "elapsed": 470.8693616390228,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

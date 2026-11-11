@@ -1,0 +1,27 @@
+{
+  "status": "PRE_REGISTERED_BEFORE_TNL2K_RESULT",
+  "purpose": "independent_training_seed_replication",
+  "replication_of": "Round73",
+  "only_changed_variable": {
+    "name": "training_seed",
+    "from": 20261105,
+    "to": 20261109
+  },
+  "frozen": {
+    "cache_sha256": "26162a2efa52becdbb1f95e2a1a81eeecdfc25bc912f737591749d5f44ac9d1d",
+    "source_rqc_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+    "epochs": 100,
+    "optimizer_steps": 187500,
+    "checkpoint_selection": "Epoch100_only",
+    "cooldown_frames": 8,
+    "calibration": "same_TRAIN_only_algorithm",
+    "test": "one_TNL2K_FULL700",
+    "automatic_retry": false
+  },
+  "primary_reference_auc": 63.02118818112782,
+  "original_round73_auc": 63.15575408935547,
+  "interpretation": {
+    "replicate_auc_above_reference": "direction independently reproduced",
+    "replicate_auc_not_above_reference": "training-seed sensitivity; do not retune or rerun opportunistically"
+  }
+}

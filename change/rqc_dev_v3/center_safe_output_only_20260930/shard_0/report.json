@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "sequence": "horse-20",
+      "domain": "lasot_train",
+      "frames": 5796,
+      "valid_frames": 5789,
+      "baseline_mean_iou": 0.9145423384553073,
+      "refined_mean_iou": 0.9149019546477453,
+      "gain": 0.0003596161924381473,
+      "beneficial": 0.13940231473484194,
+      "harmful": 0.09967179132838141,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "skateboard-1",
+      "domain": "lasot_train",
+      "frames": 2915,
+      "valid_frames": 2915,
+      "baseline_mean_iou": 0.7905678147102714,
+      "refined_mean_iou": 0.7925748914483326,
+      "gain": 0.0020070767380612957,
+      "beneficial": 0.1269296740994854,
+      "harmful": 0.04219554030874786,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Transform_video_X10-Done",
+      "domain": "tnl2k_train",
+      "frames": 486,
+      "valid_frames": 335,
+      "baseline_mean_iou": 0.8102507822180155,
+      "refined_mean_iou": 0.8125297510707594,
+      "gain": 0.0022789688527438774,
+      "beneficial": 0.15223880597014924,
+      "harmful": 0.03582089552238806,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 406.4968900680542,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

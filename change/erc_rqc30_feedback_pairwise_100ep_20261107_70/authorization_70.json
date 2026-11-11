@@ -1,0 +1,13 @@
+{
+  "status": "AUTHORIZED_EVIDENCE_BASED_FEEDBACK_ITERATION",
+  "authorization_source": "erc_iterative_research_authorization_20261106_63.json",
+  "scientific_variable": "quarter_shrink_causal_crop_feedback",
+  "cache_examples": 30000,
+  "training_epochs": 100,
+  "optimizer_steps": 187500,
+  "fixed_checkpoint": "Epoch100",
+  "automatic_full700_test_after_audit": true,
+  "automatic_retry": false,
+  "test_gt_parameter_selection": false,
+  "created_date": "2026-11-07"
+}

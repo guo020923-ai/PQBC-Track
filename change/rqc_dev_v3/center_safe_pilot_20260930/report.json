@@ -1,0 +1,326 @@
+{
+  "logs": [
+    {
+      "epoch": 1,
+      "loss": 0.6582065224647522,
+      "valid_count": 759.0,
+      "iou_gain": 0.0017449352890253067,
+      "harmful_rate": 0.06851119548082352,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.156785249710083
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6578394174575806,
+      "valid_count": 759.0,
+      "iou_gain": 0.0019008072558790445,
+      "harmful_rate": 0.07114624232053757,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.14229248464107513
+    },
+    {
+      "epoch": 3,
+      "loss": 0.6573759317398071,
+      "valid_count": 759.0,
+      "iou_gain": 0.0021227882243692875,
+      "harmful_rate": 0.07509881258010864,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1660079061985016
+    },
+    {
+      "epoch": 4,
+      "loss": 0.6572569608688354,
+      "valid_count": 759.0,
+      "iou_gain": 0.002173954388126731,
+      "harmful_rate": 0.07246376574039459,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16996046900749207
+    },
+    {
+      "epoch": 5,
+      "loss": 0.6573795676231384,
+      "valid_count": 759.0,
+      "iou_gain": 0.002115335315465927,
+      "harmful_rate": 0.06192358210682869,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1515151560306549
+    },
+    {
+      "epoch": 6,
+      "loss": 0.6571354866027832,
+      "valid_count": 759.0,
+      "iou_gain": 0.00225237850099802,
+      "harmful_rate": 0.08168642967939377,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17786560952663422
+    },
+    {
+      "epoch": 7,
+      "loss": 0.6571049094200134,
+      "valid_count": 759.0,
+      "iou_gain": 0.00223400816321373,
+      "harmful_rate": 0.06851119548082352,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16864295303821564
+    },
+    {
+      "epoch": 8,
+      "loss": 0.6570498943328857,
+      "valid_count": 759.0,
+      "iou_gain": 0.0023176393005996943,
+      "harmful_rate": 0.10144927352666855,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19104084372520447
+    },
+    {
+      "epoch": 9,
+      "loss": 0.6568863987922668,
+      "valid_count": 759.0,
+      "iou_gain": 0.0023411596193909645,
+      "harmful_rate": 0.06324110925197601,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16337285935878754
+    },
+    {
+      "epoch": 10,
+      "loss": 0.6569177508354187,
+      "valid_count": 759.0,
+      "iou_gain": 0.0023365169763565063,
+      "harmful_rate": 0.06455863267183304,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1660079061985016
+    },
+    {
+      "epoch": 11,
+      "loss": 0.6568200588226318,
+      "valid_count": 759.0,
+      "iou_gain": 0.002400049939751625,
+      "harmful_rate": 0.08695652335882187,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18972331285476685
+    },
+    {
+      "epoch": 12,
+      "loss": 0.6566619873046875,
+      "valid_count": 759.0,
+      "iou_gain": 0.0024477490223944187,
+      "harmful_rate": 0.07905138283967972,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1818181872367859
+    },
+    {
+      "epoch": 13,
+      "loss": 0.6568110585212708,
+      "valid_count": 759.0,
+      "iou_gain": 0.002380911260843277,
+      "harmful_rate": 0.08432147651910782,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1923583596944809
+    },
+    {
+      "epoch": 14,
+      "loss": 0.6567613482475281,
+      "valid_count": 759.0,
+      "iou_gain": 0.0023781803902238607,
+      "harmful_rate": 0.06719367951154709,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16732542216777802
+    },
+    {
+      "epoch": 15,
+      "loss": 0.6567167639732361,
+      "valid_count": 759.0,
+      "iou_gain": 0.002412152476608753,
+      "harmful_rate": 0.06719367951154709,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16996046900749207
+    },
+    {
+      "epoch": 16,
+      "loss": 0.6565811634063721,
+      "valid_count": 759.0,
+      "iou_gain": 0.0024965000338852406,
+      "harmful_rate": 0.08563899993896484,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19499340653419495
+    },
+    {
+      "epoch": 17,
+      "loss": 0.6565999984741211,
+      "valid_count": 759.0,
+      "iou_gain": 0.0025221912655979395,
+      "harmful_rate": 0.10013175010681152,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.197628453373909
+    },
+    {
+      "epoch": 18,
+      "loss": 0.6566164493560791,
+      "valid_count": 759.0,
+      "iou_gain": 0.002474215580150485,
+      "harmful_rate": 0.0830039530992508,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18840579688549042
+    },
+    {
+      "epoch": 19,
+      "loss": 0.6566532850265503,
+      "valid_count": 759.0,
+      "iou_gain": 0.0024458919651806355,
+      "harmful_rate": 0.08036890625953674,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18050065636634827
+    },
+    {
+      "epoch": 20,
+      "loss": 0.6565357446670532,
+      "valid_count": 759.0,
+      "iou_gain": 0.002521307673305273,
+      "harmful_rate": 0.08563899993896484,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19499340653419495
+    }
+  ],
+  "sequences": {
+    "CM_tricycle6_done": {
+      "valid_count": 40.0,
+      "iou_gain": -0.001938399625942111,
+      "harmful_rate": 0.07500000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    "Car_video_X01-4-Done": {
+      "valid_count": 40.0,
+      "iou_gain": 0.013605216518044472,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.574999988079071
+    },
+    "CartoonHuLuWa_video_01_done": {
+      "valid_count": 19.0,
+      "iou_gain": 0.004794856533408165,
+      "harmful_rate": 0.05263157933950424,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3684210479259491
+    },
+    "Chess_video_4-8-Done": {
+      "valid_count": 34.0,
+      "iou_gain": 0.002789993304759264,
+      "harmful_rate": 0.029411764815449715,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.14705882966518402
+    },
+    "FlyFish_video_02-Done": {
+      "valid_count": 40.0,
+      "iou_gain": -0.0030306801199913025,
+      "harmful_rate": 0.30000001192092896,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.07500000298023224
+    },
+    "Group_video_13_done": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0045093996450304985,
+      "harmful_rate": 0.15000000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3499999940395355
+    },
+    "INF_man24": {
+      "valid_count": 40.0,
+      "iou_gain": 0.001584542915225029,
+      "harmful_rate": 0.07500000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    "Transform_video_X10-Done": {
+      "valid_count": 28.0,
+      "iou_gain": 0.0019279579864814878,
+      "harmful_rate": 0.0357142873108387,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1428571492433548
+    },
+    "book-1": {
+      "valid_count": 40.0,
+      "iou_gain": -0.001283025718294084,
+      "harmful_rate": 0.05000000074505806,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.10000000149011612
+    },
+    "book-8": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0002675294817890972,
+      "harmful_rate": 0.125,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15000000596046448
+    },
+    "bottle-5": {
+      "valid_count": 38.0,
+      "iou_gain": 0.0013411437394097447,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.07894736528396606
+    },
+    "drone-10": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0023111067712306976,
+      "harmful_rate": 0.07500000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.22499999403953552
+    },
+    "horse-20": {
+      "valid_count": 40.0,
+      "iou_gain": 0.00038684456376358867,
+      "harmful_rate": 0.15000000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.125
+    },
+    "kongLong_video_5-Done": {
+      "valid_count": 40.0,
+      "iou_gain": 0.007629364728927612,
+      "harmful_rate": 0.125,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.4000000059604645
+    },
+    "licenseplate-10": {
+      "valid_count": 40.0,
+      "iou_gain": 0.009731722995638847,
+      "harmful_rate": 0.02500000037252903,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.4749999940395355
+    },
+    "monitor_man & bag & bike": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0024726376868784428,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.07500000298023224
+    },
+    "motorcycle-14": {
+      "valid_count": 40.0,
+      "iou_gain": -0.0037891101092100143,
+      "harmful_rate": 0.2750000059604645,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.05000000074505806
+    },
+    "skateboard-1": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0011918410891667008,
+      "harmful_rate": 0.02500000037252903,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.07500000298023224
+    },
+    "skateboard-11": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0063864560797810555,
+      "harmful_rate": 0.05000000074505806,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.32499998807907104
+    },
+    "surfboard-10": {
+      "valid_count": 40.0,
+      "iou_gain": 0.0005336619797162712,
+      "harmful_rate": 0.05000000074505806,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.05000000074505806
+    }
+  }
+}

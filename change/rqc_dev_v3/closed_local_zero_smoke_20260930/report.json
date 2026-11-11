@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "sequence": "horse-20",
+      "domain": "lasot_train",
+      "frames": 24,
+      "valid_frames": 24,
+      "baseline_mean_iou": 0.9148642067708926,
+      "refined_mean_iou": 0.9148642067708926,
+      "gain": 0.0,
+      "beneficial": 0.0,
+      "harmful": 0.0,
+      "severe": 0.0
+    }
+  ],
+  "elapsed": 2.4174089431762695,
+  "smoke": true,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

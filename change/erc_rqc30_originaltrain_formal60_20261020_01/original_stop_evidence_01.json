@@ -1,0 +1,59 @@
+{
+  "records": {
+    "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_originaltrain_alignment_20261019_01/change_request_01.json": {
+      "user_message": "为啥要划分，按原来的来啊",
+      "interpretation": "restore original TRAIN membership; stop old incompatible run and preserve artifacts",
+      "original_TEST_unchanged": true,
+      "new_training_launches_authorized": 0,
+      "time": 1792425643.898104
+    },
+    "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_originaltrain_alignment_20261019_01/before_stop_01.json": {
+      "main": {
+        "pid": 11337,
+        "tick": "358772862",
+        "cwd": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated",
+        "cmdline": "/root/miniconda3/envs/uvltrack/bin/python -u /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_balanced_formal60_20261019_01/runner.py --mode train"
+      },
+      "controller": {
+        "pid": 11331,
+        "tick": "358772115",
+        "cwd": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated",
+        "cmdline": "/root/miniconda3/envs/uvltrack/bin/python -u /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_balanced_formal60_20261019_01/launch.py --control"
+      },
+      "time": 1792425643.9005702
+    },
+    "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_originaltrain_alignment_20261019_01/term_sent_01.json": {
+      "target": {
+        "pid": 11337,
+        "tick": "358772862",
+        "state": "R",
+        "ppid": 11331,
+        "cwd": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated",
+        "cmdline": "/root/miniconda3/envs/uvltrack/bin/python -u /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_balanced_formal60_20261019_01/runner.py --mode train"
+      },
+      "signal": "SIGTERM",
+      "time": 1792425643.9016037
+    },
+    "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_originaltrain_alignment_20261019_01/stopped_01.json": null,
+    "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_balanced_formal60_20261019_01/controller_exit_01.json": {
+      "time": 1792425646.2307837,
+      "exit_code": -15,
+      "original_main": {
+        "pid": 11337,
+        "tick": "358772862",
+        "state": "R",
+        "ppid": 11331,
+        "cwd": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated",
+        "cmdline": "/root/miniconda3/envs/uvltrack/bin/python -u /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_balanced_formal60_20261019_01/runner.py --mode train"
+      },
+      "wallclock_seconds": 700.706484077964,
+      "timed_out": false,
+      "completed": false,
+      "automatic_retry": false
+    }
+  },
+  "processes": {
+    "11331": null,
+    "11337": null
+  }
+}

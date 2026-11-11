@@ -1,0 +1,132 @@
+{
+  "manifest": [
+    {
+      "name": "book-5",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/book/book-5",
+      "domain": "lasot_train",
+      "frames": 2201,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "pool-16",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/pool/pool-16",
+      "domain": "lasot_train",
+      "frames": 6825,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "rubicCube-8",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/rubicCube/rubicCube-8",
+      "domain": "lasot_train",
+      "frames": 2319,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "coin-20",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/coin/coin-20",
+      "domain": "lasot_train",
+      "frames": 1500,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "spider-12",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/spider/spider-12",
+      "domain": "lasot_train",
+      "frames": 1110,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "CM_twowoman1_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/CM_twowoman1_done",
+      "domain": "tnl2k_train",
+      "frames": 684,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "Plane_video_2-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Plane_video_2-Done",
+      "domain": "tnl2k_train",
+      "frames": 408,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "Assassin_video_1-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Assassin_video_1-Done",
+      "domain": "tnl2k_train",
+      "frames": 366,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "StarWar_TPS_video_07-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/StarWar_TPS_video_07-Done",
+      "domain": "tnl2k_train",
+      "frames": 530,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Rocket_video_C04-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Rocket_video_C04-Done",
+      "domain": "tnl2k_train",
+      "frames": 501,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "horse-20",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/horse/horse-20",
+      "domain": "lasot_train",
+      "frames": 5797,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    },
+    {
+      "name": "skateboard-1",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/skateboard/skateboard-1",
+      "domain": "lasot_train",
+      "frames": 2916,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    },
+    {
+      "name": "Transform_video_X10-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Transform_video_X10-Done",
+      "domain": "tnl2k_train",
+      "frames": 487,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    }
+  ],
+  "smoke": false,
+  "samples_per_sequence": 40,
+  "tracker": "baseline_base",
+  "shard_index": 0,
+  "shard_count": 8,
+  "checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+  "script_sha256": "87b8a9865de9e5e0668043af41b8d6f089f78268eec52869772afb8f30bfbfd2",
+  "feature_source_hashes": {
+    "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+    "boundary_local_refiner_20260930.py": "fd0b883818ad64173fb8b3241727b035088bf3a42b7ac0898e85369965157d8c"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "summary": {
+    "all": {
+      "n": 20,
+      "macro_gain": 0.0019886874765440315,
+      "positive_sequences": 14,
+      "bootstrap95": [
+        4.6716295256328045e-05,
+        0.004275580037997782
+      ],
+      "severe_macro": 0.0
+    },
+    "lasot_train": {
+      "n": 10,
+      "macro_gain": 0.0012669382404940535,
+      "positive_sequences": 7,
+      "bootstrap95": [
+        -0.0005383828647534256,
+        0.0034256912561182297
+      ],
+      "severe_macro": 0.0
+    },
+    "tnl2k_train": {
+      "n": 10,
+      "macro_gain": 0.0027104367125940095,
+      "positive_sequences": 7,
+      "bootstrap95": [
+        -0.0007185866561045321,
+        0.006515535328923966
+      ],
+      "severe_macro": 0.0
+    }
+  },
+  "rows": [
+    {
+      "sequence": "horse-20",
+      "domain": "lasot_train",
+      "frames": 5796,
+      "valid_frames": 5789,
+      "baseline_mean_iou": 0.9145423384553073,
+      "refined_mean_iou": 0.9149005068356557,
+      "gain": 0.00035816838034855334,
+      "beneficial": 0.1656590084643289,
+      "harmful": 0.14233891863879772,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "skateboard-1",
+      "domain": "lasot_train",
+      "frames": 2915,
+      "valid_frames": 2915,
+      "baseline_mean_iou": 0.7905678147102714,
+      "refined_mean_iou": 0.790758436116661,
+      "gain": 0.00019062140638963102,
+      "beneficial": 0.20240137221269297,
+      "harmful": 0.14614065180102917,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Transform_video_X10-Done",
+      "domain": "tnl2k_train",
+      "frames": 486,
+      "valid_frames": 335,
+      "baseline_mean_iou": 0.8102507822180155,
+      "refined_mean_iou": 0.8118942213205814,
+      "gain": 0.001643439102565788,
+      "beneficial": 0.20298507462686566,
+      "harmful": 0.08358208955223881,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "motorcycle-14",
+      "domain": "lasot_train",
+      "frames": 2554,
+      "valid_frames": 2550,
+      "baseline_mean_iou": 0.8655871463808921,
+      "refined_mean_iou": 0.8630043301473443,
+      "gain": -0.002582816233547694,
+      "beneficial": 0.11058823529411765,
+      "harmful": 0.22862745098039217,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "book-1",
+      "domain": "lasot_train",
+      "frames": 1143,
+      "valid_frames": 1143,
+      "baseline_mean_iou": 0.9489360655001458,
+      "refined_mean_iou": 0.9501264611658888,
+      "gain": 0.0011903956657429843,
+      "beneficial": 0.09711286089238845,
+      "harmful": 0.1137357830271216,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "monitor_man & bag & bike",
+      "domain": "tnl2k_train",
+      "frames": 433,
+      "valid_frames": 433,
+      "baseline_mean_iou": 0.6966170336809429,
+      "refined_mean_iou": 0.6984993372831843,
+      "gain": 0.0018823036022412505,
+      "beneficial": 0.16859122401847576,
+      "harmful": 0.07621247113163972,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "skateboard-11",
+      "domain": "lasot_train",
+      "frames": 3277,
+      "valid_frames": 3277,
+      "baseline_mean_iou": 0.8539223764151279,
+      "refined_mean_iou": 0.8579279859240053,
+      "gain": 0.004005609508877486,
+      "beneficial": 0.3600854440036619,
+      "harmful": 0.16142813548977725,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Group_video_13_done",
+      "domain": "tnl2k_train",
+      "frames": 344,
+      "valid_frames": 344,
+      "baseline_mean_iou": 0.8052858024135987,
+      "refined_mean_iou": 0.8092637015277898,
+      "gain": 0.003977899114191169,
+      "beneficial": 0.436046511627907,
+      "harmful": 0.20930232558139536,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Car_video_X01-4-Done",
+      "domain": "tnl2k_train",
+      "frames": 64,
+      "valid_frames": 64,
+      "baseline_mean_iou": 0.9282342479734621,
+      "refined_mean_iou": 0.9446789351782018,
+      "gain": 0.016444687204739603,
+      "beneficial": 0.71875,
+      "harmful": 0.0,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "book-8",
+      "domain": "lasot_train",
+      "frames": 1950,
+      "valid_frames": 1950,
+      "baseline_mean_iou": 0.9393120505733954,
+      "refined_mean_iou": 0.9373815642900735,
+      "gain": -0.0019304862833218505,
+      "beneficial": 0.1594871794871795,
+      "harmful": 0.2569230769230769,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "FlyFish_video_02-Done",
+      "domain": "tnl2k_train",
+      "frames": 96,
+      "valid_frames": 96,
+      "baseline_mean_iou": 0.8123658509210171,
+      "refined_mean_iou": 0.8075338821689337,
+      "gain": -0.004831968752083314,
+      "beneficial": 0.0625,
+      "harmful": 0.3333333333333333,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "CM_tricycle6_done",
+      "domain": "tnl2k_train",
+      "frames": 468,
+      "valid_frames": 468,
+      "baseline_mean_iou": 0.20101052393394744,
+      "refined_mean_iou": 0.19896573478137025,
+      "gain": -0.002044789152577159,
+      "beneficial": 0.0,
+      "harmful": 0.11752136752136752,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "licenseplate-10",
+      "domain": "lasot_train",
+      "frames": 1724,
+      "valid_frames": 1724,
+      "baseline_mean_iou": 0.8510663482034118,
+      "refined_mean_iou": 0.8598836548437438,
+      "gain": 0.008817306640332026,
+      "beneficial": 0.4965197215777262,
+      "harmful": 0.031322505800464036,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "INF_man24",
+      "domain": "tnl2k_train",
+      "frames": 557,
+      "valid_frames": 557,
+      "baseline_mean_iou": 0.564505171251827,
+      "refined_mean_iou": 0.5592251711296328,
+      "gain": -0.0052800001221943,
+      "beneficial": 0.10771992818671454,
+      "harmful": 0.29443447037701975,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "bottle-5",
+      "domain": "lasot_train",
+      "frames": 1749,
+      "valid_frames": 1669,
+      "baseline_mean_iou": 0.5239946346013907,
+      "refined_mean_iou": 0.5240823181888686,
+      "gain": 8.768358747788464e-05,
+      "beneficial": 0.09107249850209706,
+      "harmful": 0.0701018573996405,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "kongLong_video_5-Done",
+      "domain": "tnl2k_train",
+      "frames": 712,
+      "valid_frames": 712,
+      "baseline_mean_iou": 0.9024222852346337,
+      "refined_mean_iou": 0.9096235244516153,
+      "gain": 0.00720123921698151,
+      "beneficial": 0.42275280898876405,
+      "harmful": 0.08567415730337079,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "surfboard-10",
+      "domain": "lasot_train",
+      "frames": 1959,
+      "valid_frames": 1959,
+      "baseline_mean_iou": 0.5958578956637258,
+      "refined_mean_iou": 0.5948896208812354,
+      "gain": -0.0009682747824903831,
+      "beneficial": 0.12353241449719245,
+      "harmful": 0.13782542113323124,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "CartoonHuLuWa_video_01_done",
+      "domain": "tnl2k_train",
+      "frames": 1578,
+      "valid_frames": 825,
+      "baseline_mean_iou": 0.8494688246496161,
+      "refined_mean_iou": 0.8549577458752068,
+      "gain": 0.0054889212255905566,
+      "beneficial": 0.3878787878787879,
+      "harmful": 0.08727272727272728,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "drone-10",
+      "domain": "lasot_train",
+      "frames": 1449,
+      "valid_frames": 1449,
+      "baseline_mean_iou": 0.7977790658303828,
+      "refined_mean_iou": 0.8012802403455147,
+      "gain": 0.0035011745151318973,
+      "beneficial": 0.25396825396825395,
+      "harmful": 0.09523809523809523,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Chess_video_4-8-Done",
+      "domain": "tnl2k_train",
+      "frames": 64,
+      "valid_frames": 55,
+      "baseline_mean_iou": 0.8201529253160283,
+      "refined_mean_iou": 0.8227755610025134,
+      "gain": 0.0026226356864849924,
+      "beneficial": 0.18181818181818182,
+      "harmful": 0.09090909090909091,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ]
+}

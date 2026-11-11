@@ -1,0 +1,641 @@
+{
+  "results": {
+    "old": {
+      "overall": {
+        "quality_only": {
+          "mean_gain": -0.02546395917929578,
+          "changed": 267,
+          "beneficial": 55,
+          "harmful": 141,
+          "severe": 20
+        },
+        "fixed_product": {
+          "mean_gain": -0.0012380581153066535,
+          "changed": 21,
+          "beneficial": 10,
+          "harmful": 7,
+          "severe": 2
+        },
+        "mae": 0.1703398091837549
+      },
+      "sequences": {
+        "CM_tricycle6_done": {
+          "quality_only": {
+            "mean_gain": -0.0005148231983184814,
+            "changed": 11,
+            "beneficial": 0,
+            "harmful": 2,
+            "severe": 0
+          },
+          "fixed_product": {
+            "mean_gain": -0.0002978302538394928,
+            "changed": 1,
+            "beneficial": 0,
+            "harmful": 1,
+            "severe": 0
+          },
+          "mae": 0.40217319450214534
+        },
+        "Chess_video_4-8-Done": {
+          "quality_only": {
+            "mean_gain": -0.07141162008047104,
+            "changed": 6,
+            "beneficial": 1,
+            "harmful": 5,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": 0.0,
+            "changed": 0,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.12194015391692298
+        },
+        "INF_man24": {
+          "quality_only": {
+            "mean_gain": -0.06758577597793192,
+            "changed": 61,
+            "beneficial": 17,
+            "harmful": 35,
+            "severe": 11
+          },
+          "fixed_product": {
+            "mean_gain": 0.001964658871293068,
+            "changed": 8,
+            "beneficial": 7,
+            "harmful": 1,
+            "severe": 1
+          },
+          "mae": 0.20915919270701352
+        },
+        "book-1": {
+          "quality_only": {
+            "mean_gain": -0.0007796309888362885,
+            "changed": 16,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "fixed_product": {
+            "mean_gain": 0.0,
+            "changed": 0,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.034993461902724905
+        },
+        "drone-10": {
+          "quality_only": {
+            "mean_gain": -0.03388308584690094,
+            "changed": 38,
+            "beneficial": 4,
+            "harmful": 24,
+            "severe": 5
+          },
+          "fixed_product": {
+            "mean_gain": -4.715844988822937e-05,
+            "changed": 1,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.1299223048161055
+        },
+        "monitor_man & bag & bike": {
+          "quality_only": {
+            "mean_gain": -0.019171741977334022,
+            "changed": 36,
+            "beneficial": 9,
+            "harmful": 14,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": -0.010693448036909104,
+            "changed": 5,
+            "beneficial": 1,
+            "harmful": 3,
+            "severe": 1
+          },
+          "mae": 0.1456786729153299
+        },
+        "motorcycle-14": {
+          "quality_only": {
+            "mean_gain": -0.03548150435090065,
+            "changed": 51,
+            "beneficial": 8,
+            "harmful": 36,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": 0.000186176598072052,
+            "changed": 1,
+            "beneficial": 1,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.14395122456730175
+        },
+        "surfboard-10": {
+          "quality_only": {
+            "mean_gain": -0.015087694302201271,
+            "changed": 48,
+            "beneficial": 16,
+            "harmful": 25,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": 6.643719971179962e-05,
+            "changed": 5,
+            "beneficial": 1,
+            "harmful": 2,
+            "severe": 0
+          },
+          "mae": 0.1325505697840177
+        }
+      },
+      "domains": {
+        "lasot_train": {
+          "quality_only": {
+            "mean_gain": -0.02130797887220979,
+            "changed": 153,
+            "beneficial": 28,
+            "harmful": 85,
+            "severe": 7
+          },
+          "fixed_product": {
+            "mean_gain": 5.136383697390556e-05,
+            "changed": 7,
+            "beneficial": 2,
+            "harmful": 2,
+            "severe": 0
+          },
+          "mae": 0.11035439026753746
+        },
+        "tnl2k_train": {
+          "quality_only": {
+            "mean_gain": -0.030783613972365856,
+            "changed": 114,
+            "beneficial": 27,
+            "harmful": 56,
+            "severe": 13
+          },
+          "fixed_product": {
+            "mean_gain": -0.002888518214225769,
+            "changed": 14,
+            "beneficial": 8,
+            "harmful": 5,
+            "severe": 2
+          },
+          "mae": 0.24712114539651328
+        }
+      },
+      "sequence_macro": {
+        "quality_only": -0.030489484590361826,
+        "fixed_product": -0.0011026455089449883
+      }
+    },
+    "head": {
+      "overall": {
+        "quality_only": {
+          "mean_gain": -0.014020291921731673,
+          "changed": 333,
+          "beneficial": 86,
+          "harmful": 109,
+          "severe": 15
+        },
+        "fixed_product": {
+          "mean_gain": -0.0020836049527452704,
+          "changed": 35,
+          "beneficial": 5,
+          "harmful": 10,
+          "severe": 2
+        },
+        "mae": 0.1681031073905179
+      },
+      "sequences": {
+        "CM_tricycle6_done": {
+          "quality_only": {
+            "mean_gain": 0.00023986771702766418,
+            "changed": 41,
+            "beneficial": 2,
+            "harmful": 1,
+            "severe": 0
+          },
+          "fixed_product": {
+            "mean_gain": -0.0002978302538394928,
+            "changed": 3,
+            "beneficial": 0,
+            "harmful": 1,
+            "severe": 0
+          },
+          "mae": 0.37579637471491883
+        },
+        "Chess_video_4-8-Done": {
+          "quality_only": {
+            "mean_gain": -0.05158250778913498,
+            "changed": 3,
+            "beneficial": 0,
+            "harmful": 2,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": 0.0,
+            "changed": 0,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.11818943310603522
+        },
+        "INF_man24": {
+          "quality_only": {
+            "mean_gain": -0.028314316156320275,
+            "changed": 64,
+            "beneficial": 24,
+            "harmful": 27,
+            "severe": 5
+          },
+          "fixed_product": {
+            "mean_gain": -0.004420563206076622,
+            "changed": 6,
+            "beneficial": 2,
+            "harmful": 3,
+            "severe": 1
+          },
+          "mae": 0.18934929304713016
+        },
+        "book-1": {
+          "quality_only": {
+            "mean_gain": 0.0008775942027568817,
+            "changed": 43,
+            "beneficial": 5,
+            "harmful": 2,
+            "severe": 0
+          },
+          "fixed_product": {
+            "mean_gain": -0.00012179836630821228,
+            "changed": 8,
+            "beneficial": 0,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.051115119405268965
+        },
+        "drone-10": {
+          "quality_only": {
+            "mean_gain": -0.0038144469261169435,
+            "changed": 28,
+            "beneficial": 6,
+            "harmful": 12,
+            "severe": 0
+          },
+          "fixed_product": {
+            "mean_gain": 0.0002812996506690979,
+            "changed": 2,
+            "beneficial": 1,
+            "harmful": 0,
+            "severe": 0
+          },
+          "mae": 0.19615873199894907
+        },
+        "monitor_man & bag & bike": {
+          "quality_only": {
+            "mean_gain": -0.020779983699321748,
+            "changed": 59,
+            "beneficial": 20,
+            "harmful": 15,
+            "severe": 3
+          },
+          "fixed_product": {
+            "mean_gain": -0.011047451198101044,
+            "changed": 7,
+            "beneficial": 0,
+            "harmful": 4,
+            "severe": 1
+          },
+          "mae": 0.14591885938126448
+        },
+        "motorcycle-14": {
+          "quality_only": {
+            "mean_gain": -0.010953792184591294,
+            "changed": 33,
+            "beneficial": 6,
+            "harmful": 19,
+            "severe": 1
+          },
+          "fixed_product": {
+            "mean_gain": 0.00019329711794853212,
+            "changed": 3,
+            "beneficial": 1,
+            "harmful": 1,
+            "severe": 0
+          },
+          "mae": 0.09307687406837153
+        },
+        "surfboard-10": {
+          "quality_only": {
+            "mean_gain": -0.030701689422130585,
+            "changed": 62,
+            "beneficial": 23,
+            "harmful": 31,
+            "severe": 5
+          },
+          "fixed_product": {
+            "mean_gain": 0.0005673609673976898,
+            "changed": 6,
+            "beneficial": 1,
+            "harmful": 1,
+            "severe": 0
+          },
+          "mae": 0.13154570840328256
+        }
+      },
+      "domains": {
+        "lasot_train": {
+          "quality_only": {
+            "mean_gain": -0.011148083582520485,
+            "changed": 166,
+            "beneficial": 40,
+            "harmful": 64,
+            "severe": 6
+          },
+          "fixed_product": {
+            "mean_gain": 0.00023003984242677688,
+            "changed": 19,
+            "beneficial": 3,
+            "harmful": 2,
+            "severe": 0
+          },
+          "mae": 0.11797410846896803
+        },
+        "tnl2k_train": {
+          "quality_only": {
+            "mean_gain": -0.017696718595921992,
+            "changed": 167,
+            "beneficial": 46,
+            "harmful": 45,
+            "severe": 9
+          },
+          "fixed_product": {
+            "mean_gain": -0.0050450702905654905,
+            "changed": 16,
+            "beneficial": 2,
+            "harmful": 8,
+            "severe": 2
+          },
+          "mae": 0.23226822601010177
+        }
+      },
+      "sequence_macro": {
+        "quality_only": -0.01812865928222891,
+        "fixed_product": -0.0018557106610387563
+      }
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "view": "old",
+      "held_sequences": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.000647227093577385,
+          "changed": 27,
+          "beneficial": 0,
+          "harmful": 2,
+          "severe": 0
+        },
+        "fixed_product": {
+          "mean_gain": -0.0001489151269197464,
+          "changed": 1,
+          "beneficial": 0,
+          "harmful": 1,
+          "severe": 0
+        },
+        "mae": 0.21858332820243512
+      }
+    },
+    {
+      "fold": 0,
+      "view": "head",
+      "held_sequences": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": 0.000558730959892273,
+          "changed": 84,
+          "beneficial": 7,
+          "harmful": 3,
+          "severe": 0
+        },
+        "fixed_product": {
+          "mean_gain": -0.00020981431007385253,
+          "changed": 11,
+          "beneficial": 0,
+          "harmful": 1,
+          "severe": 0
+        },
+        "mae": 0.2134557470600939
+      }
+    },
+    {
+      "fold": 1,
+      "view": "old",
+      "held_sequences": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "train_frames": 480,
+      "held_frames": 90,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.03805292298396428,
+          "changed": 44,
+          "beneficial": 5,
+          "harmful": 29,
+          "severe": 6
+        },
+        "fixed_product": {
+          "mean_gain": -4.1918622122870554e-05,
+          "changed": 1,
+          "beneficial": 0,
+          "harmful": 0,
+          "severe": 0
+        },
+        "mae": 0.12903539916064077
+      }
+    },
+    {
+      "fold": 1,
+      "view": "head",
+      "held_sequences": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "train_frames": 480,
+      "held_frames": 90,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.009122009244230058,
+          "changed": 31,
+          "beneficial": 6,
+          "harmful": 14,
+          "severe": 1
+        },
+        "fixed_product": {
+          "mean_gain": 0.00025004413392808704,
+          "changed": 2,
+          "beneficial": 1,
+          "harmful": 0,
+          "severe": 0
+        },
+        "mae": 0.1874954765664031
+      }
+    },
+    {
+      "fold": 2,
+      "view": "old",
+      "held_sequences": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.051533640164416285,
+          "changed": 112,
+          "beneficial": 25,
+          "harmful": 71,
+          "severe": 12
+        },
+        "fixed_product": {
+          "mean_gain": 0.00107541773468256,
+          "changed": 9,
+          "beneficial": 8,
+          "harmful": 1,
+          "severe": 1
+        },
+        "mae": 0.17655520863715765
+      }
+    },
+    {
+      "fold": 2,
+      "view": "head",
+      "held_sequences": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.019634054170455783,
+          "changed": 97,
+          "beneficial": 30,
+          "harmful": 46,
+          "severe": 6
+        },
+        "fixed_product": {
+          "mean_gain": -0.002113633044064045,
+          "changed": 9,
+          "beneficial": 3,
+          "harmful": 4,
+          "severe": 1
+        },
+        "mae": 0.14121308355775086
+      }
+    },
+    {
+      "fold": 3,
+      "view": "old",
+      "held_sequences": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.017129718139767647,
+          "changed": 84,
+          "beneficial": 25,
+          "harmful": 39,
+          "severe": 2
+        },
+        "fixed_product": {
+          "mean_gain": -0.005313505418598652,
+          "changed": 10,
+          "beneficial": 2,
+          "harmful": 5,
+          "severe": 1
+        },
+        "mae": 0.13911462134967378
+      }
+    },
+    {
+      "fold": 3,
+      "view": "head",
+      "held_sequences": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "train_frames": 410,
+      "held_frames": 160,
+      "metrics": {
+        "quality_only": {
+          "mean_gain": -0.025740836560726166,
+          "changed": 121,
+          "beneficial": 43,
+          "harmful": 46,
+          "severe": 8
+        },
+        "fixed_product": {
+          "mean_gain": -0.005240045115351677,
+          "changed": 13,
+          "beneficial": 1,
+          "harmful": 5,
+          "severe": 1
+        },
+        "mae": 0.13873228389227352
+      }
+    }
+  ],
+  "paired_sequence_deltas": {
+    "quality_only": [
+      0.0007546909153461456,
+      0.019829112291336062,
+      0.03927145982161164,
+      0.0016572251915931702,
+      0.030068638920783996,
+      -0.0016082417219877264,
+      0.02452771216630936,
+      -0.015613995119929313
+    ],
+    "fixed_product": [
+      0.0,
+      0.0,
+      -0.00638522207736969,
+      -0.00012179836630821228,
+      0.0003284581005573273,
+      -0.0003540031611919403,
+      7.120519876480108e-06,
+      0.0005009237676858901
+    ]
+  },
+  "elapsed_seconds": 1.6207890510559082,
+  "protocol": "PCA32+same18 scalars; ridge1; four fixed leave-two-sequence-out folds; no parameter search",
+  "limitations": "Small previously inspected train-source subset; old projection pretrained by JQ, Head features also pretrained; linear probe does not establish nonlinear quality capacity or closed-loop AUC. Not formal training."
+}

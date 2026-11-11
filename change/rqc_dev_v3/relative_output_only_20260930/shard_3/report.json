@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "sequence": "book-8",
+      "domain": "lasot_train",
+      "frames": 1950,
+      "valid_frames": 1950,
+      "baseline_mean_iou": 0.9393120505733954,
+      "refined_mean_iou": 0.9373815642900735,
+      "gain": -0.0019304862833218505,
+      "beneficial": 0.1594871794871795,
+      "harmful": 0.2569230769230769,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "FlyFish_video_02-Done",
+      "domain": "tnl2k_train",
+      "frames": 96,
+      "valid_frames": 96,
+      "baseline_mean_iou": 0.8123658509210171,
+      "refined_mean_iou": 0.8075338821689337,
+      "gain": -0.004831968752083314,
+      "beneficial": 0.0625,
+      "harmful": 0.3333333333333333,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "CM_tricycle6_done",
+      "domain": "tnl2k_train",
+      "frames": 468,
+      "valid_frames": 468,
+      "baseline_mean_iou": 0.20101052393394744,
+      "refined_mean_iou": 0.19896573478137025,
+      "gain": -0.002044789152577159,
+      "beneficial": 0.0,
+      "harmful": 0.11752136752136752,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 171.5484025478363,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

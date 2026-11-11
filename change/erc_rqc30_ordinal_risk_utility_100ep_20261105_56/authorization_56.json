@@ -1,0 +1,19 @@
+{
+  "status": "AUTHORIZED_ONE_ORDINAL_RISK_100EP_TRAINING",
+  "authorized_by": "user",
+  "authorization_text": "继续啊",
+  "authorization_context": "The assistant explicitly stated that continue would authorize one fixed 100-epoch ordinal-risk training and a conditional single test after TRAIN-only admission.",
+  "scientific_variable": "single unified harmful-marginal-actionable ordinal head used for both action selection and deployment gating",
+  "source": "frozen_RQC_Epoch30",
+  "source_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+  "sealed_cache_manifest_sha256": "993b20ade7aa8ab491c5d87fcdc58350d7f218dea87b470bd9b8f6c58711b56c",
+  "epochs": 100,
+  "optimizer_steps": 187500,
+  "checkpoint_selection": "Epoch100_only",
+  "training_rows": 23984,
+  "train_only_calibration_rows": 6016,
+  "automatic_retry": false,
+  "additional_candidates": 0,
+  "parallel_gpu_jobs": 0,
+  "test_gt_for_tuning": false
+}

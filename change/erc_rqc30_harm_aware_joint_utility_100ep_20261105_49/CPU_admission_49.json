@@ -1,0 +1,15 @@
+{
+  "status": "CPU_STATIC_ADMISSION_PASS",
+  "protocol_version": "rqc30_harm_aware_joint_utility_100ep_v1",
+  "parameter_count": 20193,
+  "zero_initial_exact_keep": true,
+  "joint_keep_action_competition": true,
+  "metric_aligned_threshold": 0.047619047619047616,
+  "harm_false_positive_penalty_verified": true,
+  "finite_nonzero_gradient": true,
+  "epoch100_numeric_roundtrip": true,
+  "synthetic_actionable_rate": 0.5,
+  "optimizer_steps": 0,
+  "gpu_operations": 0,
+  "environment": "remote_uvltrack_conda_CPU_with_CUDA_VISIBLE_DEVICES_empty"
+}

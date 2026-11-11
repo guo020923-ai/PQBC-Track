@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "sequence": "motorcycle-14",
+      "domain": "lasot_train",
+      "frames": 2554,
+      "valid_frames": 2550,
+      "baseline_mean_iou": 0.8655871463808921,
+      "refined_mean_iou": 0.8618078625005141,
+      "gain": -0.003779283880377939,
+      "beneficial": 0.12823529411764706,
+      "harmful": 0.30392156862745096,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "book-1",
+      "domain": "lasot_train",
+      "frames": 1143,
+      "valid_frames": 1143,
+      "baseline_mean_iou": 0.9489360655001458,
+      "refined_mean_iou": 0.9498428382146702,
+      "gain": 0.0009067727145243166,
+      "beneficial": 0.13385826771653545,
+      "harmful": 0.13035870516185477,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "monitor_man & bag & bike",
+      "domain": "tnl2k_train",
+      "frames": 433,
+      "valid_frames": 433,
+      "baseline_mean_iou": 0.6966170336809429,
+      "refined_mean_iou": 0.6996262493178336,
+      "gain": 0.0030092156368906665,
+      "beneficial": 0.3394919168591224,
+      "harmful": 0.12471131639722864,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 244.63463234901428,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

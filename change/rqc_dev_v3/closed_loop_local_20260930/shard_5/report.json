@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "sequence": "bottle-5",
+      "domain": "lasot_train",
+      "frames": 1749,
+      "valid_frames": 1669,
+      "baseline_mean_iou": 0.5239946346013907,
+      "refined_mean_iou": 0.5383914819554892,
+      "gain": 0.014396847354098552,
+      "beneficial": 0.2426602756141402,
+      "harmful": 0.2756141402037148,
+      "severe": 0.07429598562013182
+    },
+    {
+      "sequence": "kongLong_video_5-Done",
+      "domain": "tnl2k_train",
+      "frames": 712,
+      "valid_frames": 712,
+      "baseline_mean_iou": 0.9024222852346337,
+      "refined_mean_iou": 0.9122202654454814,
+      "gain": 0.009797980210847768,
+      "beneficial": 0.5014044943820225,
+      "harmful": 0.2808988764044944,
+      "severe": 0.0
+    }
+  ],
+  "elapsed": 335.62174367904663,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

@@ -1,0 +1,56 @@
+{
+  "overall": {
+    "frames": 2855,
+    "correctable_gt005": 539,
+    "oracle_mean_gain": 0.04602626744256418,
+    "perfect_quality_product_mean_gain": 0.022888640787717855,
+    "perfect_quality_product_changed": 218,
+    "perfect_quality_product_harmful": 0,
+    "perfect_quality_product_recovers_gt005": 155,
+    "correctable_but_product_stays_top1": 365,
+    "actual_mean_gain": -0.00037815340577170275,
+    "actual_changed": 75,
+    "actual_beneficial": 22,
+    "actual_harmful": 31,
+    "harmed_when_ideal_product_stays_top1": 28,
+    "harmed_when_ideal_product_changes": 3,
+    "quality_pair_sign_accuracy_on_meaningful_pairs": 0.9151227141482194
+  },
+  "domains": {
+    "lasot_train": {
+      "frames": 1600,
+      "correctable_gt005": 127,
+      "oracle_mean_gain": 0.015230532041041508,
+      "perfect_quality_product_mean_gain": 0.00025947298551296086,
+      "perfect_quality_product_changed": 26,
+      "perfect_quality_product_harmful": 0,
+      "perfect_quality_product_recovers_gt005": 1,
+      "correctable_but_product_stays_top1": 122,
+      "actual_mean_gain": -0.0002806655174831101,
+      "actual_changed": 8,
+      "actual_beneficial": 1,
+      "actual_harmful": 3,
+      "harmed_when_ideal_product_stays_top1": 3,
+      "harmed_when_ideal_product_changes": 0,
+      "quality_pair_sign_accuracy_on_meaningful_pairs": 0.9783024278340662
+    },
+    "tnl2k_train": {
+      "frames": 1255,
+      "correctable_gt005": 412,
+      "oracle_mean_gain": 0.08528776277518273,
+      "perfect_quality_product_mean_gain": 0.051738575834353574,
+      "perfect_quality_product_changed": 192,
+      "perfect_quality_product_harmful": 0,
+      "perfect_quality_product_recovers_gt005": 154,
+      "correctable_but_product_stays_top1": 243,
+      "actual_mean_gain": -0.000502440753390626,
+      "actual_changed": 67,
+      "actual_beneficial": 21,
+      "actual_harmful": 28,
+      "harmed_when_ideal_product_stays_top1": 25,
+      "harmed_when_ideal_product_changes": 3,
+      "quality_pair_sign_accuracy_on_meaningful_pairs": 0.8078545926647193
+    }
+  },
+  "limitations": "Saved 8 train-source trajectories only; perfect quality is GT oracle, not a learned model or AUC estimate. No coefficient search or fitting."
+}

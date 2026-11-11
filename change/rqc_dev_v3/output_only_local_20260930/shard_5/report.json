@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "sequence": "bottle-5",
+      "domain": "lasot_train",
+      "frames": 1749,
+      "valid_frames": 1669,
+      "baseline_mean_iou": 0.5239946346013907,
+      "refined_mean_iou": 0.5231700691480241,
+      "gain": -0.000824565453366629,
+      "beneficial": 0.13001797483523067,
+      "harmful": 0.14739364889155182,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "kongLong_video_5-Done",
+      "domain": "tnl2k_train",
+      "frames": 712,
+      "valid_frames": 712,
+      "baseline_mean_iou": 0.9024222852346337,
+      "refined_mean_iou": 0.9102815146148558,
+      "gain": 0.00785922938022208,
+      "beneficial": 0.4592696629213483,
+      "harmful": 0.10955056179775281,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 174.97403144836426,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

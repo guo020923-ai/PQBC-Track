@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "config": "baseline_base_frozen_head_output_center_safe_bs16_30ep_20260930",
+    "config_sha256": "b1852e009b70e115560108c74e540fd2042d91b4439d942238633e22a88824a7",
+    "source_checkpoint": "/root/autodl-tmp/UVLTrack-master/checkpoints/train/uvltrack/baseline_base/UVLTrack_ep0300.pth.tar",
+    "source_checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+    "epochs": 30,
+    "samples_per_epoch": 30000,
+    "batch": 16,
+    "vl_ratio": 0.44,
+    "grounding_ratio": 0.11,
+    "head_trainable": 0,
+    "backbone_trainable": 0,
+    "refiner_trainable": 19202,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "output_only": true,
+    "ddp": false,
+    "validation_interval": 1,
+    "source_files": {
+      "center_safe_refiner_20260930.py": "404fc57f5c1700f7065953eb83010fb04091bff2e4be070049eab3b424c3ed1c",
+      "relative_local_objective_20260930.py": "d9febd730682ebdee8038a891fbe9289ce26f0b00dc7f3a49961d6bf146731b2",
+      "local_box_refiner_20260930.py": "643a4eb9ab8cb6d2d44d256fc20c9931aa18e6f587bdb2f850e32368d6745b1c",
+      "center_formal_contract_20260930.py": "96c21f26052f8d829ecf658ea8c8ea5bfa66d172183ab231b4a118725cc6934c",
+      "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+      "train_center_formal_20260930.py": "ad0e6c1094fc232a007e7cf35453b674237b1a34023108650975a16dae5c2599",
+      "center_output_tracker_20260930.py": "6ced38be2082c65efea2055136e3300fc26e5483be74dc25086a88c467585e97"
+    }
+  },
+  "checks": [
+    {
+      "loader": "train",
+      "gradient": 0.2832162380218506,
+      "Loss/total": 0.4031778573989868,
+      "Center/active_samples": 18.0,
+      "Center/delta_abs": 0.0,
+      "Center/valid_count": 18.0,
+      "Center/iou_gain": 0.0,
+      "Center/harmful_rate": 0.0,
+      "Center/severe_harmful_rate": 0.0,
+      "Center/beneficial_rate": 0.0,
+      "Center/geometry": 0.4031778573989868,
+      "Center/relative_harm": 0.0,
+      "Center/center_harm_penalty": 0.0
+    },
+    {
+      "loader": "train",
+      "gradient": 0.22943544387817383,
+      "Loss/total": 0.470348596572876,
+      "Center/active_samples": 12.0,
+      "Center/delta_abs": 0.0,
+      "Center/valid_count": 12.0,
+      "Center/iou_gain": 0.0,
+      "Center/harmful_rate": 0.0,
+      "Center/severe_harmful_rate": 0.0,
+      "Center/beneficial_rate": 0.0,
+      "Center/geometry": 0.470348596572876,
+      "Center/relative_harm": 0.0,
+      "Center/center_harm_penalty": 0.0
+    },
+    {
+      "loader": "tr_LASOT_test",
+      "Loss/total": 0.0,
+      "Center/active_samples": 0.0,
+      "Center/iou_gain": 0.0
+    },
+    {
+      "loader": "gr_OTB99_test",
+      "Loss/total": 0.0,
+      "Center/active_samples": 0.0,
+      "Center/iou_gain": 0.0
+    },
+    {
+      "loader": "gr_TNL2K_test",
+      "Loss/total": 0.0,
+      "Center/active_samples": 0.0,
+      "Center/iou_gain": 0.0
+    },
+    {
+      "loader": "gr_LASOT_test",
+      "Loss/total": 0.0,
+      "Center/active_samples": 0.0,
+      "Center/iou_gain": 0.0
+    },
+    {
+      "loader": "vl_LASOT_test",
+      "Loss/total": 0.5505263805389404,
+      "Center/active_samples": 32.0,
+      "Center/delta_abs": 0.0,
+      "Center/valid_count": 32.0,
+      "Center/iou_gain": 0.0,
+      "Center/harmful_rate": 0.0,
+      "Center/severe_harmful_rate": 0.0,
+      "Center/beneficial_rate": 0.0,
+      "Center/geometry": 0.5505263805389404,
+      "Center/relative_harm": 0.0,
+      "Center/center_harm_penalty": 0.0
+    }
+  ],
+  "optimizer_steps": 0,
+  "weights_saved": false,
+  "frozen_buffers_unchanged": true,
+  "train_validation_loaders_checked": true
+}

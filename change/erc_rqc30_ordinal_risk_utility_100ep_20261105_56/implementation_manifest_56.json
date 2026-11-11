@@ -1,0 +1,29 @@
+{
+  "status": "IMPLEMENTATION_SEALED_AND_AUTHORIZED",
+  "scientific_variable": "single unified harmful-marginal-actionable ordinal head used for both selection and gating",
+  "cpu_admission": {
+    "model": "CPU_ADMISSION_PASS",
+    "test_import": "ORDINAL_RISK_TEST_IMPORT_CPU_PASS",
+    "gpu_operations": 0
+  },
+  "files": [
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"__init__.py","bytes":53,"sha256":"23cc149ebdddd12637700c91354daca4b6c1fbcf280920d8c91f4d68467b76a9"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"authorization_56.json","bytes":957,"sha256":"d7f7367130223596bb170ca1a9f1cb0cdd60309742f88297683b7db153015c15"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"calibration.py","bytes":2843,"sha256":"e0ac68add625c8f57d270bc807b02fb4bc6dd29b2e71d6b7e7311b93bf1f9d44"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"check_cpu.py","bytes":1195,"sha256":"de3783f9a343df9dc869d9d6ef0589c6210e2b0e3e19982ccd430adce612073a"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"checkpoint.py","bytes":1688,"sha256":"bbc6da0ee0d8829ce9702773b3cbd83f119ad58569e30a00afb8bd85d88d507d"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"config.py","bytes":1842,"sha256":"be21c22425cc62ddfbf31f80ec3627971c9f1f1323e9fbfcf323345ca3de36d0"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"model.py","bytes":2037,"sha256":"3272dbebe82cfe6b2700a6b064d062e91ef49c7c4338d3747da3d8e94f069d84"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"objective.py","bytes":1908,"sha256":"9c76c6f3215d26f40597e74b83e57c1081df08c0c279ac3d0d53633d125a8bed"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"posttrain_test_authorization_56.json","bytes":681,"sha256":"e35aebf3420520069744763b66bcb69db610c9e8da906e97656f2d78004613de"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"protocol.md","bytes":891,"sha256":"266d0ed94dd3f936ef5d17960a5319ec7245c38729ce0afb27ab07b3f6431a4d"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"run_authorized_pipeline.py","bytes":9790,"sha256":"082002937a357314f81a5c4f241f059f5fdb58d1a79dd6bb81c6c9f410d265be"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"runtime.py","bytes":3627,"sha256":"7144c310ebb471489dab700fdcc2f64bf6a56278f0cd6e5d67a36e29cda53142"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"train_child.py","bytes":378,"sha256":"970a4a4484d251ad1ae890b025c08bdde48cc8e2f0b369ddc7c3a4683068842c"},
+    {"package":"erc_rqc30_ordinal_risk_utility_100ep_20261105_56","name":"training.py","bytes":4147,"sha256":"34be51cabf12e8676b77ddba25c15a3c5df7a3ae9febedbad8023a9d0040b0f9"},
+    {"package":"erc_rqc30_ordinal_risk_utility_test_20261105_57","name":"__init__.py","bytes":57,"sha256":"36c3ea5d4b2de00d4a3b3dfe6ace67c2ef63b9253c3750d408999163cf142f43"},
+    {"package":"erc_rqc30_ordinal_risk_utility_test_20261105_57","name":"check_import_cpu.py","bytes":688,"sha256":"a5c13323b6361710719e051bb5f37d5a9e51810f5eae055bb4cefe6a9a29405a"},
+    {"package":"erc_rqc30_ordinal_risk_utility_test_20261105_57","name":"fast_runner.py","bytes":6991,"sha256":"122130ac847dd3391152c7e1a4ecd120f818f065496e969b8c470a0b5cab9905"},
+    {"package":"erc_rqc30_ordinal_risk_utility_test_20261105_57","name":"stage.py","bytes":677,"sha256":"49f1f6f51e206f9008f77862ed2aa3b8dda75dd23c220f75b8d0c871d3c5afe3"}
+  ]
+}

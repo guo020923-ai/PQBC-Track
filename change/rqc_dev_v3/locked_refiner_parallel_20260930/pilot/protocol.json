@@ -1,0 +1,12 @@
+{
+  "epochs": 20,
+  "lr": 0.0001,
+  "batch": 64,
+  "batches_per_epoch": 50,
+  "seed": 20260930,
+  "sampling": "uniform sequence then uniform cached frame",
+  "loss": "2 GIoU + 5 image-normalized L1",
+  "checkpoint": "last epoch only",
+  "final_evaluated": false,
+  "cache_sha256": "dd51f4eb1a945bb64afc27ff3e56f872e5d5907ed988eca0207eca0ecae22fb7"
+}

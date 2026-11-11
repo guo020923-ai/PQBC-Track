@@ -1,0 +1,105 @@
+{
+  "files": [
+    {
+      "bytes": 73,
+      "name": "__init__.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "20a54fcac67131bd96c30393fa563529ec697e5a7869b7b732b90a17371c5b3e"
+    },
+    {
+      "bytes": 919,
+      "name": "actions.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "6ce17a3430d0839ac33a79ea1142050d735265655a2da81be903ff13693d1c54"
+    },
+    {
+      "bytes": 2310,
+      "name": "config.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "03c0eb535aee9ed0933091b5e994cae0b59e2d66da3a3620d47664c5ac79e5ea"
+    },
+    {
+      "bytes": 1790,
+      "name": "model.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "9fa3e95a8929df94612a989b4d3a0abb0593b8c62f6ff4334bd753d290cd74b2"
+    },
+    {
+      "bytes": 2119,
+      "name": "objective.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "07b8dc353bb6a24885749afbedb1ea5b1eb12e1c40f89a8e6b9ce6b86d58c50d"
+    },
+    {
+      "bytes": 2463,
+      "name": "checkpoint.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "284fce0ce68ce2db0b326294295ec7eda3b5d9ff09f58b5f8abddc4ca1ce6246"
+    },
+    {
+      "bytes": 5225,
+      "name": "calibration.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "6edfe1c1d5e06a0e280bea98f4f09a386985d37062e42e03b16e02d11143e371"
+    },
+    {
+      "bytes": 6465,
+      "name": "runtime.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "65eb7486e06178fd551e804c2e3514c2b574d71a41a5b2e9aa69484486aa2e71"
+    },
+    {
+      "bytes": 6592,
+      "name": "fast_runner.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "20fb781536606dfb59c5b68bd366e7b496a8c5e3148a32a96af64675470bbb01"
+    },
+    {
+      "bytes": 1367,
+      "name": "stage.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "7ea87198b01220570134d125560942fd30ce74643f9f63ff3b732c8832f82b90"
+    },
+    {
+      "bytes": 846,
+      "name": "io_utils.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "788574a9b09c57cfc8baf5f9b547d16f7b8686dc9c08c4365b9b1e95da59f37f"
+    },
+    {
+      "bytes": 4849,
+      "name": "check_cpu.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "91f189027842263ce33d566f98dd4fee537b823b740f04d5653d4876b2782833"
+    },
+    {
+      "bytes": 5101,
+      "name": "run_test_recovery.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "079f657ba5e41a93297d7dff94d8923c403152ede96fa1cb2f9f1528fcfb86d2"
+    },
+    {
+      "bytes": 459,
+      "name": "authorization_124.json",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "3f659f895d53de28aa81ba3ad3ba063519143d0807dd42e396faf36ff8660890"
+    },
+    {
+      "bytes": 666,
+      "name": "protocol_124.md",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "5f04adc8080402cf4011200b4d163075d539e6b76b99ce635e87a6411786c094"
+    },
+    {
+      "bytes": 1266,
+      "name": "build_manifest_124.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+      "sha256": "21c16ac6356cb9f9ad157fde167110792c82c040430eec59c3db053c567442d4"
+    }
+  ],
+  "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
+  "retrain": false,
+  "scientific_variable": "post_selection_invalid_feedback_keep_fallback",
+  "source_round": 123,
+  "status": "ROUND124_IMPLEMENTATION_SEALED"
+}

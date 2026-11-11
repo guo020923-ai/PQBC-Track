@@ -1,0 +1,29 @@
+{
+  "status": "LOCAL_CODE_REVISION_ONLY",
+  "parent_experiment": "rqc30_epoch_supervised_erc30_20261104_39",
+  "parent_test": "rqc30_epoch_supervised_erc30_tnl110440_20261104_40",
+  "parent_auc": 62.6405143737793,
+  "rqc30_reference_auc": 63.02118818112782,
+  "delta_auc_pp": -0.3806738073485221,
+  "paired_bca95_pp": [-0.6876838144967318, -0.08034264779464437],
+  "diagnosis": {
+    "v1_train_active_label_fraction": 0.9056666666666666,
+    "v1_train_keep_label_fraction": 0.09433333333333334,
+    "v1_test_nonkeep_fraction": 0.817050169015287,
+    "sequences_negative": 465,
+    "sequences_positive": 231,
+    "test_current_vs_historical_reference_changed_fraction": 0.9239838707799541,
+    "attribution_warning": "historical paired RQC predictions are not a same-run native shadow"
+  },
+  "revision": {
+    "single_scientific_variable": "minimum_actionable_gain",
+    "old_value": 0.0,
+    "new_value": 0.047619047619047616,
+    "rationale": "Require one complete success-AUC21 threshold improvement; keep the continuous-IoU term only for within-actionable-set ranking.",
+    "train_active_label_fraction_under_new_gate": 0.3350666666666667,
+    "train_keep_label_fraction_under_new_gate": 0.6649333333333334,
+    "test_gt_used_to_set_gate": false
+  },
+  "training_launched": false,
+  "testing_launched": false
+}

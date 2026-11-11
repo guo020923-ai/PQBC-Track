@@ -1,0 +1,15 @@
+{
+  "status": "AUTHORIZED",
+  "authorized_date_asia_shanghai": "2026-11-05",
+  "user_authorization": "授权，结束进行测试评估；在100轮上面修改，改了之后再进行",
+  "scope": "one_fixed_100_epoch_harm_aware_joint_utility_training",
+  "epochs": 100,
+  "optimizer_steps": 187500,
+  "fixed_checkpoint": "Epoch100",
+  "intermediate_checkpoint_selection": false,
+  "source": "frozen_RQC_Epoch30",
+  "source_rqc_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+  "sealed_train_cache_manifest_sha256": "993b20ade7aa8ab491c5d87fcdc58350d7f218dea87b470bd9b8f6c58711b56c",
+  "automatic_retry": false,
+  "parallel_gpu_job": false
+}

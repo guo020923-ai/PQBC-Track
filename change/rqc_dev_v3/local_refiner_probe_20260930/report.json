@@ -1,0 +1,1211 @@
+{
+  "protocol": {
+    "epochs": 20,
+    "lr": 0.0001,
+    "batch_size": 64,
+    "folds": 4,
+    "seed": 42,
+    "checkpoint_rule": "final epoch only",
+    "source": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/rqc_dev_v3/local_refiner_audit_20260930_checked/local_features.pt",
+    "frozen": "cached JQ E30 native-response Head/Backbone; ERC not used",
+    "warning": "Development feasibility, not official-init full training or closed-loop evaluation"
+  },
+  "logs": [
+    {
+      "fold": 0,
+      "epoch": 1,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7562086582183838,
+      "valid_count": 160.0,
+      "iou_gain": 0.0009873583912849426,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 0,
+      "epoch": 2,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.753607153892517,
+      "valid_count": 160.0,
+      "iou_gain": 0.002148278523236513,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 0,
+      "epoch": 3,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.751464605331421,
+      "valid_count": 160.0,
+      "iou_gain": 0.003148802323266864,
+      "harmful_rate": 0.04374999925494194,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.26875001192092896
+    },
+    {
+      "fold": 0,
+      "epoch": 4,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.750606894493103,
+      "valid_count": 160.0,
+      "iou_gain": 0.003593824105337262,
+      "harmful_rate": 0.05624999850988388,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.29374998807907104
+    },
+    {
+      "fold": 0,
+      "epoch": 5,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7519210577011108,
+      "valid_count": 160.0,
+      "iou_gain": 0.0032363110221922398,
+      "harmful_rate": 0.07500000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3125
+    },
+    {
+      "fold": 0,
+      "epoch": 6,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7529206275939941,
+      "valid_count": 160.0,
+      "iou_gain": 0.0028877281583845615,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2874999940395355
+    },
+    {
+      "fold": 0,
+      "epoch": 7,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.753202199935913,
+      "valid_count": 160.0,
+      "iou_gain": 0.002707950072363019,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2874999940395355
+    },
+    {
+      "fold": 0,
+      "epoch": 8,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7522236108779907,
+      "valid_count": 160.0,
+      "iou_gain": 0.0030666508246213198,
+      "harmful_rate": 0.09375,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3062500059604645
+    },
+    {
+      "fold": 0,
+      "epoch": 9,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7512786388397217,
+      "valid_count": 160.0,
+      "iou_gain": 0.003342569340020418,
+      "harmful_rate": 0.08124999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3375000059604645
+    },
+    {
+      "fold": 0,
+      "epoch": 10,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7512710094451904,
+      "valid_count": 160.0,
+      "iou_gain": 0.0033679823391139507,
+      "harmful_rate": 0.08124999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.3375000059604645
+    },
+    {
+      "fold": 0,
+      "epoch": 11,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7509474754333496,
+      "valid_count": 160.0,
+      "iou_gain": 0.003444589674472809,
+      "harmful_rate": 0.0625,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.26875001192092896
+    },
+    {
+      "fold": 0,
+      "epoch": 12,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.752051830291748,
+      "valid_count": 160.0,
+      "iou_gain": 0.0031234477646648884,
+      "harmful_rate": 0.06875000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2562499940395355
+    },
+    {
+      "fold": 0,
+      "epoch": 13,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.752716302871704,
+      "valid_count": 160.0,
+      "iou_gain": 0.0028827222995460033,
+      "harmful_rate": 0.06875000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.22499999403953552
+    },
+    {
+      "fold": 0,
+      "epoch": 14,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.751949667930603,
+      "valid_count": 160.0,
+      "iou_gain": 0.003143463982269168,
+      "harmful_rate": 0.06875000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23749999701976776
+    },
+    {
+      "fold": 0,
+      "epoch": 15,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7530481815338135,
+      "valid_count": 160.0,
+      "iou_gain": 0.002672916278243065,
+      "harmful_rate": 0.08124999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.22499999403953552
+    },
+    {
+      "fold": 0,
+      "epoch": 16,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7542392015457153,
+      "valid_count": 160.0,
+      "iou_gain": 0.00229652295820415,
+      "harmful_rate": 0.09375,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19374999403953552
+    },
+    {
+      "fold": 0,
+      "epoch": 17,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7541759014129639,
+      "valid_count": 160.0,
+      "iou_gain": 0.0022587564308196306,
+      "harmful_rate": 0.09375,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19374999403953552
+    },
+    {
+      "fold": 0,
+      "epoch": 18,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7541693449020386,
+      "valid_count": 160.0,
+      "iou_gain": 0.002262203488498926,
+      "harmful_rate": 0.09375,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20624999701976776
+    },
+    {
+      "fold": 0,
+      "epoch": 19,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.754530906677246,
+      "valid_count": 160.0,
+      "iou_gain": 0.0021356057841330767,
+      "harmful_rate": 0.09375,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20000000298023224
+    },
+    {
+      "fold": 0,
+      "epoch": 20,
+      "held": [
+        "book-1",
+        "CM_tricycle6_done"
+      ],
+      "loss": 1.7553906440734863,
+      "valid_count": 160.0,
+      "iou_gain": 0.0019178006332367659,
+      "harmful_rate": 0.11249999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 1,
+      "epoch": 1,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16891491413116455,
+      "valid_count": 90.0,
+      "iou_gain": 0.000871638476382941,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 1,
+      "epoch": 2,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16611307859420776,
+      "valid_count": 90.0,
+      "iou_gain": 0.0021977543365210295,
+      "harmful_rate": 0.02222222276031971,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.04444444552063942
+    },
+    {
+      "fold": 1,
+      "epoch": 3,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16528913378715515,
+      "valid_count": 90.0,
+      "iou_gain": 0.0025702298153191805,
+      "harmful_rate": 0.1111111119389534,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17777778208255768
+    },
+    {
+      "fold": 1,
+      "epoch": 4,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16605724394321442,
+      "valid_count": 90.0,
+      "iou_gain": 0.0021732966415584087,
+      "harmful_rate": 0.18888889253139496,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.30000001192092896
+    },
+    {
+      "fold": 1,
+      "epoch": 5,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.1655830591917038,
+      "valid_count": 90.0,
+      "iou_gain": 0.0023924263659864664,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.25555557012557983
+    },
+    {
+      "fold": 1,
+      "epoch": 6,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.1651267111301422,
+      "valid_count": 90.0,
+      "iou_gain": 0.0026063958648592234,
+      "harmful_rate": 0.1666666716337204,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.24444444477558136
+    },
+    {
+      "fold": 1,
+      "epoch": 7,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16517607867717743,
+      "valid_count": 90.0,
+      "iou_gain": 0.0025823533069342375,
+      "harmful_rate": 0.1666666716337204,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2666666805744171
+    },
+    {
+      "fold": 1,
+      "epoch": 8,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.1645505279302597,
+      "valid_count": 90.0,
+      "iou_gain": 0.0028844799380749464,
+      "harmful_rate": 0.17777778208255768,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2666666805744171
+    },
+    {
+      "fold": 1,
+      "epoch": 9,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16440631449222565,
+      "valid_count": 90.0,
+      "iou_gain": 0.002956489799544215,
+      "harmful_rate": 0.18888889253139496,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.25555557012557983
+    },
+    {
+      "fold": 1,
+      "epoch": 10,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16483363509178162,
+      "valid_count": 90.0,
+      "iou_gain": 0.002763418946415186,
+      "harmful_rate": 0.13333334028720856,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23333333432674408
+    },
+    {
+      "fold": 1,
+      "epoch": 11,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16493134200572968,
+      "valid_count": 90.0,
+      "iou_gain": 0.0027163075283169746,
+      "harmful_rate": 0.17777778208255768,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23333333432674408
+    },
+    {
+      "fold": 1,
+      "epoch": 12,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16459378600120544,
+      "valid_count": 90.0,
+      "iou_gain": 0.002883044769987464,
+      "harmful_rate": 0.14444445073604584,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23333333432674408
+    },
+    {
+      "fold": 1,
+      "epoch": 13,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16474343836307526,
+      "valid_count": 90.0,
+      "iou_gain": 0.0028176214545965195,
+      "harmful_rate": 0.12222222238779068,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2222222238779068
+    },
+    {
+      "fold": 1,
+      "epoch": 14,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16501042246818542,
+      "valid_count": 90.0,
+      "iou_gain": 0.0026916894130408764,
+      "harmful_rate": 0.1111111119389534,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2222222238779068
+    },
+    {
+      "fold": 1,
+      "epoch": 15,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16484075784683228,
+      "valid_count": 90.0,
+      "iou_gain": 0.002779716858640313,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.21111111342906952
+    },
+    {
+      "fold": 1,
+      "epoch": 16,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16589179635047913,
+      "valid_count": 90.0,
+      "iou_gain": 0.0022840453311800957,
+      "harmful_rate": 0.1111111119389534,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2222222238779068
+    },
+    {
+      "fold": 1,
+      "epoch": 17,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.1653672158718109,
+      "valid_count": 90.0,
+      "iou_gain": 0.0025435746647417545,
+      "harmful_rate": 0.12222222238779068,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23333333432674408
+    },
+    {
+      "fold": 1,
+      "epoch": 18,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16644816100597382,
+      "valid_count": 90.0,
+      "iou_gain": 0.0020422914531081915,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.21111111342906952
+    },
+    {
+      "fold": 1,
+      "epoch": 19,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.16678519546985626,
+      "valid_count": 90.0,
+      "iou_gain": 0.0018868094775825739,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20000000298023224
+    },
+    {
+      "fold": 1,
+      "epoch": 20,
+      "held": [
+        "drone-10",
+        "Chess_video_4-8-Done"
+      ],
+      "loss": 0.166386216878891,
+      "valid_count": 90.0,
+      "iou_gain": 0.002075412543490529,
+      "harmful_rate": 0.1111111119389534,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.25555557012557983
+    },
+    {
+      "fold": 2,
+      "epoch": 1,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7708530426025391,
+      "valid_count": 160.0,
+      "iou_gain": 0.00033323225216008723,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 2,
+      "epoch": 2,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7700666785240173,
+      "valid_count": 160.0,
+      "iou_gain": 0.0006990147521719337,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 2,
+      "epoch": 3,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7697513699531555,
+      "valid_count": 160.0,
+      "iou_gain": 0.0009072269313037395,
+      "harmful_rate": 0.08124999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.09375
+    },
+    {
+      "fold": 2,
+      "epoch": 4,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7700290679931641,
+      "valid_count": 160.0,
+      "iou_gain": 0.000880276900716126,
+      "harmful_rate": 0.21250000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2750000059604645
+    },
+    {
+      "fold": 2,
+      "epoch": 5,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7715662121772766,
+      "valid_count": 160.0,
+      "iou_gain": 0.00038370024412870407,
+      "harmful_rate": 0.25,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2874999940395355
+    },
+    {
+      "fold": 2,
+      "epoch": 6,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7732141613960266,
+      "valid_count": 160.0,
+      "iou_gain": -0.00018641483620740473,
+      "harmful_rate": 0.23125000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23749999701976776
+    },
+    {
+      "fold": 2,
+      "epoch": 7,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7751243114471436,
+      "valid_count": 160.0,
+      "iou_gain": -0.0008400976657867432,
+      "harmful_rate": 0.23125000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16875000298023224
+    },
+    {
+      "fold": 2,
+      "epoch": 8,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7765413522720337,
+      "valid_count": 160.0,
+      "iou_gain": -0.0013199039967730641,
+      "harmful_rate": 0.23125000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15625
+    },
+    {
+      "fold": 2,
+      "epoch": 9,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7774066925048828,
+      "valid_count": 160.0,
+      "iou_gain": -0.001593668363057077,
+      "harmful_rate": 0.23749999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16875000298023224
+    },
+    {
+      "fold": 2,
+      "epoch": 10,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7780494689941406,
+      "valid_count": 160.0,
+      "iou_gain": -0.0018147847149521112,
+      "harmful_rate": 0.23749999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    {
+      "fold": 2,
+      "epoch": 11,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.778268575668335,
+      "valid_count": 160.0,
+      "iou_gain": -0.001884813653305173,
+      "harmful_rate": 0.23749999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18125000596046448
+    },
+    {
+      "fold": 2,
+      "epoch": 12,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7780910134315491,
+      "valid_count": 160.0,
+      "iou_gain": -0.0018480997532606125,
+      "harmful_rate": 0.24375000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 2,
+      "epoch": 13,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7777572274208069,
+      "valid_count": 160.0,
+      "iou_gain": -0.0017495028441771865,
+      "harmful_rate": 0.24375000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 2,
+      "epoch": 14,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7776538133621216,
+      "valid_count": 160.0,
+      "iou_gain": -0.0017154272645711899,
+      "harmful_rate": 0.24375000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20000000298023224
+    },
+    {
+      "fold": 2,
+      "epoch": 15,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7781049013137817,
+      "valid_count": 160.0,
+      "iou_gain": -0.0018765876302495599,
+      "harmful_rate": 0.24375000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18125000596046448
+    },
+    {
+      "fold": 2,
+      "epoch": 16,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7784110307693481,
+      "valid_count": 160.0,
+      "iou_gain": -0.0019939809571951628,
+      "harmful_rate": 0.2562499940395355,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 2,
+      "epoch": 17,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7785611152648926,
+      "valid_count": 160.0,
+      "iou_gain": -0.0020610555075109005,
+      "harmful_rate": 0.26875001192092896,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 2,
+      "epoch": 18,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7795717120170593,
+      "valid_count": 160.0,
+      "iou_gain": -0.0024176279548555613,
+      "harmful_rate": 0.26249998807907104,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    {
+      "fold": 2,
+      "epoch": 19,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.780053973197937,
+      "valid_count": 160.0,
+      "iou_gain": -0.0026060002855956554,
+      "harmful_rate": 0.26249998807907104,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.1875
+    },
+    {
+      "fold": 2,
+      "epoch": 20,
+      "held": [
+        "motorcycle-14",
+        "INF_man24"
+      ],
+      "loss": 0.7789697051048279,
+      "valid_count": 160.0,
+      "iou_gain": -0.002282768953591585,
+      "harmful_rate": 0.2750000059604645,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    {
+      "fold": 3,
+      "epoch": 1,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7530794143676758,
+      "valid_count": 160.0,
+      "iou_gain": 0.0006018686108291149,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    {
+      "fold": 3,
+      "epoch": 2,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7516880035400391,
+      "valid_count": 160.0,
+      "iou_gain": 0.0014096235390752554,
+      "harmful_rate": 0.0,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0062500000931322575
+    },
+    {
+      "fold": 3,
+      "epoch": 3,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7503266334533691,
+      "valid_count": 160.0,
+      "iou_gain": 0.002280522370710969,
+      "harmful_rate": 0.06875000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16249999403953552
+    },
+    {
+      "fold": 3,
+      "epoch": 4,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7505553364753723,
+      "valid_count": 160.0,
+      "iou_gain": 0.002427400089800358,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.29374998807907104
+    },
+    {
+      "fold": 3,
+      "epoch": 5,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7518935799598694,
+      "valid_count": 160.0,
+      "iou_gain": 0.0019629907328635454,
+      "harmful_rate": 0.21875,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.29374998807907104
+    },
+    {
+      "fold": 3,
+      "epoch": 6,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7530221343040466,
+      "valid_count": 160.0,
+      "iou_gain": 0.0013959573116153479,
+      "harmful_rate": 0.1875,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.2562499940395355
+    },
+    {
+      "fold": 3,
+      "epoch": 7,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7538084387779236,
+      "valid_count": 160.0,
+      "iou_gain": 0.0009797050151973963,
+      "harmful_rate": 0.18125000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.21250000596046448
+    },
+    {
+      "fold": 3,
+      "epoch": 8,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7544881105422974,
+      "valid_count": 160.0,
+      "iou_gain": 0.000715670466888696,
+      "harmful_rate": 0.19374999403953552,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.19374999403953552
+    },
+    {
+      "fold": 3,
+      "epoch": 9,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7550358176231384,
+      "valid_count": 160.0,
+      "iou_gain": 0.0005396947381086648,
+      "harmful_rate": 0.21250000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.21875
+    },
+    {
+      "fold": 3,
+      "epoch": 10,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7552915811538696,
+      "valid_count": 160.0,
+      "iou_gain": 0.0004463026416487992,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23125000298023224
+    },
+    {
+      "fold": 3,
+      "epoch": 11,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7555899620056152,
+      "valid_count": 160.0,
+      "iou_gain": 0.00029856880428269506,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23749999701976776
+    },
+    {
+      "fold": 3,
+      "epoch": 12,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7559154629707336,
+      "valid_count": 160.0,
+      "iou_gain": 0.00014194202958606184,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.21875
+    },
+    {
+      "fold": 3,
+      "epoch": 13,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7563163638114929,
+      "valid_count": 160.0,
+      "iou_gain": -6.8301145802252e-05,
+      "harmful_rate": 0.21250000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    {
+      "fold": 3,
+      "epoch": 14,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.756645143032074,
+      "valid_count": 160.0,
+      "iou_gain": -0.00024549904628656805,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.18125000596046448
+    },
+    {
+      "fold": 3,
+      "epoch": 15,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7570255994796753,
+      "valid_count": 160.0,
+      "iou_gain": -0.0004426391387823969,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.17499999701976776
+    },
+    {
+      "fold": 3,
+      "epoch": 16,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7575570940971375,
+      "valid_count": 160.0,
+      "iou_gain": -0.0007257252582348883,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15625
+    },
+    {
+      "fold": 3,
+      "epoch": 17,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7584478259086609,
+      "valid_count": 160.0,
+      "iou_gain": -0.0010995777556672692,
+      "harmful_rate": 0.22499999403953552,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15000000596046448
+    },
+    {
+      "fold": 3,
+      "epoch": 18,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7593120336532593,
+      "valid_count": 160.0,
+      "iou_gain": -0.001454768469557166,
+      "harmful_rate": 0.23749999701976776,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15625
+    },
+    {
+      "fold": 3,
+      "epoch": 19,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7595584988594055,
+      "valid_count": 160.0,
+      "iou_gain": -0.0016410421812906861,
+      "harmful_rate": 0.23125000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.14374999701976776
+    },
+    {
+      "fold": 3,
+      "epoch": 20,
+      "held": [
+        "surfboard-10",
+        "monitor_man & bag & bike"
+      ],
+      "loss": 0.7600512504577637,
+      "valid_count": 160.0,
+      "iou_gain": -0.0018432395299896598,
+      "harmful_rate": 0.24375000596046448,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15625
+    }
+  ],
+  "domains": {
+    "lasot_train": {
+      "valid_count": 320.0,
+      "iou_gain": 0.0015192985301837325,
+      "harmful_rate": 0.16249999403953552,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.23749999701976776
+    },
+    "tnl2k_train": {
+      "valid_count": 250.0,
+      "iou_gain": -0.0026108063757419586,
+      "harmful_rate": 0.23600000143051147,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.11999999731779099
+    }
+  },
+  "sequences": {
+    "CM_tricycle6_done": {
+      "valid_count": 80.0,
+      "iou_gain": -0.0034741400741040707,
+      "harmful_rate": 0.16249999403953552,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.0
+    },
+    "Chess_video_4-8-Done": {
+      "valid_count": 10.0,
+      "iou_gain": 0.0031669139862060547,
+      "harmful_rate": 0.20000000298023224,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20000000298023224
+    },
+    "INF_man24": {
+      "valid_count": 80.0,
+      "iou_gain": 0.001928467070683837,
+      "harmful_rate": 0.08749999850988388,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.20000000298023224
+    },
+    "book-1": {
+      "valid_count": 80.0,
+      "iou_gain": 0.007309741340577602,
+      "harmful_rate": 0.0625,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.375
+    },
+    "drone-10": {
+      "valid_count": 80.0,
+      "iou_gain": 0.001938974834047258,
+      "harmful_rate": 0.10000000149011612,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.26249998807907104
+    },
+    "monitor_man & bag & bike": {
+      "valid_count": 80.0,
+      "iou_gain": -0.0070089614018797874,
+      "harmful_rate": 0.4625000059604645,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15000000596046448
+    },
+    "motorcycle-14": {
+      "valid_count": 80.0,
+      "iou_gain": -0.006494005210697651,
+      "harmful_rate": 0.4625000059604645,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.15000000596046448
+    },
+    "surfboard-10": {
+      "valid_count": 80.0,
+      "iou_gain": 0.0033224825747311115,
+      "harmful_rate": 0.02500000037252903,
+      "severe_harmful_rate": 0.0,
+      "beneficial_rate": 0.16249999403953552
+    }
+  },
+  "sequence_macro_gain": 8.61841399455443e-05,
+  "elapsed": 2.5542097091674805
+}

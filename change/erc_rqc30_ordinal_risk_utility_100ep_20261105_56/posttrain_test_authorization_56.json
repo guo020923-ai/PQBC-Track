@@ -1,0 +1,21 @@
+{
+  "status": "AUTHORIZED_ONE_TEST_AFTER_COMPLETE_VERIFIED_TRAINING_AND_ORDINAL_CALIBRATION",
+  "authorized_by": "user",
+  "authorization_text": "继续啊",
+  "prerequisites": [
+    "fixed Epoch100 training audit is COMPLETE_VERIFIED",
+    "TRAIN-only ordinal risk calibration is TRAIN_ORDINAL_CALIBRATION_VERIFIED",
+    "GPU is idle"
+  ],
+  "dataset": "TNL2K",
+  "protocol": "NLBBOX_FULL700_development_stage",
+  "sequences": 700,
+  "frames": 516038,
+  "searches": 515338,
+  "persistent_workers": 8,
+  "same_forward_native_shadow": true,
+  "automatic_retry": false,
+  "target_reference_auc": 63.02118818112782,
+  "target_improvement_pp": 0.2,
+  "target_auc": 63.22118818112782
+}

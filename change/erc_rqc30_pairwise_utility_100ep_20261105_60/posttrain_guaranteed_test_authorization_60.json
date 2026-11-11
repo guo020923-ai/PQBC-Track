@@ -1,0 +1,22 @@
+{
+  "status": "AUTHORIZED_ONE_GUARANTEED_POSTTRAIN_FULL700_EVALUATION",
+  "authorized_by": "user",
+  "authorization_text": "给一个训练之后通过能测试的方案啊，别不通过就停止了。",
+  "training_identity": "fixed_pairwise_Epoch100_only",
+  "selection_data": "TRAIN_only_6016_row_holdout",
+  "decision_order": [
+    "use strict calibration when coverage>=0.5%, mean utility>0, and every TRAIN source harm<=15%",
+    "otherwise select the predeclared coverage-quantile threshold with maximum TRAIN-only mean utility",
+    "if all candidate means are non-positive, select the least-damaging candidate at minimum 0.5% coverage"
+  ],
+  "fallback_reporting_label": "development-stage_evaluation_fallback_not_safety_admitted",
+  "dataset": "TNL2K_NLBBOX_FULL700",
+  "sequences": 700,
+  "frames": 516038,
+  "searches": 515338,
+  "persistent_workers": 8,
+  "same_forward_native_shadow": true,
+  "automatic_retry": false,
+  "test_gt_for_threshold_selection": false,
+  "guarantee": "one FULL700 evaluation after verified Epoch100 unless a technical failure prevents execution"
+}

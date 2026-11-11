@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "sequence": "horse-20",
+      "domain": "lasot_train",
+      "frames": 24,
+      "valid_frames": 24,
+      "baseline_mean_iou": 0.9148642067708926,
+      "refined_mean_iou": 0.9049062685069268,
+      "gain": -0.009957938263966015,
+      "beneficial": 0.0,
+      "harmful": 0.4166666666666667,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 1.3200349807739258,
+  "smoke": true,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

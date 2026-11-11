@@ -1,0 +1,123 @@
+{
+  "manifest": [
+    {
+      "name": "pool-1",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/pool/pool-1",
+      "domain": "lasot_train",
+      "frames": 1000,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "rubicCube-16",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/rubicCube/rubicCube-16",
+      "domain": "lasot_train",
+      "frames": 2701,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "bottle-4",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/bottle/bottle-4",
+      "domain": "lasot_train",
+      "frames": 1941,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "yoyo-13",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/yoyo/yoyo-13",
+      "domain": "lasot_train",
+      "frames": 4310,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "lion-6",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/lion/lion-6",
+      "domain": "lasot_train",
+      "frames": 1919,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Sunwufan_video_10_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Sunwufan_video_10_done",
+      "domain": "tnl2k_train",
+      "frames": 220,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "Assassin_video_4-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Assassin_video_4-Done",
+      "domain": "tnl2k_train",
+      "frames": 295,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Zhizhuxia_08-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Zhizhuxia_08-Done",
+      "domain": "tnl2k_train",
+      "frames": 984,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "INF_crouching",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/INF_crouching",
+      "domain": "tnl2k_train",
+      "frames": 618,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Qilongzhu_video_2-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Qilongzhu_video_2-Done",
+      "domain": "tnl2k_train",
+      "frames": 372,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "surfboard-10",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/surfboard/surfboard-10",
+      "domain": "lasot_train",
+      "frames": 1960,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    },
+    {
+      "name": "CartoonHuLuWa_video_01_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/CartoonHuLuWa_video_01_done",
+      "domain": "tnl2k_train",
+      "frames": 1579,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    }
+  ],
+  "smoke": false,
+  "samples_per_sequence": 40,
+  "tracker": "baseline_base",
+  "shard_index": 6,
+  "shard_count": 8,
+  "checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+  "script_sha256": "87b8a9865de9e5e0668043af41b8d6f089f78268eec52869772afb8f30bfbfd2",
+  "feature_source_hashes": {
+    "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+    "boundary_local_refiner_20260930.py": "fd0b883818ad64173fb8b3241727b035088bf3a42b7ac0898e85369965157d8c"
+  }
+}

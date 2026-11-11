@@ -1,0 +1,7 @@
+{
+  "maximum_launches": 1,
+  "time": 1792426354.8658028,
+  "authorization_sha256": "68c224aacba9319bcc23f75381d9c42d03ebc198365b42ba293b6cf99c46e8bd",
+  "epochs": 60,
+  "automatic_retry": false
+}

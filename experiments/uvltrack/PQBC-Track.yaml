@@ -1,0 +1,136 @@
+# Consolidated reproducibility configuration for the final PQBC-Track model.
+#
+# This file was assembled on 2026-11-11 from the sealed configuration,
+# launch, calibration, and test manifests listed under PROVENANCE. The
+# completed historical run did not consume this YAML directly; the executable
+# source of truth remains the sealed Python package and JSON manifests.
+
+EXPERIMENT:
+  NAME: "PQBC-Track"
+  SCHEMA: "pqbc_track_reproducibility_v1"
+  STATUS: "post-hoc consolidated from sealed final artifacts"
+  BASE_TRACKER: "UVLTrack"
+  DATASET: "TNL2K"
+
+EXECUTION:
+  ADAPTER_MODULE: "change.run_pqbc_track_yaml"
+  PROJECT_ROOT: "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated"
+  DEFAULT_ACTION: "check"
+  FULL_PIPELINE_ACTION: "run"
+  EVALUATION_PACKAGE: "change.erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124"
+  FULL_PIPELINE_CREATES_NEW_STAGE: true
+
+BASE_CONFIG:
+  RQC_YAML: "experiments/uvltrack/baseline_base_head_directional_center_guard_bs16_30ep_20261001.yaml"
+  BASELINE_YAML: "experiments/uvltrack/baseline_base.yaml"
+  RQC_PROTOCOL: "change/directional_center_joint_training_20261001/baseline_base_head_directional_center_guard_bs16_30ep_20261001/protocol.json"
+
+CHECKPOINTS:
+  BASELINE:
+    EPOCH: 300
+    PATH: "/root/autodl-tmp/UVLTrack-master/checkpoints/train/uvltrack/baseline_base/UVLTrack_ep0300.pth.tar"
+    SHA256: "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2"
+  RQC:
+    EPOCH: 30
+    PATH: "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/directional_center_joint_training_20261001/baseline_base_head_directional_center_guard_bs16_30ep_20261001/DirectionalCenterJoint_ep0030.pth.tar"
+    SHA256: "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd"
+  ERC:
+    SCIENTIFIC_EPOCH: 100
+    PATH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/train/checkpoints/ERC_epoch_0100.pth.tar"
+    SHA256: "354e3723cfe36a0ef861e16c93fbacd680ea548f5d508aeb9b9b72dd8c4baf53"
+    NUMERIC_PATH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/numeric/erc_epoch100_numeric.npz"
+    NUMERIC_SHA256: "bc19147bc61babaa64090eef360eb7463ee56977456fbd53dcbc44ee62a4da92"
+    SELECTION: "fixed_epoch100_no_best"
+
+ERC:
+  ENABLED: true
+  DESIGN: "execution_aligned_pairwise_cooldown"
+  OBJECTIVE: "pairwise_action_utility"
+  IMPLEMENTATION_PACKAGE: "change.erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123"
+  PIPELINE_ENTRY: "run_execution_pipeline"
+  VERSION: "rqc30_execution_aligned_pairwise_cooldown8_100ep_v1"
+  CANDIDATE_ACTIONS: 25
+  EVIDENCE_DIM: 48
+  HIDDEN_DIM: 64
+  PAIR_TEMPERATURE: 0.047619047619047616
+  ACTION_BASIS: "direct_quarter_mapped_execution_image"
+  SHRINK_FACTOR: 0.25
+  FEEDBACK_MODE: "quarter_shrink_crop_feedback"
+  TEMPORAL_COOLDOWN_FRAMES: 8
+  INVALID_FEEDBACK_POLICY: "post_selection_keep_fallback"
+
+CACHE:
+  PATH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_rqc30_feedback_pairwise_pipeline_20261107_70/cache_build/cache"
+  MANIFEST_SHA256: "26162a2efa52becdbb1f95e2a1a81eeecdfc25bc912f737591749d5f44ac9d1d"
+  SEED: 20261104
+  EXAMPLES: 30000
+  REUSED_WITHOUT_TEST_DATA: true
+
+TRAIN:
+  SEED: 20261109
+  EPOCHS: 100
+  BATCH_SIZE: 16
+  STEPS_PER_EPOCH: 1875
+  OPTIMIZER_STEPS: 187500
+  OPTIMIZER: "AdamW"
+  PEAK_LEARNING_RATE: 0.00005
+  MINIMUM_LEARNING_RATE: 0.000001
+  WARMUP_EPOCHS: 5
+  WEIGHT_DECAY: 0.0001
+  GRADIENT_CLIP: 1.0
+  TEST_DATA_USED: false
+  DETERMINISTIC_SOURCE_EXECUTION: false
+  DETERMINISM_MODE: "cudnn_deterministic_cublas_workspace_warn_only_unsupported_cuda_cumsum"
+
+CALIBRATION:
+  SCOPE: "TRAIN_only"
+  SELECTION: "TRAIN_only_64frame_clip_ablation"
+  BLOCK_ROWS: 64
+  BLOCK_MODULUS: 5
+  BLOCK_REMAINDER: 0
+  TARGET_COVERAGE: 0.02
+  THRESHOLD: 0.36725926399230957
+  ACTUAL_COVERAGE: 0.020113031914893616
+  STATUS: "PAIRWISE_EVALUATION_FALLBACK"
+  SAFETY_ADMITTED: false
+  TEST_DATA_USED: false
+
+TEST:
+  DATASET: "tnl2k"
+  MODE: "NLBBOX"
+  SEQUENCES: 700
+  FRAMES: 516038
+  SEARCHES: 515338
+  SEARCH_FACTOR: 4.0
+  SEARCH_SIZE: 256
+  TEMPLATE_FACTOR: 2.0
+  TEMPLATE_SIZE: 128
+  PERSISTENT_WORKERS: 8
+  FULL700: true
+  AUTOMATIC_RETRY: false
+  SAME_FORWARD_NATIVE_SHADOW: true
+  WRITER_EPOCH_COMPATIBILITY_NAME: 30
+  RESULT_NAME: "baseline_base_head_rqc30_temporal_cooldown8_pairwise_erc100_seed20261109_20261109_123"
+  RUN_ID: 110923
+  NATIVE_SHADOW_NAME: "baseline_base_head_rqc30_temporal_cooldown8_feedback_shadow_seed20261109_20261109_123"
+  NATIVE_SHADOW_RUN_ID: 110924
+
+REPORTING:
+  LABEL: "development-stage_evaluation_fallback_not_safety_admitted"
+  SCOPE: "development-stage evaluation informed by prior benchmark feedback"
+  HISTORICAL_REFERENCE_AUC: 63.02118818112782
+
+PROVENANCE:
+  FINAL_TRAINING_JOB: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123"
+  FINAL_EVALUATION_PROTOCOL_LABEL: "Round124_pairwise_final"
+  ORIGINAL_CONFIG_PY: "change/erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123/config.py"
+  IMPLEMENTATION_MANIFEST: "change/erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123/implementation_manifest_123.json"
+  ACTUAL_LAUNCH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/actual_launch.json"
+  TRAINING_LAUNCH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/training_launch.json"
+  TEST_LAUNCH: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/test_launch.json"
+  CALIBRATION_RECORD: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/calibration_complete.json"
+  TEST_MANIFEST: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123/test/manifest.json"
+
+ABLATION_REFERENCES:
+  OUTPUT_ONLY: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round124_output_only_ablation_20261109_130"
+  UNARY_OBJECTIVE: "/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round124_unary_objective_ablation_20261109_132"

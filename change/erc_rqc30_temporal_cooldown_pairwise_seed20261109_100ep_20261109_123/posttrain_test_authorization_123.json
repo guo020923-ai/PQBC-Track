@@ -1,0 +1,10 @@
+{
+  "status": "AUTHORIZED_ONE_TNL2K_FULL700_AFTER_VERIFIED_SEED_REPLICATION",
+  "sequences": 700,
+  "frames": 516038,
+  "searches": 515338,
+  "persistent_workers": 8,
+  "train_only_calibration_before_test": true,
+  "same_forward_native_shadow": true,
+  "automatic_retry": false
+}

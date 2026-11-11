@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "sequence": "licenseplate-10",
+      "domain": "lasot_train",
+      "frames": 1724,
+      "valid_frames": 1724,
+      "baseline_mean_iou": 0.8510663482034118,
+      "refined_mean_iou": 0.8598836548437438,
+      "gain": 0.008817306640332026,
+      "beneficial": 0.4965197215777262,
+      "harmful": 0.031322505800464036,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "INF_man24",
+      "domain": "tnl2k_train",
+      "frames": 557,
+      "valid_frames": 557,
+      "baseline_mean_iou": 0.564505171251827,
+      "refined_mean_iou": 0.5592251711296328,
+      "gain": -0.0052800001221943,
+      "beneficial": 0.10771992818671454,
+      "harmful": 0.29443447037701975,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 156.32844424247742,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

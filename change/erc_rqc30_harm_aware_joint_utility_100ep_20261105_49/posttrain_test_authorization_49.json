@@ -1,0 +1,18 @@
+{
+  "status": "AUTHORIZED_AFTER_COMPLETE_VERIFIED_TRAINING_AUDIT",
+  "authorized_date_asia_shanghai": "2026-11-05",
+  "scope": "one_TNL2K_NLBBOX_FULL700_evaluation",
+  "dataset_sequences": 700,
+  "expected_frames": 516038,
+  "expected_searches": 515338,
+  "persistent_workers": 8,
+  "current_and_same_run_native_shadow": true,
+  "official_metrics_each": true,
+  "paired_sequence_BCa": true,
+  "primary_historical_RQC30_AUC": 63.02118818112782,
+  "acceptance_delta_auc_pp": 0.2,
+  "acceptance_paired_BCa_lower_bound_positive": true,
+  "test_gt_tuning": false,
+  "automatic_retry": false,
+  "automatic_generalization": false
+}

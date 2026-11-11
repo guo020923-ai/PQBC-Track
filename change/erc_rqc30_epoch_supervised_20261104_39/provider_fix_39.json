@@ -1,0 +1,9 @@
+{
+  "status": "SELF_CONTAINED_PROVIDER_FIX",
+  "reason": "old rollout package __init__ imported removed historical dependency",
+  "old_cache_sha256": "50554386df0d6a6cf5215497d64ad82bc684fe89dfa080be68dfdb6193654bea",
+  "new_files": {
+    "cache.py": "edf06b2786921a8e70aaa0add1b09b4493b977816b100e5565478537cf5ae3d9",
+    "provider.py": "d6ed2bce4fc83f08eabd7c8071670a921021a55f6adbfbba09edf5c994a1d799"
+  }
+}

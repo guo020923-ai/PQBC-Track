@@ -1,0 +1,43 @@
+{
+  "status": "CAUSAL_EVIDENCE_CHAIN_COMPLETE",
+  "failed_round": 72,
+  "failed_auc_percent": 62.9399299621582,
+  "target_auc_percent": 63.22118818112782,
+  "fixed_rqc30_reproduced_auc_percent": 63.021188272814925,
+  "mechanism": "repeated feedback commits accumulate closed-loop trajectory drift after initially useful sparse commits",
+  "completed_test_diagnosis": {
+    "zero_commit_sequences": 191,
+    "zero_commit_mean_delta_pp": 0.0,
+    "one_to_four_commit_mean_delta_pp": 0.36150317690099504,
+    "five_to_nine_commit_mean_delta_pp": -0.5440386960207305,
+    "fifty_plus_commit_mean_delta_pp": -1.6058757804113846,
+    "spearman_commit_count_vs_shadow_rqc_drift": 0.7815273092394065,
+    "use": "failure-mechanism diagnosis only; no threshold fitting"
+  },
+  "train_only_ablation": {
+    "heldout_rows": 6016,
+    "heldout_clips": 94,
+    "candidate_cooldowns_frames": [0, 4, 8, 16, 32, 64],
+    "selection_rule": "max_mean_utility_all_rows_then_min_harm_then_shorter_cooldown",
+    "selected_cooldown_frames": 8,
+    "no_cooldown_mean_utility_all_rows": 0.00003165694517045774,
+    "cooldown8_mean_utility_all_rows": 0.00003167583320117169,
+    "no_cooldown_harm_rate": 0.3770491803278688,
+    "cooldown8_harm_rate": 0.3548387096774194,
+    "no_cooldown_max_commits_per_64frame_clip": 20,
+    "cooldown8_max_commits_per_64frame_clip": 3,
+    "test_data_read": false
+  },
+  "falsifiable_hypothesis": "an eight-frame refractory period will preserve sparse beneficial commits while reducing high-frequency feedback accumulation and therefore raise the fixed FULL700 AUC relative to round72",
+  "single_changed_variable": "temporal_cooldown_frames",
+  "unchanged": [
+    "source RQC30 Epoch30 checkpoint",
+    "30k TRAIN-only cache",
+    "execution-aligned action basis",
+    "model architecture",
+    "loss",
+    "optimizer schedule",
+    "100 epochs and 187500 steps",
+    "TRAIN-only threshold calibration"
+  ]
+}

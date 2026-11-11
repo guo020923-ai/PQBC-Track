@@ -1,0 +1,132 @@
+{
+  "manifest": [
+    {
+      "name": "bicycle-8",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/bicycle/bicycle-8",
+      "domain": "lasot_train",
+      "frames": 2400,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "deer-20",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/deer/deer-20",
+      "domain": "lasot_train",
+      "frames": 1961,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "kite-8",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/kite/kite-8",
+      "domain": "lasot_train",
+      "frames": 2086,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "monkey-8",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/monkey/monkey-8",
+      "domain": "lasot_train",
+      "frames": 3401,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "surfboard-20",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/surfboard/surfboard-20",
+      "domain": "lasot_train",
+      "frames": 1089,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "INF_balancebike",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/INF_balancebike",
+      "domain": "tnl2k_train",
+      "frames": 225,
+      "split": "probe_fit",
+      "nested_fit20": true,
+      "role": "fit"
+    },
+    {
+      "name": "CM_man28_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/CM_man28_done",
+      "domain": "tnl2k_train",
+      "frames": 479,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Surfer_video_C01_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Surfer_video_C01_done",
+      "domain": "tnl2k_train",
+      "frames": 87,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "Cartoon_Man_Screen_video_01_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Cartoon_Man_Screen_video_01_done",
+      "domain": "tnl2k_train",
+      "frames": 620,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "INF_face1",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/INF_face1",
+      "domain": "tnl2k_train",
+      "frames": 1335,
+      "split": "probe_fit",
+      "nested_fit20": false,
+      "role": "fit"
+    },
+    {
+      "name": "skateboard-11",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/lasot/skateboard/skateboard-11",
+      "domain": "lasot_train",
+      "frames": 3278,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    },
+    {
+      "name": "Group_video_13_done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Group_video_13_done",
+      "domain": "tnl2k_train",
+      "frames": 345,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    },
+    {
+      "name": "Car_video_X01-4-Done",
+      "path": "/root/autodl-tmp/UVLTrack-master/data/tnl2k/train/Car_video_X01-4-Done",
+      "domain": "tnl2k_train",
+      "frames": 65,
+      "split": "probe_calibration",
+      "nested_fit20": false,
+      "role": "dev"
+    }
+  ],
+  "smoke": false,
+  "samples_per_sequence": 40,
+  "tracker": "baseline_base",
+  "shard_index": 2,
+  "shard_count": 8,
+  "checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+  "script_sha256": "87b8a9865de9e5e0668043af41b8d6f089f78268eec52869772afb8f30bfbfd2",
+  "feature_source_hashes": {
+    "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+    "boundary_local_refiner_20260930.py": "fd0b883818ad64173fb8b3241727b035088bf3a42b7ac0898e85369965157d8c"
+  }
+}

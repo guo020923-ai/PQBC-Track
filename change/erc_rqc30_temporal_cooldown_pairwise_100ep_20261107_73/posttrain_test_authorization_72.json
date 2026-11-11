@@ -1,0 +1,9 @@
+{
+  "status": "AUTHORIZED_ONE_TNL2K_FULL700_AFTER_VERIFIED_EXECUTION_ALIGNED_TRAINING",
+  "sequences": 700,
+  "frames": 516038,
+  "searches": 515338,
+  "persistent_workers": 8,
+  "guaranteed_development_stage_test_after_train_only_calibration": true,
+  "automatic_retry": false
+}

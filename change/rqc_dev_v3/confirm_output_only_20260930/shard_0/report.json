@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "sequence": "umbrella-5",
+      "domain": "lasot_train",
+      "frames": 1811,
+      "valid_frames": 1811,
+      "baseline_mean_iou": 0.888210950705146,
+      "refined_mean_iou": 0.8956119901545526,
+      "gain": 0.007401039449406718,
+      "beneficial": 0.4986195472114854,
+      "harmful": 0.1623412479293208,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "drone-3",
+      "domain": "lasot_train",
+      "frames": 3575,
+      "valid_frames": 3286,
+      "baseline_mean_iou": 0.604414200217797,
+      "refined_mean_iou": 0.6077580495149133,
+      "gain": 0.003343849297116274,
+      "beneficial": 0.24741326841144248,
+      "harmful": 0.08125380401704199,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "electricfan-19",
+      "domain": "lasot_train",
+      "frames": 1282,
+      "valid_frames": 1282,
+      "baseline_mean_iou": 0.9379024354838579,
+      "refined_mean_iou": 0.9319468403000348,
+      "gain": -0.005955595183822877,
+      "beneficial": 0.11544461778471139,
+      "harmful": 0.39001560062402496,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "Teluoyi_video_2-Done",
+      "domain": "tnl2k_train",
+      "frames": 462,
+      "valid_frames": 206,
+      "baseline_mean_iou": 0.43459697545622367,
+      "refined_mean_iou": 0.4351560711347961,
+      "gain": 0.0005590956785724717,
+      "beneficial": 0.16990291262135923,
+      "harmful": 0.12135922330097088,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "Wuxia_video_10-Done",
+      "domain": "tnl2k_train",
+      "frames": 429,
+      "valid_frames": 429,
+      "baseline_mean_iou": 0.8658488581576088,
+      "refined_mean_iou": 0.8655633331578108,
+      "gain": -0.0002855249997980692,
+      "beneficial": 0.16783216783216784,
+      "harmful": 0.19114219114219114,
+      "severe": 0.0,
+      "native_state_untouched": true
+    }
+  ],
+  "elapsed": 445.75061297416687,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Locked confirmation set; native tracker owns all state. Visible-frame IoU, not official AUC. No tuning after this evaluation."
+}

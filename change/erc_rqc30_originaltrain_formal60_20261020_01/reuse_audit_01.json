@@ -1,0 +1,277 @@
+{
+  "status": "REUSE_AUDIT_BLOCKED",
+  "issues": [
+    {
+      "code": "BASELINE_GENERATION_SOURCE_BINDING_MISSING",
+      "detail": "No result-level JSON or located baseline metric log binds existing predictions to immutable E300 source SHA.",
+      "predictions_may_still_be_valid": true,
+      "automatic_baseline_rerun": false
+    }
+  ],
+  "RQC30_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+  "official_E300_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
+  "RQC30_protocol_sha256": "5539337ad73a98e5d6acc6f8147453d189b363ddc1c4eff98db4aee1e08559f3",
+  "RQC30_stats_sha256": "876ef94b3ad501e5f16d04e8f67767d5ac83d9204a31646c68fc59d8ccbdfaf8",
+  "RQC30_config_sha256": "8eabcc68cf678699e0e412641abffff43da2a80baf1f78bf478ba7cc4e074152",
+  "RQC30_all_30_stats_contiguous": true,
+  "RQC30_finite_and_component_schema_pass": true,
+  "RQC30_source_files_sha256": {
+    "center_safe_refiner_20260930.py": "404fc57f5c1700f7065953eb83010fb04091bff2e4be070049eab3b424c3ed1c",
+    "relative_local_objective_20260930.py": "d9febd730682ebdee8038a891fbe9289ce26f0b00dc7f3a49961d6bf146731b2",
+    "local_box_refiner_20260930.py": "643a4eb9ab8cb6d2d44d256fc20c9931aa18e6f587bdb2f850e32368d6745b1c",
+    "center_formal_contract_20260930.py": "8fa7a70c1f63feecdd0fdf7267c4b49774b6ab85a0b2531d24bcf21cbea9afd1",
+    "head_quality_features_20260930.py": "0807bf538ea73d496ecdc97eb7eb8032f291c099163c0076a5312930ea100ed6",
+    "directional_center_joint_contract_20261001.py": "a9eb5d5722eaad5a79ea30062ca2d8b249ba348322647cef33f361db3a4516aa",
+    "directional_center_refiner_20261001.py": "ca893f62a43f5b52848c4c588a48b7d5336da31d777dcba0d680d8adfeff411e",
+    "head_native_decision_guard_20261001.py": "b5006436ef6b746eeb5bf17c3c639ec96fa2a7b3d226b0700d8e1f241a98dfb0",
+    "center_joint_metadata_exact_20260930.py": "7e66630b0571592c26f96485891578fe96360fc1ab8accd9f1f4c277886ccb49",
+    "train_directional_center_joint_20261001.py": "b4747c809d128809c827edbfaf81206df7fcd5a23f8fcd457613c8cc052c4608",
+    "directional_center_joint_tracker_20261001.py": "2e9d1c85eb92971447a4d046c32731c08eee8e437b00402dbee1c2a4b8d2d85c",
+    "../../lib/train/actors/uvltrack.py": "7040427dbb488fa8f4563db5b2bf7d7328cbc768851e92ae7cfb47ce99ef27b1",
+    "../../lib/models/uvltrack/uvltrack.py": "728ba4be7cfa4d604a94150e947670137c7c2c41cb1e6d4da7946ab618dec0db",
+    "../../lib/config/uvltrack/config.py": "b402ca0803076cc15247bd14c6beb1f6f641af05f0068b58b82c610537098d06",
+    "../../lib/test/tracker/uvltrack.py": "7481b611c22947dfe30259aba5c3f1daeee2aa808d2d3b66a889d091b35a07b8"
+  },
+  "official_code": {
+    "lib/test/evaluation/running.py": {
+      "isolated_sha256": "61f15363e7cad400d706a759d33d4705c120c04837c918ff211b12b4d76c144c",
+      "original_sha256": "61f15363e7cad400d706a759d33d4705c120c04837c918ff211b12b4d76c144c"
+    },
+    "lib/test/evaluation/tracker.py": {
+      "isolated_sha256": "fb5116a04ac2cf6672d695a219cbbab3f880d688683d90f0a028df099e5c03e6",
+      "original_sha256": "fb5116a04ac2cf6672d695a219cbbab3f880d688683d90f0a028df099e5c03e6"
+    },
+    "lib/test/analysis/extract_results.py": {
+      "isolated_sha256": "4c41ac0a889d2ea3d1aa66c60525e627ed707c3f8a6e4fb8443e63edf12beaa2",
+      "original_sha256": "4c41ac0a889d2ea3d1aa66c60525e627ed707c3f8a6e4fb8443e63edf12beaa2"
+    },
+    "lib/test/analysis/plot_results.py": {
+      "isolated_sha256": "0e9539bf389eb3beaa4dd99854075fdbee3f405bbd6876d0e13546304df97a4b",
+      "original_sha256": "0e9539bf389eb3beaa4dd99854075fdbee3f405bbd6876d0e13546304df97a4b"
+    },
+    "lib/test/tracker/uvltrack.py": {
+      "isolated_sha256": "7481b611c22947dfe30259aba5c3f1daeee2aa808d2d3b66a889d091b35a07b8",
+      "original_sha256": "6a4679e719e43092b90160b9b8239a05d22a6156195492d873a6f535d0aeeefe"
+    },
+    "lib/test/parameter/uvltrack.py": {
+      "isolated_sha256": "6d23502b3f253fc283ff0a61b96ab7e19526a551ee512d0d36dcdc4e93bb57e5",
+      "original_sha256": "6d23502b3f253fc283ff0a61b96ab7e19526a551ee512d0d36dcdc4e93bb57e5"
+    }
+  },
+  "datasets": {
+    "tnl2k": {
+      "sequences": 700,
+      "frames": 516038,
+      "runid": 101230,
+      "checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+      "manifest_sha256": "cd5756bbeb8ce34d840b4b07acd6f09a3f6843440e05284ac78779c0af9d2cd6",
+      "evaluation_input_manifest_sha256": "cd5756bbeb8ce34d840b4b07acd6f09a3f6843440e05284ac78779c0af9d2cd6",
+      "dataset_and_prediction_manifest_sha256": "9931967b0facdf8b570e48e37917b39c44fadac180f53e4a8f13871e6e39db57",
+      "finite_positive_integer_writer_pass": true,
+      "all_frames_pass": true,
+      "metrics_percent": {
+        "baseline": {
+          "AUC": 62.72710710797991,
+          "OP50": 73.72972707322666,
+          "OP75": 58.89986298390797,
+          "Precision": 66.21407295022692,
+          "Norm Precision": 80.27660002538136
+        },
+        "RQC30": {
+          "AUC": 63.02118818112782,
+          "OP50": 73.85304531233652,
+          "OP75": 59.13824240182127,
+          "Precision": 66.49108568055289,
+          "Norm Precision": 80.40470445666995
+        }
+      },
+      "delta_RQC30_vs_baseline_pp": {
+        "AUC": 0.29408107314790755,
+        "OP50": 0.12331823910986373,
+        "OP75": 0.23837941791330053,
+        "Precision": 0.2770127303259642,
+        "Norm Precision": 0.12810443128859106
+      },
+      "test_eval_completion_log_evidence": {
+        "test": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/test_directional_center_ep30_tnl2k_FULL_run101230_20261001.log",
+          "sha256": "8da1dd7ea1b6dd77bcc2ae0033a203144c5224b3e6a65cebfa016ed4e0d8c5ea",
+          "completion_marker": "TEST_COMPLETE"
+        },
+        "eval": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/eval_directional_center_ep30_tnl2k_FULL_run101230_20261001.log",
+          "sha256": "b3be30089c346695a00b1f525fb68d39cfcf4916ef4f8b1f9f0a633882d49ce8",
+          "completion_marker": "EVALUATION_COMPLETE"
+        }
+      },
+      "launcher_completion_sha256": "9f37f4b6940c633fc34b9c529d6e0d9efbb0e4bebd99c5a039e158224205d2eb",
+      "structured_legacy_exit_record_available": false,
+      "legacy_log_completion_not_new_execution": true
+    },
+    "lasot": {
+      "sequences": 280,
+      "frames": 685360,
+      "runid": 101231,
+      "checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+      "manifest_sha256": "7d448da2b40ee0f52261fbc35826d0681350d7d49bdc8273c4d7f176bfdb61c6",
+      "evaluation_input_manifest_sha256": "7d448da2b40ee0f52261fbc35826d0681350d7d49bdc8273c4d7f176bfdb61c6",
+      "dataset_and_prediction_manifest_sha256": "84037751b739f23fd967c846d19f8c7bfb873a57f7a18fdc458db1d2a4fa4080",
+      "finite_positive_integer_writer_pass": true,
+      "all_frames_pass": true,
+      "metrics_percent": {
+        "baseline": {
+          "AUC": 68.3886703985078,
+          "OP50": 79.68163858481816,
+          "OP75": 67.58849724744047,
+          "Precision": 74.4859703711101,
+          "Norm Precision": 78.11261467252459
+        },
+        "RQC30": {
+          "AUC": 68.50761342048645,
+          "OP50": 79.45545966114317,
+          "OP75": 67.79640516809054,
+          "Precision": 74.38041511263167,
+          "Norm Precision": 77.95683300835746
+        }
+      },
+      "delta_RQC30_vs_baseline_pp": {
+        "AUC": 0.11894302197865159,
+        "OP50": -0.22617892367499337,
+        "OP75": 0.20790792065007224,
+        "Precision": -0.10555525847843228,
+        "Norm Precision": -0.15578166416712236
+      },
+      "test_eval_completion_log_evidence": {
+        "test": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/test_directional_center_ep30_lasot_FULL_run101231_20261001.log",
+          "sha256": "05ca8c0894143f84e041b760e49354cbc59030a8fe26d80455711c5d462ffc37",
+          "completion_marker": "TEST_COMPLETE"
+        },
+        "eval": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/eval_directional_center_ep30_lasot_FULL_run101231_20261001.log",
+          "sha256": "62c5f44a36c9898fc01ad98114d6e0c197e360374fcabd403bf3070de21cc809",
+          "completion_marker": "EVALUATION_COMPLETE"
+        }
+      },
+      "launcher_completion_sha256": "cae7acc5bf2a96e730321135bec2d3052d01717acad85edce17875c23691f7d1",
+      "structured_legacy_exit_record_available": false,
+      "legacy_log_completion_not_new_execution": true
+    },
+    "otb99": {
+      "sequences": 48,
+      "frames": 29077,
+      "runid": 101232,
+      "checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+      "manifest_sha256": "ba3ed4106b04650cd3eaa812efe2c6af382ac7ad9600c318de4e5d140305015e",
+      "evaluation_input_manifest_sha256": "ba3ed4106b04650cd3eaa812efe2c6af382ac7ad9600c318de4e5d140305015e",
+      "dataset_and_prediction_manifest_sha256": "44600b17076cbcb164872b611d7f828405c91c368deead51586d9da5f81c2839",
+      "finite_positive_integer_writer_pass": true,
+      "all_frames_pass": true,
+      "metrics_percent": {
+        "baseline": {
+          "AUC": 69.38546985387802,
+          "OP50": 86.96912887692451,
+          "OP75": 56.67483903964361,
+          "Precision": 89.89097724358241,
+          "Norm Precision": 83.93042343854904
+        },
+        "RQC30": {
+          "AUC": 69.4640643397967,
+          "OP50": 86.80936818321545,
+          "OP75": 56.78332799921433,
+          "Precision": 89.68370133638382,
+          "Norm Precision": 83.6798628171285
+        }
+      },
+      "delta_RQC30_vs_baseline_pp": {
+        "AUC": 0.07859448591868556,
+        "OP50": -0.15976069370906032,
+        "OP75": 0.10848895957072102,
+        "Precision": -0.2072759071985928,
+        "Norm Precision": -0.25056062142054714
+      },
+      "test_eval_completion_log_evidence": {
+        "test": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/test_directional_center_ep30_otb99_FULL_run101232_20261001.log",
+          "sha256": "cf6dbc77bfaafdfcbb4557a85d7987c2cb2067e29c8f9296219e32c6b3281cb7",
+          "completion_marker": "TEST_COMPLETE"
+        },
+        "eval": {
+          "path": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/terminal_logs/eval_directional_center_ep30_otb99_FULL_run101232_20261001.log",
+          "sha256": "deea0b82e9762116935a5625fc66fdb5ec03095ec93a227073bcddec47b88941",
+          "completion_marker": "EVALUATION_COMPLETE"
+        }
+      },
+      "launcher_completion_sha256": "cae7acc5bf2a96e730321135bec2d3052d01717acad85edce17875c23691f7d1",
+      "structured_legacy_exit_record_available": false,
+      "legacy_log_completion_not_new_execution": true
+    }
+  },
+  "baseline_generation_binding_evidence": [],
+  "baseline_result_JSON_metadata_count": 0,
+  "baseline_metric_logs": {
+    "tnl2k": {
+      "path": "/root/autodl-tmp/UVLTrack-master/terminal_logs/analysis_uvltrack_baseline_base_tnl2k_NLBBOX_300.log",
+      "exists": true,
+      "sha256": "2f35c7642d31ad91438b8ba916f1352ec00f871afc8293fd565b22409e221d55",
+      "tail": [
+        "",
+        "Computed results over 700 / 700 sequences",
+        "",
+        "Reporting results over 700 / 700 sequences",
+        "",
+        "tnl2k_NLBBOX_300      | AUC        | OP50       | OP75       | Precision    | Norm Precision    |",
+        "uvltrack              | 62.73      | 73.73      | 58.90      | 66.21        | 80.28             |",
+        ""
+      ],
+      "contains_E300_source_SHA": false,
+      "contains_model_name": false,
+      "traceback": false
+    },
+    "lasot": {
+      "path": "/root/autodl-tmp/UVLTrack-master/terminal_logs/analysis_uvltrack_baseline_base_lasot_NLBBOX_300_20260913.log",
+      "exists": true,
+      "sha256": "b1eab9ebd9eedefad1ff69a6414d9f2a962aa603f6e06c9a57977b4e7171ec5e",
+      "tail": [
+        "100%|██████████| 280/280 [00:14<00:00, 18.97it/s]",
+        "",
+        "",
+        "Computed results over 280 / 280 sequences",
+        "",
+        "Reporting results over 280 / 280 sequences",
+        "",
+        "Reported results at change/experiment_results/baseline_base_lasot_NLBBOX_300_eval_20260913.txt"
+      ],
+      "contains_E300_source_SHA": false,
+      "contains_model_name": true,
+      "traceback": false
+    },
+    "otb99": {
+      "path": "/root/autodl-tmp/UVLTrack-master/terminal_logs/eval_uvltrack_baseline_base_otb99_NLBBOX_300_20260913_retry1.log",
+      "exists": true,
+      "sha256": "e24aa7fc06b26dbd2ad817b3c6636ab3918fd795a66775d865d28ca2ba014362",
+      "tail": [
+        "100%|██████████| 48/48 [00:00<00:00, 273.51it/s]",
+        "",
+        "",
+        "Computed results over 48 / 48 sequences",
+        "",
+        "Reporting results over 48 / 48 sequences",
+        "",
+        "Reported results at change/experiment_results/baseline_base_otb99_NLBBOX_300_eval_20260913_retry1.txt"
+      ],
+      "contains_E300_source_SHA": false,
+      "contains_model_name": true,
+      "traceback": false
+    }
+  },
+  "source_weights_unchanged": true,
+  "model_forward_count": 0,
+  "optimizer_steps": 0,
+  "GPU_initialized": false,
+  "remote_writes": false,
+  "seconds": 32.8395161498338,
+  "CPU_metrics_recomputed_from_existing_predictions": true,
+  "old_results_not_independent_confirmation": true,
+  "automatic_repair_or_rerun": false
+}

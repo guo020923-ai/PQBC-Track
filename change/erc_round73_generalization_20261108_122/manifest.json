@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_ROUND73_GENERALIZATION_ADAPTER",
+  "round73_checkpoint_sha256": "65ce9732add17da4e1790f0c2b53bd36e0cea0c0a1e56bc18c1e2125135bebb3",
+  "round73_numeric_sha256": "fe65022c45b8f6db318c6422399967a3b37f3913df704ae3f3ae854d493db935",
+  "round73_implementation_manifest_sha256": "cc3f366ab4357dda9381afc670906eeb24161a5ea4d131d3da4c6f5d3c0366c4",
+  "threshold": 0.44855380058288574,
+  "temporal_cooldown_frames": 8,
+  "dataset_specific_tuning": false,
+  "order": ["lasot", "otb99"],
+  "files": {
+    "__init__.py": "15ec4190160ee8f32e79fb6f552887ad495bcbe64af97f5127a0e7ae86527938",
+    "run_dataset.py": "88eb10d4978c3071a03b9473691459e944f3c71783b87cbc4a21aae352330a9f",
+    "run_all.py": "63c00947dd11eec46e3009d05298efe52b27b6d3fae1a49f55429d55e0fff8af"
+  }
+}

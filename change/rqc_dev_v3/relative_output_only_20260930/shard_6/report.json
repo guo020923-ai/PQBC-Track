@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "sequence": "surfboard-10",
+      "domain": "lasot_train",
+      "frames": 1959,
+      "valid_frames": 1959,
+      "baseline_mean_iou": 0.5958578956637258,
+      "refined_mean_iou": 0.5948896208812354,
+      "gain": -0.0009682747824903831,
+      "beneficial": 0.12353241449719245,
+      "harmful": 0.13782542113323124,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "CartoonHuLuWa_video_01_done",
+      "domain": "tnl2k_train",
+      "frames": 1578,
+      "valid_frames": 825,
+      "baseline_mean_iou": 0.8494688246496161,
+      "refined_mean_iou": 0.8549577458752068,
+      "gain": 0.0054889212255905566,
+      "beneficial": 0.3878787878787879,
+      "harmful": 0.08727272727272728,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 223.01426577568054,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

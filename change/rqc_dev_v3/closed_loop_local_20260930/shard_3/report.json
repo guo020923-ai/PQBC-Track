@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "sequence": "book-8",
+      "domain": "lasot_train",
+      "frames": 1950,
+      "valid_frames": 1950,
+      "baseline_mean_iou": 0.9393120505733954,
+      "refined_mean_iou": 0.9341928283097249,
+      "gain": -0.005119222263670373,
+      "beneficial": 0.24461538461538462,
+      "harmful": 0.37025641025641026,
+      "severe": 0.0041025641025641026
+    },
+    {
+      "sequence": "FlyFish_video_02-Done",
+      "domain": "tnl2k_train",
+      "frames": 96,
+      "valid_frames": 96,
+      "baseline_mean_iou": 0.8123658509210171,
+      "refined_mean_iou": 0.8077819677908931,
+      "gain": -0.004583883130123909,
+      "beneficial": 0.2916666666666667,
+      "harmful": 0.4166666666666667,
+      "severe": 0.0
+    },
+    {
+      "sequence": "CM_tricycle6_done",
+      "domain": "tnl2k_train",
+      "frames": 468,
+      "valid_frames": 468,
+      "baseline_mean_iou": 0.20101052393394744,
+      "refined_mean_iou": 0.19741071583848596,
+      "gain": -0.0035998080954614525,
+      "beneficial": 0.017094017094017096,
+      "harmful": 0.14957264957264957,
+      "severe": 0.0
+    }
+  ],
+  "elapsed": 330.41646361351013,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

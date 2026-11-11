@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "sequence": "robot-17",
+      "domain": "lasot_train",
+      "frames": 2500,
+      "valid_frames": 2500,
+      "baseline_mean_iou": 0.9352872018059134,
+      "refined_mean_iou": 0.9416649623245604,
+      "gain": 0.006377760518647229,
+      "beneficial": 0.4716,
+      "harmful": 0.1396,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "chameleon-7",
+      "domain": "lasot_train",
+      "frames": 1223,
+      "valid_frames": 1223,
+      "baseline_mean_iou": 0.9227605806290204,
+      "refined_mean_iou": 0.9265275016891866,
+      "gain": 0.0037669210601660313,
+      "beneficial": 0.30498773507767785,
+      "harmful": 0.1381847914963205,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "INF_car10",
+      "domain": "tnl2k_train",
+      "frames": 211,
+      "valid_frames": 211,
+      "baseline_mean_iou": 0.8794381500494878,
+      "refined_mean_iou": 0.8796566914693229,
+      "gain": 0.00021854141983508135,
+      "beneficial": 0.2938388625592417,
+      "harmful": 0.3080568720379147,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "INF_run",
+      "domain": "tnl2k_train",
+      "frames": 297,
+      "valid_frames": 297,
+      "baseline_mean_iou": 0.7252396632815693,
+      "refined_mean_iou": 0.7269709082134702,
+      "gain": 0.0017312449319007834,
+      "beneficial": 0.31313131313131315,
+      "harmful": 0.2558922558922559,
+      "severe": 0.0,
+      "native_state_untouched": true
+    },
+    {
+      "sequence": "manHead_58-Done",
+      "domain": "tnl2k_train",
+      "frames": 751,
+      "valid_frames": 721,
+      "baseline_mean_iou": 0.7518532586417777,
+      "refined_mean_iou": 0.7524357436873002,
+      "gain": 0.0005824850455223357,
+      "beneficial": 0.2288488210818308,
+      "harmful": 0.17891816920943135,
+      "severe": 0.0,
+      "native_state_untouched": true
+    }
+  ],
+  "elapsed": 330.69867420196533,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Locked confirmation set; native tracker owns all state. Visible-frame IoU, not official AUC. No tuning after this evaluation."
+}

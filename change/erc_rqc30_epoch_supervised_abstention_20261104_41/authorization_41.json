@@ -1,0 +1,17 @@
+{
+  "user_message": "修改啊，我需要涨点，然后再去泛化",
+  "scope": "one_fresh_rqc_style_erc30_v2_from_frozen_train_cache",
+  "scope_interpretation": "Train one fresh 30-epoch ERC v2 from the sealed TRAIN-only RQC30 cache after changing only the metric-aligned actionable-gain gate. Do not automatically test, retry, or launch generalization datasets.",
+  "explicit_user_training_authorization": true,
+  "maximum_training_launches": 1,
+  "epochs": 30,
+  "optimizer_steps": 56250,
+  "cache_examples": 30000,
+  "cache_manifest_sha256": "993b20ade7aa8ab491c5d87fcdc58350d7f218dea87b470bd9b8f6c58711b56c",
+  "protocol_sha256": "9782c09710b93b6a49d81fd4411778043f3b2bec0d06f5108bc9ad613fb2f4a3",
+  "minimum_actionable_gain": 0.047619047619047616,
+  "automatic_test": false,
+  "automatic_retry": false,
+  "generalization_gate": "Only after a separately authorized TNL2K same-run paired evaluation demonstrates a credible gain.",
+  "created_local_date": "2026-11-04"
+}

@@ -1,0 +1,15 @@
+{
+  "time": 1792426309.548868,
+  "exit_code": 0,
+  "timed_out": false,
+  "seconds": 86.11075880983844,
+  "original": {
+    "pid": 12537,
+    "tick": "358900652",
+    "state": "R",
+    "ppid": 12405,
+    "cwd": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated",
+    "cmdline": "/root/miniconda3/envs/uvltrack/bin/python -u /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/erc_rqc30_originaltrain_formal60_20261020_01/runner.py --mode engineer"
+  },
+  "preflight_exists": true
+}

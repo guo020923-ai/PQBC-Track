@@ -1,0 +1,3 @@
+# Pairwise utility ranking ERC
+
+The single scientific change is a within-frame pairwise Bradley--Terry objective. Every executable action pair is supervised by its utility difference, so optimization directly targets relative action ordering instead of marginal class probabilities or marginal quantiles. KEEP remains the zero-score anchor. Deployment uses the same scalar action score for ranking and gating. The threshold is calibrated by predeclared score-coverage quantiles on the 6,016 TRAIN-only held-out rows, making calibration invariant to score scale. RQC30, the frozen cache, 48-D evidence, 25 actions, 100 epochs, and fixed Epoch100 remain unchanged. No TEST ground truth is read.

@@ -1,0 +1,129 @@
+{
+  "automatic_full700_test": true,
+  "automatic_retry": false,
+  "cache_examples": 30000,
+  "files": [
+    {
+      "bytes": 72,
+      "name": "__init__.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "be916f07ebf8d8a70bec72b82afef288a5b688e0005f9a8c79d225980c903e67"
+    },
+    {
+      "bytes": 472,
+      "name": "authorization_70.json",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "e17ddf8e0611249abc9d66bdfc75d6cb80cf9aea993f312855d3336ef9c77c40"
+    },
+    {
+      "bytes": 355,
+      "name": "posttrain_test_authorization_70.json",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "e75da03a1e5109506f08f72018a491e7b92c476b234962f7585f344a14e6dee6"
+    },
+    {
+      "bytes": 1208,
+      "name": "protocol_70.md",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "6e290a699e635f5abeb9747f466ca0c0be39ab629df023ffcb69cd9b119e0bb7"
+    },
+    {
+      "bytes": 2074,
+      "name": "config.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "5c7f0f4934bcbbc37ebaa9efc5bf4d81cbe7d8ba4465132b58f1abbec787bc6b"
+    },
+    {
+      "bytes": 846,
+      "name": "io_utils.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "788574a9b09c57cfc8baf5f9b547d16f7b8686dc9c08c4365b9b1e95da59f37f"
+    },
+    {
+      "bytes": 1764,
+      "name": "model.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "a3f394076e737f40d6edb1974cb1d0fd201ea76dbc8cd72755d304dc68229eb1"
+    },
+    {
+      "bytes": 2120,
+      "name": "objective.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "dd02a0135d46c7e70810705ccb5a576dbb2d0922dee4d2131c40413b55797ecd"
+    },
+    {
+      "bytes": 4239,
+      "name": "runtime.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "8fd623f57407867378e628244ec7c1f6a9c86ca1761683e372a0009f226de84d"
+    },
+    {
+      "bytes": 9930,
+      "name": "cache.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "aaf1090a9cf2f9ec79699c6b4f4ae421e352645438ca664157ca325aca59a5ba"
+    },
+    {
+      "bytes": 271,
+      "name": "cache_child.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "fe5b83ae616c15f9b41bc522780e08bd23f32198d525b39a7138df5801e8ecc3"
+    },
+    {
+      "bytes": 7440,
+      "name": "training.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "2f3e7908986d111966e553299da829d965f8b62603d790f580c5806673983c09"
+    },
+    {
+      "bytes": 265,
+      "name": "train_child.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "83a7cdddd736db387df8cf9f03306b25dccfd47366548adb8de89f3dd06f39a2"
+    },
+    {
+      "bytes": 2439,
+      "name": "checkpoint.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "0c52782a46c72f7659d81af419caa8498b524141baba1a9525e11c61d848d2a4"
+    },
+    {
+      "bytes": 4874,
+      "name": "calibration.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "aaf92f6d8de999467ac6351cc0728d15321f2a62d1d5f904d6d359ceff85a9e1"
+    },
+    {
+      "bytes": 6232,
+      "name": "fast_runner.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "da0b1e02c95e2a2f26580bacf14bea7404927aec4df86920f649fb2b191896a6"
+    },
+    {
+      "bytes": 843,
+      "name": "stage.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "4805e6fc81c426a508bd31757013b7205b3e30aa4042083f41a194454ebe12a6"
+    },
+    {
+      "bytes": 2044,
+      "name": "check_cpu.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "7dbccc4ec8d787cb1357894cf7225d0cf5165836b5b61b350a05affe431114d6"
+    },
+    {
+      "bytes": 9753,
+      "name": "run_feedback_pipeline.py",
+      "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+      "sha256": "58e3f9d4e56cab41563879f05c1524bbd2ae6efe2aa2d340a65b123136de6708"
+    }
+  ],
+  "fixed_checkpoint": "Epoch100",
+  "optimizer_steps": 187500,
+  "package": "erc_rqc30_feedback_pairwise_100ep_20261107_70",
+  "scientific_variable": "quarter_shrink_causal_crop_feedback",
+  "status": "IMPLEMENTATION_SEALED_AND_AUTHORIZED",
+  "technical_integrity_change": "deterministic_source_execution",
+  "test_gt_parameter_selection": false,
+  "training_epochs": 100
+}

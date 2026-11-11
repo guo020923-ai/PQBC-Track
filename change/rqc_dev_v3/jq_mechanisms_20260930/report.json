@@ -1,0 +1,3720 @@
+{
+  "summary": {
+    "train_source": {
+      "samples": 106,
+      "batches": 28,
+      "changed": 1,
+      "rqc_matches_regression": 0.7830188679245284,
+      "baseline_matches_regression": 0.7830188679245284,
+      "changed_matches_regression": 0.0,
+      "regression_in_topk": 1.0,
+      "mean_gain": -0.006627799205060275,
+      "oracle_gain": 0.016605536330421018,
+      "negative_cosine_fraction": 0.14285714285714285,
+      "mean_cosine": 0.04452369028335239,
+      "mean_rank_grad_norm": 0.08111536809097271,
+      "mean_original_grad_norm": 0.02120078210906932
+    },
+    "vl_validation": {
+      "samples": 256,
+      "batches": 32,
+      "changed": 3,
+      "rqc_matches_regression": 0.72265625,
+      "baseline_matches_regression": 0.71484375,
+      "changed_matches_regression": 0.6666666666666666,
+      "regression_in_topk": 0.98828125,
+      "mean_gain": 0.00738695333711803,
+      "oracle_gain": 0.0379656810691813,
+      "negative_cosine_fraction": 0.09375,
+      "mean_cosine": 0.06818183084374335,
+      "mean_rank_grad_norm": 0.07242136519001952,
+      "mean_original_grad_norm": 0.03909945025616488
+    }
+  },
+  "batches": [
+    {
+      "split": "train_source",
+      "batch": 0,
+      "cosine": -0.01587675468640601,
+      "rank_grad_norm": 0.027644920160594763,
+      "original_grad_norm": 0.017840951741586057
+    },
+    {
+      "split": "train_source",
+      "batch": 1,
+      "cosine": 0.02241972678385183,
+      "rank_grad_norm": 0.02406252723744262,
+      "original_grad_norm": 0.015656153299677313
+    },
+    {
+      "split": "train_source",
+      "batch": 2,
+      "cosine": -0.002189528456130151,
+      "rank_grad_norm": 0.02769401315628771,
+      "original_grad_norm": 0.0044679244401641454
+    },
+    {
+      "split": "train_source",
+      "batch": 3,
+      "cosine": 0.041968493068282306,
+      "rank_grad_norm": 0.048616373672054305,
+      "original_grad_norm": 0.01267412781073926
+    },
+    {
+      "split": "train_source",
+      "batch": 4,
+      "cosine": 0.042597663440263646,
+      "rank_grad_norm": 0.03819966945561061,
+      "original_grad_norm": 0.008596729861311407
+    },
+    {
+      "split": "train_source",
+      "batch": 5,
+      "cosine": 0.03749371932376231,
+      "rank_grad_norm": 0.1835497464513197,
+      "original_grad_norm": 0.030303561369003633
+    },
+    {
+      "split": "train_source",
+      "batch": 6,
+      "cosine": 0.01401384527345366,
+      "rank_grad_norm": 0.07508751988323349,
+      "original_grad_norm": 0.039100291371143285
+    },
+    {
+      "split": "train_source",
+      "batch": 7,
+      "cosine": 0.014542052852432878,
+      "rank_grad_norm": 0.06658628175374472,
+      "original_grad_norm": 0.008738037960764266
+    },
+    {
+      "split": "train_source",
+      "batch": 9,
+      "cosine": 0.06872248023422918,
+      "rank_grad_norm": 0.10291985409851266,
+      "original_grad_norm": 0.009509360858751115
+    },
+    {
+      "split": "train_source",
+      "batch": 11,
+      "cosine": -0.008875861100481613,
+      "rank_grad_norm": 0.08140919679144741,
+      "original_grad_norm": 0.019363327844524165
+    },
+    {
+      "split": "train_source",
+      "batch": 12,
+      "cosine": 0.3050714816804083,
+      "rank_grad_norm": 0.11537198792028859,
+      "original_grad_norm": 0.02619506165353294
+    },
+    {
+      "split": "train_source",
+      "batch": 13,
+      "cosine": 0.013388554950387092,
+      "rank_grad_norm": 0.07431179406206156,
+      "original_grad_norm": 0.006094673015227323
+    },
+    {
+      "split": "train_source",
+      "batch": 14,
+      "cosine": 0.02660317925016201,
+      "rank_grad_norm": 0.19892435061438346,
+      "original_grad_norm": 0.030762746385418215
+    },
+    {
+      "split": "train_source",
+      "batch": 15,
+      "cosine": 0.07906835272347963,
+      "rank_grad_norm": 0.04589756172753472,
+      "original_grad_norm": 0.012634702776079062
+    },
+    {
+      "split": "train_source",
+      "batch": 16,
+      "cosine": 0.05551832681132976,
+      "rank_grad_norm": 0.17382371074375164,
+      "original_grad_norm": 0.051405520761212346
+    },
+    {
+      "split": "train_source",
+      "batch": 17,
+      "cosine": -0.0007851670759453642,
+      "rank_grad_norm": 0.041067456501681,
+      "original_grad_norm": 0.01425218285848515
+    },
+    {
+      "split": "train_source",
+      "batch": 18,
+      "cosine": 0.03435862356203091,
+      "rank_grad_norm": 0.09299500887651073,
+      "original_grad_norm": 0.007316236445080924
+    },
+    {
+      "split": "train_source",
+      "batch": 21,
+      "cosine": 0.01725433085496381,
+      "rank_grad_norm": 0.03960979592721947,
+      "original_grad_norm": 0.011562377740711897
+    },
+    {
+      "split": "train_source",
+      "batch": 22,
+      "cosine": 0.003943739157516591,
+      "rank_grad_norm": 0.08897111705552707,
+      "original_grad_norm": 0.02959481270068571
+    },
+    {
+      "split": "train_source",
+      "batch": 23,
+      "cosine": 0.001991116537149351,
+      "rank_grad_norm": 0.06205112492466469,
+      "original_grad_norm": 0.010954115478154787
+    },
+    {
+      "split": "train_source",
+      "batch": 24,
+      "cosine": 0.01579387501545674,
+      "rank_grad_norm": 0.04251671907138572,
+      "original_grad_norm": 0.019644490599563434
+    },
+    {
+      "split": "train_source",
+      "batch": 25,
+      "cosine": 0.11013931008442132,
+      "rank_grad_norm": 0.24951095342964386,
+      "original_grad_norm": 0.055661163513216885
+    },
+    {
+      "split": "train_source",
+      "batch": 26,
+      "cosine": 0.009492191331467807,
+      "rank_grad_norm": 0.1291962034427935,
+      "original_grad_norm": 0.013582199122225656
+    },
+    {
+      "split": "train_source",
+      "batch": 27,
+      "cosine": 0.02104505612096488,
+      "rank_grad_norm": 0.0339062769645127,
+      "original_grad_norm": 0.006126786203348416
+    },
+    {
+      "split": "train_source",
+      "batch": 28,
+      "cosine": 0.2419128372791314,
+      "rank_grad_norm": 0.041769860256927735,
+      "original_grad_norm": 0.009710379723525743
+    },
+    {
+      "split": "train_source",
+      "batch": 29,
+      "cosine": 0.0727181073224027,
+      "rank_grad_norm": 0.07542341143905139,
+      "original_grad_norm": 0.021982656825462448
+    },
+    {
+      "split": "train_source",
+      "batch": 30,
+      "cosine": 0.012399903492519517,
+      "rank_grad_norm": 0.04701407636657883,
+      "original_grad_norm": 0.08163621220343274
+    },
+    {
+      "split": "train_source",
+      "batch": 31,
+      "cosine": 0.011933672102762322,
+      "rank_grad_norm": 0.04309879456247073,
+      "original_grad_norm": 0.018255114490912782
+    },
+    {
+      "split": "vl_validation",
+      "batch": 0,
+      "cosine": 0.03887071975964337,
+      "rank_grad_norm": 0.09406054433664865,
+      "original_grad_norm": 0.08099277419452346
+    },
+    {
+      "split": "vl_validation",
+      "batch": 1,
+      "cosine": 0.03247000944743876,
+      "rank_grad_norm": 0.08411919652073645,
+      "original_grad_norm": 0.03208658188147229
+    },
+    {
+      "split": "vl_validation",
+      "batch": 2,
+      "cosine": 0.04638089376177161,
+      "rank_grad_norm": 0.13038910684565339,
+      "original_grad_norm": 0.07981429266353082
+    },
+    {
+      "split": "vl_validation",
+      "batch": 3,
+      "cosine": 0.20760621918242156,
+      "rank_grad_norm": 0.10540972331179087,
+      "original_grad_norm": 0.0870285720332435
+    },
+    {
+      "split": "vl_validation",
+      "batch": 4,
+      "cosine": 0.20193079760028004,
+      "rank_grad_norm": 0.02912609892676519,
+      "original_grad_norm": 0.010355209993127128
+    },
+    {
+      "split": "vl_validation",
+      "batch": 5,
+      "cosine": 0.12902047105084433,
+      "rank_grad_norm": 0.07799384799087236,
+      "original_grad_norm": 0.018686620298715356
+    },
+    {
+      "split": "vl_validation",
+      "batch": 6,
+      "cosine": -0.017306557384597573,
+      "rank_grad_norm": 0.042583464076438954,
+      "original_grad_norm": 0.018384908803308272
+    },
+    {
+      "split": "vl_validation",
+      "batch": 7,
+      "cosine": 0.14010116165216122,
+      "rank_grad_norm": 0.09546237801457996,
+      "original_grad_norm": 0.026235856870166083
+    },
+    {
+      "split": "vl_validation",
+      "batch": 8,
+      "cosine": 0.06852020577928615,
+      "rank_grad_norm": 0.036621884929648886,
+      "original_grad_norm": 0.01636013104524014
+    },
+    {
+      "split": "vl_validation",
+      "batch": 9,
+      "cosine": 0.03205925387943845,
+      "rank_grad_norm": 0.09043810507785283,
+      "original_grad_norm": 0.07814254465589891
+    },
+    {
+      "split": "vl_validation",
+      "batch": 10,
+      "cosine": -0.1148635071583511,
+      "rank_grad_norm": 0.03709923067424432,
+      "original_grad_norm": 0.006739956503439834
+    },
+    {
+      "split": "vl_validation",
+      "batch": 11,
+      "cosine": 0.029872510300053463,
+      "rank_grad_norm": 0.07486047122110046,
+      "original_grad_norm": 0.0178467995169441
+    },
+    {
+      "split": "vl_validation",
+      "batch": 12,
+      "cosine": 0.0398606413955585,
+      "rank_grad_norm": 0.07607892408908927,
+      "original_grad_norm": 0.01754240163745414
+    },
+    {
+      "split": "vl_validation",
+      "batch": 13,
+      "cosine": 0.03408700897813367,
+      "rank_grad_norm": 0.04311711398409118,
+      "original_grad_norm": 0.0737254799844615
+    },
+    {
+      "split": "vl_validation",
+      "batch": 14,
+      "cosine": 0.005074373644856813,
+      "rank_grad_norm": 0.07250910322477093,
+      "original_grad_norm": 0.030060305785183896
+    },
+    {
+      "split": "vl_validation",
+      "batch": 15,
+      "cosine": 0.2606142612265573,
+      "rank_grad_norm": 0.1325559374304444,
+      "original_grad_norm": 0.03841785553755477
+    },
+    {
+      "split": "vl_validation",
+      "batch": 16,
+      "cosine": 0.047894819861183706,
+      "rank_grad_norm": 0.03606762599252893,
+      "original_grad_norm": 0.010933910285172228
+    },
+    {
+      "split": "vl_validation",
+      "batch": 17,
+      "cosine": 0.11045179032675442,
+      "rank_grad_norm": 0.04650308947223214,
+      "original_grad_norm": 0.009012656354627993
+    },
+    {
+      "split": "vl_validation",
+      "batch": 18,
+      "cosine": 0.050833720528863105,
+      "rank_grad_norm": 0.1579802904770559,
+      "original_grad_norm": 0.032563208594315295
+    },
+    {
+      "split": "vl_validation",
+      "batch": 19,
+      "cosine": 0.07982064486807876,
+      "rank_grad_norm": 0.1291648784938611,
+      "original_grad_norm": 0.025797134274003947
+    },
+    {
+      "split": "vl_validation",
+      "batch": 20,
+      "cosine": 0.17821005554400796,
+      "rank_grad_norm": 0.05354780329427278,
+      "original_grad_norm": 0.06508834044751283
+    },
+    {
+      "split": "vl_validation",
+      "batch": 21,
+      "cosine": 0.05839196193450163,
+      "rank_grad_norm": 0.03119532665024427,
+      "original_grad_norm": 0.025212061842931628
+    },
+    {
+      "split": "vl_validation",
+      "batch": 22,
+      "cosine": 0.025639325646833442,
+      "rank_grad_norm": 0.12347058731556029,
+      "original_grad_norm": 0.07340583241177971
+    },
+    {
+      "split": "vl_validation",
+      "batch": 23,
+      "cosine": 0.058831698747559016,
+      "rank_grad_norm": 0.07851790898315393,
+      "original_grad_norm": 0.042145371668393675
+    },
+    {
+      "split": "vl_validation",
+      "batch": 24,
+      "cosine": 0.054746567107346954,
+      "rank_grad_norm": 0.0661850313289763,
+      "original_grad_norm": 0.07697062165223767
+    },
+    {
+      "split": "vl_validation",
+      "batch": 25,
+      "cosine": 0.08824624199229804,
+      "rank_grad_norm": 0.043440842138987426,
+      "original_grad_norm": 0.012996474883017686
+    },
+    {
+      "split": "vl_validation",
+      "batch": 26,
+      "cosine": 0.13740616396264452,
+      "rank_grad_norm": 0.04934313982960282,
+      "original_grad_norm": 0.003031664585103028
+    },
+    {
+      "split": "vl_validation",
+      "batch": 27,
+      "cosine": -0.07140870437010359,
+      "rank_grad_norm": 0.04190134093861642,
+      "original_grad_norm": 0.00406669614828275
+    },
+    {
+      "split": "vl_validation",
+      "batch": 28,
+      "cosine": 0.04273786608614714,
+      "rank_grad_norm": 0.06300733537682754,
+      "original_grad_norm": 0.021072255180185465
+    },
+    {
+      "split": "vl_validation",
+      "batch": 29,
+      "cosine": 0.001661186280020027,
+      "rank_grad_norm": 0.0693142576312829,
+      "original_grad_norm": 0.14881799322608888
+    },
+    {
+      "split": "vl_validation",
+      "batch": 30,
+      "cosine": 0.1714008552131496,
+      "rank_grad_norm": 0.05325130874504358,
+      "original_grad_norm": 0.017580182497340474
+    },
+    {
+      "split": "vl_validation",
+      "batch": 31,
+      "cosine": 0.012655930155006023,
+      "rank_grad_norm": 0.05216778875764922,
+      "original_grad_norm": 0.0500677127420189
+    }
+  ],
+  "frames": [
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.003582000732421875
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.014299511909484863
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.007805287837982178
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.1140318512916565
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.009579360485076904
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.020242929458618164
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.10311084985733032
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03461998701095581
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02502584457397461
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.008469104766845703
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.004770338535308838
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.08406764268875122
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.002979099750518799
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.006043493747711182
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0074024200439453125
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.044180989265441895
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.1387057900428772
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06678467988967896
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02674168348312378
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.11975139379501343
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.04452383518218994
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0022627711296081543
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02556699514389038
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.021654725074768066
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.006284058094024658
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0505448579788208
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.04238569736480713
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0033994317054748535
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0070680975914001465
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.024708330631256104
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.05470991134643555
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.17143934965133667
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": true,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": -0.7025467157363892,
+      "oracle_gain": 0.04617840051651001
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02654850482940674
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.1998240351676941
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03620988130569458
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.05203604698181152
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0023183822631835938
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.10032927989959717
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "train_source",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06878483295440674
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.028726577758789062
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.012471258640289307
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02935934066772461
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.3156895935535431
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.14658969640731812
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.025788843631744385
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.08267450332641602
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.2149856686592102
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.18049615621566772
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0296478271484375
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0514797568321228
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09807038307189941
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06362354755401611
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.15122997760772705
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.16431212425231934
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03366255760192871
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09815678000450134
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.10615694522857666
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.009139776229858398
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.13527780771255493
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.07879632711410522
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.014766335487365723
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0017709732055664062
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.000500023365020752
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.00947880744934082
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.11400115489959717
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.05987954139709473
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06860911846160889
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06347495317459106
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.012590646743774414
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.011221230030059814
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.011557817459106445
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.041967153549194336
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06838405132293701
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.13089519739151
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.12826871871948242
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0594295859336853
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0022665858268737793
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.3282730281352997
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0015506148338317871
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03587806224822998
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.017945408821105957
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09873586893081665
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.041877567768096924
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.015350341796875
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.021325111389160156
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.01922684907913208
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.04018664360046387
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0778082013130188
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.014714360237121582
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03422665596008301
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.05143153667449951
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06573939323425293
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.004739105701446533
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.003493010997772217
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.027083218097686768
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.009447634220123291
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": true,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.9487171173095703,
+      "oracle_gain": 0.9487171173095703
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.007548272609710693
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09181535243988037
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.5453886389732361
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.17310267686843872
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.034417808055877686
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.05382460355758667
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.07118725776672363
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.01822453737258911
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.040341079235076904
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.033509790897369385
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.02012324333190918
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.1016886830329895
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0057520270347595215
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03157401084899902
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.008375704288482666
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.033383727073669434
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.48502883315086365
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.04635214805603027
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": true,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.6832069754600525,
+      "oracle_gain": 0.6832069754600525
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.000904381275177002
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.00790625810623169
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03870019316673279
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09985142946243286
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": false,
+      "gain": 0.0,
+      "oracle_gain": 0.41795626282691956
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09580379724502563
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0015472471714019775
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": true,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": false,
+      "gain": 0.2591359615325928,
+      "oracle_gain": 0.28363895416259766
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.1080319881439209
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09614646434783936
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.021426260471343994
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.15157553553581238
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.034823834896087646
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.006766974925994873
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.06561911106109619
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.028063297271728516
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.002208709716796875
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0005695819854736328
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.09796667098999023
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.017530202865600586
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03694504499435425
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0017182230949401855
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0007451176643371582
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.08841061592102051
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.03611624240875244
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.013690352439880371
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": false,
+      "gain": 0.0,
+      "oracle_gain": 0.008918140083551407
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.13284629583358765
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0256231427192688
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0036377310752868652
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.050734877586364746
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.018713414669036865
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.11414951086044312
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.07027977705001831
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.13110673427581787
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.018431127071380615
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": false,
+      "baseline_matches_regression": false,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0038550496101379395
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.07761174440383911
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.00022584199905395508
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0264970064163208
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.009456276893615723
+    },
+    {
+      "split": "vl_validation",
+      "changed": false,
+      "rqc_matches_regression": true,
+      "baseline_matches_regression": true,
+      "regression_in_topk": true,
+      "gain": 0.0,
+      "oracle_gain": 0.0056876540184021
+    }
+  ],
+  "checkpoint": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/checkpoints/train/uvltrack/baseline_base_head_rqc_jq_bs16_30ep_20260929/UVLTrack_ep0030.pth.tar",
+  "optimizer_steps": 0,
+  "unchanged": true,
+  "mode": "eval, sampled crops, not closed loop"
+}

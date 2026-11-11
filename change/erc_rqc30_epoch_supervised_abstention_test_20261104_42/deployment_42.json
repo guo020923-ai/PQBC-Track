@@ -1,0 +1,14 @@
+{
+  "base_fast_sha256": "c6673257fcdde196631c0c8bae51a28cd6cecdb369c5b88ad3b3ca3ac1df8bf0",
+  "deployed_unix": 1793801234.10513,
+  "files": {
+    "__init__.py": "a254d6c7e630ccbc183ff66debb5ec4053cd17f61086b6af814b69f246fe0352",
+    "authorization_42.json": "0a134d2a0a4e3030cd796d513d605f501ef181b642f6827049693f95c164aeeb",
+    "fast_runner.py": "269baab80a4dcd1643b8eb683c7d5a07a4c81315f3fc9ac4f578220b9d84515c",
+    "run_stage.py": "b04f68c92ab414571002c580456b3a9af9b3c0312c3b3d7f5eda1e94887cabb9",
+    "stage.py": "cd13e39366df98564968d66ef7f6ad7be73e7630d7b781686cb53db7d385c0fb"
+  },
+  "gpu_processes_at_deploy": [],
+  "status": "TEST42_SOURCE_DEPLOYED",
+  "test_started": false
+}

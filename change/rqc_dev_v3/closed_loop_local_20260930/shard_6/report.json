@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "sequence": "surfboard-10",
+      "domain": "lasot_train",
+      "frames": 1959,
+      "valid_frames": 1959,
+      "baseline_mean_iou": 0.5958578956637258,
+      "refined_mean_iou": 0.5895352660250062,
+      "gain": -0.0063226296387196524,
+      "beneficial": 0.26442062276671774,
+      "harmful": 0.40735068912710565,
+      "severe": 0.005104645227156712
+    },
+    {
+      "sequence": "CartoonHuLuWa_video_01_done",
+      "domain": "tnl2k_train",
+      "frames": 1578,
+      "valid_frames": 825,
+      "baseline_mean_iou": 0.8494688246496161,
+      "refined_mean_iou": 0.8552118848074579,
+      "gain": 0.005743060157841734,
+      "beneficial": 0.3793939393939394,
+      "harmful": 0.3393939393939394,
+      "severe": 0.006060606060606061
+    }
+  ],
+  "elapsed": 433.8881769180298,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

@@ -1,0 +1,14 @@
+{
+  "user_message": "按建议A来",
+  "accepted_option": "A",
+  "historical_baseline_may_be_used_with_disclosed_generation_provenance_limit": true,
+  "baseline_generated_source_SHA_is_not_proven": true,
+  "do_not_fabricate_retrospective_generation_manifest": true,
+  "baseline_GPU_rerun_authorized": false,
+  "ERC_increment_must_use_same_verified_RQC30": true,
+  "previous_reuse_audit_record_unchanged": true,
+  "original_RQC_code_weights_inference_must_remain_unchanged": true,
+  "original_engineering_training_testing_limits_unchanged": true,
+  "continue_stage1_port_authorized": true,
+  "automatic_retry": false
+}

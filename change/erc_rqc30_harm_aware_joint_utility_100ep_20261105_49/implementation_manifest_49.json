@@ -1,0 +1,29 @@
+{
+  "status": "IMPLEMENTATION_SEALED_AND_AUTHORIZED",
+  "source_rqc_checkpoint_sha256": "1524962167d8f5b60a33b29960feae47f82b8e2a17869fc628e2f543978267bd",
+  "sealed_train_cache_manifest_sha256": "993b20ade7aa8ab491c5d87fcdc58350d7f218dea87b470bd9b8f6c58711b56c",
+  "files": [
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"__init__.py","sha256":"c0d4176651bc41f3bca1e6df84d831ed61a766fe40c7d7a7908444a342d555ca","bytes":160},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"authorization_49.json","sha256":"18f330f6a37a2937bbc5a8640445b36825dda5efe5e94f563d433b69686a258d","bytes":682},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"check_cpu.py","sha256":"7d4bb6c32ffb7898f65dbbc96e39fefe851e048b7a61942e62e915655032f567","bytes":4358},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"checkpoint.py","sha256":"594c3d8517707c12440f98fd01cfa0cad7139cc57b053ad7b666549f37a05bca","bytes":3952},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"config.py","sha256":"568289ed56d2aaa8dc7aba15a463bc0a0b8991bd2e983dbfbe858ada4aae4f9e","bytes":2154},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"CPU_admission_49.json","sha256":"61f6139ee5e77ea1d3d2ed8669d14c0419a608856d3cac113c9d4f03364d0ca0","bytes":547},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"model.py","sha256":"a1b82b8986899c657fda2924ea39bdcb62979a65af9a67c0c67a293ddb28ce29","bytes":4327},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"objective.py","sha256":"b4d4fb8bc13a2b9dfbb2beb29de7393fb3c9bb68a85bd99520af8404adf5c3c1","bytes":5531},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"posttrain_test_authorization_49.json","sha256":"94c51cb040f0ebf559fbbdb755c6e83843eb7194c74a58e803b7cb59c71b3f94","bytes":625},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"protocol.md","sha256":"6cb4061e3be230bdfe3272ab120fadaef136acff52273f5817ee9b7f7e886f37","bytes":2953},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"run_authorized_pipeline.py","sha256":"6d7e29db7d59871e34ca333426a4d16ff4b2a725823cc288f4bd88d44606e749","bytes":9614},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"runtime.py","sha256":"18c32bbb665f048f089258d9970d021e8d298d73cbe097f78b53dfaf11dc2246","bytes":2759},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"train_child.py","sha256":"df48a96c7b5eaf3ce7cb410dfdceeb648af11009440112333fd06e89ab448659","bytes":377},
+    {"package":"erc_rqc30_harm_aware_joint_utility_100ep_20261105_49","name":"training.py","sha256":"95fc06a0bd504a19df2b6de842c4568be5dd6b2a3bee9e1d571e83ec707a674a","bytes":7474},
+    {"package":"erc_rqc30_harm_aware_joint_utility_test_20261105_50","name":"__init__.py","sha256":"5f810206ae576256e2a521fa8afcf2f67596b997ff71b90b1beeb1ad1b198237","bytes":79},
+    {"package":"erc_rqc30_harm_aware_joint_utility_test_20261105_50","name":"fast_runner.py","sha256":"0a6e55c5fd34416e2b96cfbbc514ec4447dd49d8f7b29eb35125de8f674c546f","bytes":6098},
+    {"package":"erc_rqc30_harm_aware_joint_utility_test_20261105_50","name":"stage.py","sha256":"dbc593c8a01977987b11f645e27cee1139864cbd20207e5a6b91a9fcf6c0a0da","bytes":4988}
+  ],
+  "training_epochs": 100,
+  "optimizer_steps": 187500,
+  "fixed_checkpoint": "Epoch100",
+  "posttrain_test": "TNL2K_NLBBOX_FULL700_once",
+  "automatic_retry": false
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "sequence": "skateboard-11",
+      "domain": "lasot_train",
+      "frames": 3277,
+      "valid_frames": 3277,
+      "baseline_mean_iou": 0.8539223764151279,
+      "refined_mean_iou": 0.8564742801614564,
+      "gain": 0.0025519037463285522,
+      "beneficial": 0.3707659444613976,
+      "harmful": 0.2862374122673177,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Group_video_13_done",
+      "domain": "tnl2k_train",
+      "frames": 344,
+      "valid_frames": 344,
+      "baseline_mean_iou": 0.8052858024135987,
+      "refined_mean_iou": 0.8098454715560248,
+      "gain": 0.004559669142426123,
+      "beneficial": 0.48255813953488375,
+      "harmful": 0.24709302325581395,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    },
+    {
+      "sequence": "Car_video_X01-4-Done",
+      "domain": "tnl2k_train",
+      "frames": 64,
+      "valid_frames": 64,
+      "baseline_mean_iou": 0.9282342479734621,
+      "refined_mean_iou": 0.9458321332782407,
+      "gain": 0.01759788530477855,
+      "beneficial": 0.796875,
+      "harmful": 0.0,
+      "severe": 0.0,
+      "native_trajectory_exact": true
+    }
+  ],
+  "elapsed": 229.91290593147278,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Output-only corrections never update search/online state. Development visible-frame IoU, not official AUC."
+}

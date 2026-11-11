@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_ROUND124_GENERALIZATION_ADAPTER",
+  "source_round": 124,
+  "checkpoint_sha256": "354e3723cfe36a0ef861e16c93fbacd680ea548f5d508aeb9b9b72dd8c4baf53",
+  "numeric_sha256": "bc19147bc61babaa64090eef360eb7463ee56977456fbd53dcbc44ee62a4da92",
+  "implementation_manifest_sha256": "d20633c883343c5f46afc442468b1c07c68f6ffe6008732aa6361f34c7398e28",
+  "threshold": 0.36725926399230957,
+  "training_seed": 20261109,
+  "temporal_cooldown_frames": 8,
+  "invalid_feedback_policy": "post_selection_keep_fallback",
+  "dataset_specific_tuning": false,
+  "retraining": false,
+  "automatic_retry": false,
+  "order": ["lasot", "otb99"],
+  "instrumentation_only_change": "persist per-sequence invalid feedback fallback counts",
+  "files": {
+    "__init__.py": "4f940314bf9460aa7b9cbefe7973a5c5add4b1ab1fb64e9887870847b177b918",
+    "check_spawn.py": "688efbe60d4247d786fe299f1f0b94afebb31185a319abadb1b2aa8afee79da5",
+    "fast_runner.py": "9ce6deed7b77ec8bd414380249ed69f80f7f07503dfd67ff0daaedc5c863826b",
+    "run_all.py": "b61f6776eabc03161b0f917678fd934a649442cbe1cf01e455690b2d0240f9f7",
+    "run_dataset.py": "d552e19ae8b3ece508df16b2622afbd0918513d63fcde48133db7add938d25b7"
+  }
+}
+

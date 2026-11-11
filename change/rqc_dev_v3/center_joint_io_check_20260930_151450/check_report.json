@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "zero": {
+      "frames": 46,
+      "output_changes": 0,
+      "state_and_prompt_exact": true,
+      "trained_head_loaded": true
+    },
+    "synthetic_nonzero": {
+      "frames": 46,
+      "output_changes": 46,
+      "state_and_prompt_exact": true,
+      "trained_head_loaded": true
+    }
+  },
+  "resume_roundtrip": true,
+  "optimizer_state_device_correct": true,
+  "synthetic_formal_test_and_resume_rejected": true,
+  "optimizer_steps": 0,
+  "formal_training_started": false,
+  "eight_worker_sequences": 2,
+  "synthetic_checkpoint_bytes": 63034979,
+  "directory": "/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/change/rqc_dev_v3/center_joint_io_check_20260930_151450"
+}

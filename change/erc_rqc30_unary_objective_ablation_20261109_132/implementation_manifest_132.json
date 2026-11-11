@@ -1,0 +1,119 @@
+{
+  "authorization": "user_requested_pairwise_vs_unary_ablation_20261109",
+  "controlled_reference": "Round124_pairwise_final",
+  "files": [
+    {
+      "bytes": 79,
+      "name": "__init__.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "9c48589dd58612660aaa8e70b42ab1265794f5b1c29ffd85d030a264de8a9ab5"
+    },
+    {
+      "bytes": 919,
+      "name": "actions.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "6ce17a3430d0839ac33a79ea1142050d735265655a2da81be903ff13693d1c54"
+    },
+    {
+      "bytes": 2383,
+      "name": "config.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "dba7f6f1c6cba786d1b49ba9351bcd3a3897a9303c94870f0a3a3e462a81d8b6"
+    },
+    {
+      "bytes": 1797,
+      "name": "model.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "7597a2b4d0270b552edc35e7b73e3a6fc01b4532e92d7f9a03aa6a93a52afaff"
+    },
+    {
+      "bytes": 2048,
+      "name": "objective.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "d73314c9b37b552f1c1324cdacbb6a3e3f46b0d8452703f707ecbfeab824a2ae"
+    },
+    {
+      "bytes": 2463,
+      "name": "checkpoint.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "284fce0ce68ce2db0b326294295ec7eda3b5d9ff09f58b5f8abddc4ca1ce6246"
+    },
+    {
+      "bytes": 6472,
+      "name": "training.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "fa63a5faf692f3d929473928ae27b33cccdeb54bc5765740d87aeb7201a68add"
+    },
+    {
+      "bytes": 265,
+      "name": "train_child.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "83a7cdddd736db387df8cf9f03306b25dccfd47366548adb8de89f3dd06f39a2"
+    },
+    {
+      "bytes": 5207,
+      "name": "calibration.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "acd1ecc3f6b8c09fd6fba5e4846b29ac654ea19242426544ea8cf36d27dcba48"
+    },
+    {
+      "bytes": 846,
+      "name": "io_utils.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "788574a9b09c57cfc8baf5f9b547d16f7b8686dc9c08c4365b9b1e95da59f37f"
+    },
+    {
+      "bytes": 436,
+      "name": "runtime.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "017400db97ca3b76a12158c0122fb0800201e3d2066fb1a3f7b02c49959fc9c6"
+    },
+    {
+      "bytes": 6586,
+      "name": "fast_runner.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "fee24fe85cad79e5fa422611bb14da9f6748531bdc95dfb2c4633bef31c18229"
+    },
+    {
+      "bytes": 1288,
+      "name": "stage.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "c77b3d3f64eccf68049fb0e3e8a47f9f6b2b7b017b09b3ee775012ab77b9af9b"
+    },
+    {
+      "bytes": 8306,
+      "name": "run_execution_pipeline.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "258293fbcb5c8dc8baf98129bad0344a75553d2bf88ab2dba2dc1088a50c7199"
+    },
+    {
+      "bytes": 3614,
+      "name": "check_cpu.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "08e86368d4a7242941304ce46ddc2d9ece51a111231f5dc0f580318e70d6a054"
+    },
+    {
+      "bytes": 1125,
+      "name": "spawn_check_132.py",
+      "package": "erc_rqc30_unary_objective_ablation_20261109_132",
+      "sha256": "1c1d25ca017c9b4aa6d7fdb3044660e3684293accb40f8e11083185acc541042"
+    }
+  ],
+  "scientific_variable": "unary_keep_relative_objective_instead_of_pairwise_objective",
+  "status": "IMPLEMENTATION_SEALED_AND_AUTHORIZED",
+  "unchanged": [
+    "architecture",
+    "48d_evidence",
+    "25_actions",
+    "TRAIN_cache",
+    "training_seed",
+    "optimizer",
+    "100_epochs_187500_steps",
+    "Epoch100_only",
+    "TRAIN_only_calibration",
+    "threshold_algorithm",
+    "cooldown8",
+    "post_selection_keep_fallback",
+    "TNL2K_FULL700_evaluator"
+  ]
+}

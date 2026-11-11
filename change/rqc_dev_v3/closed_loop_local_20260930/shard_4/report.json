@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "sequence": "licenseplate-10",
+      "domain": "lasot_train",
+      "frames": 1724,
+      "valid_frames": 1724,
+      "baseline_mean_iou": 0.8510663482034118,
+      "refined_mean_iou": 0.8620951384185345,
+      "gain": 0.01102879021512268,
+      "beneficial": 0.48839907192575405,
+      "harmful": 0.16705336426914152,
+      "severe": 0.000580046403712297
+    },
+    {
+      "sequence": "INF_man24",
+      "domain": "tnl2k_train",
+      "frames": 557,
+      "valid_frames": 557,
+      "baseline_mean_iou": 0.564505171251827,
+      "refined_mean_iou": 0.46720195094747524,
+      "gain": -0.09730322030435183,
+      "beneficial": 0.3231597845601436,
+      "harmful": 0.5098743267504489,
+      "severe": 0.19389587073608616
+    }
+  ],
+  "elapsed": 302.4005479812622,
+  "smoke": false,
+  "optimizer_steps": 0,
+  "note": "Development mean visible-frame IoU, NOT official benchmark AUC. Prompt updates remain original response based."
+}

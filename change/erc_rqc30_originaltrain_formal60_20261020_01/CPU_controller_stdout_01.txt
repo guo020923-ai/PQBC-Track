@@ -1,0 +1,19 @@
+TNL2K: skipped 1 sequence(s) with missing or empty language: INF_run1
+TNL2K: skipped 1 sequence(s) with missing or empty language: INF_run1
+ORIGINAL_TRAIN_CPU_PASS={"pass_all": true, "seconds": 20.435188522562385, "restored": {"lasot": {"count": 1120, "restored": 32, "exact_original_membership": true}, "tnl2k": {"count": 1299, "restored": 32, "exact_original_membership": true}, "otb99": {"count": 51, "restored": 32, "exact_original_membership": true}}, "optimizer_steps": 0, "GPU_operations": 0, "model_image_forwards": 0}
+/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/lib/train/dataset/got10k.py:62: FutureWarning: The squeeze argument has been deprecated and will be removed in a future version. Append .squeeze("columns") to the call to squeeze.
+
+
+  seq_ids = pandas.read_csv(file_path, header=None, squeeze=True, dtype=np.int64).values.tolist()
+/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/lib/train/dataset/lasot.py:61: FutureWarning: The squeeze argument has been deprecated and will be removed in a future version. Append .squeeze("columns") to the call to squeeze.
+
+
+  sequence_list = pandas.read_csv(file_path, header=None, squeeze=True).values.tolist()
+/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/lib/train/dataset/got10k.py:62: FutureWarning: The squeeze argument has been deprecated and will be removed in a future version. Append .squeeze("columns") to the call to squeeze.
+
+
+  seq_ids = pandas.read_csv(file_path, header=None, squeeze=True, dtype=np.int64).values.tolist()
+/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated/lib/train/dataset/lasot.py:61: FutureWarning: The squeeze argument has been deprecated and will be removed in a future version. Append .squeeze("columns") to the call to squeeze.
+
+
+  sequence_list = pandas.read_csv(file_path, header=None, squeeze=True).values.tolist()

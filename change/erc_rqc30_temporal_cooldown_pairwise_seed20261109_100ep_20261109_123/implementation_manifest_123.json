@@ -1,0 +1,135 @@
+{
+  "files": [
+    {
+      "bytes": 73,
+      "name": "__init__.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "20a54fcac67131bd96c30393fa563529ec697e5a7869b7b732b90a17371c5b3e"
+    },
+    {
+      "bytes": 919,
+      "name": "actions.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "6ce17a3430d0839ac33a79ea1142050d735265655a2da81be903ff13693d1c54"
+    },
+    {
+      "bytes": 2310,
+      "name": "config.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "03c0eb535aee9ed0933091b5e994cae0b59e2d66da3a3620d47664c5ac79e5ea"
+    },
+    {
+      "bytes": 1790,
+      "name": "model.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "9fa3e95a8929df94612a989b4d3a0abb0593b8c62f6ff4334bd753d290cd74b2"
+    },
+    {
+      "bytes": 2119,
+      "name": "objective.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "07b8dc353bb6a24885749afbedb1ea5b1eb12e1c40f89a8e6b9ce6b86d58c50d"
+    },
+    {
+      "bytes": 6472,
+      "name": "training.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "01b655c73b8cede0bb50d97dfec19c556331472f5770c0bc532cb54b791f54f6"
+    },
+    {
+      "bytes": 265,
+      "name": "train_child.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "83a7cdddd736db387df8cf9f03306b25dccfd47366548adb8de89f3dd06f39a2"
+    },
+    {
+      "bytes": 2463,
+      "name": "checkpoint.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "284fce0ce68ce2db0b326294295ec7eda3b5d9ff09f58b5f8abddc4ca1ce6246"
+    },
+    {
+      "bytes": 5225,
+      "name": "calibration.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "6edfe1c1d5e06a0e280bea98f4f09a386985d37062e42e03b16e02d11143e371"
+    },
+    {
+      "bytes": 5216,
+      "name": "runtime.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "d4c28c84ece752e58cd7797244f4a84fff36d440da48e6505a1fd9c23553ee01"
+    },
+    {
+      "bytes": 6592,
+      "name": "fast_runner.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "20fb781536606dfb59c5b68bd366e7b496a8c5e3148a32a96af64675470bbb01"
+    },
+    {
+      "bytes": 1206,
+      "name": "stage.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "e752193acd1928fe8b364bb848adf85e6534f4fd6f323cc7e4a8bf443cff2d52"
+    },
+    {
+      "bytes": 846,
+      "name": "io_utils.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "788574a9b09c57cfc8baf5f9b547d16f7b8686dc9c08c4365b9b1e95da59f37f"
+    },
+    {
+      "bytes": 3519,
+      "name": "check_cpu.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "1596f08b34f71caca55a41628b9facb4862855165f17a176787a98483dd3dc66"
+    },
+    {
+      "bytes": 8734,
+      "name": "run_execution_pipeline.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "ca75f2b9e770c7cde6543adec3fa4e1d06dfd49c1a98203345b7a9492b98bdd8"
+    },
+    {
+      "bytes": 647,
+      "name": "authorization_123.json",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "6a1a484e1349ba2a5c87d06c2b30b0277930aeb520504be8f825097a08d5926f"
+    },
+    {
+      "bytes": 280,
+      "name": "posttrain_test_authorization_123.json",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "cbb296c302f7cadd13069d238472b63ff841e1e5e13a59698fa56ffd4564b0fa"
+    },
+    {
+      "bytes": 988,
+      "name": "replication_plan_123.json",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "d178b5c9be181779b1525177daf9906d7190a636ae0d70edda65110850c5d920"
+    },
+    {
+      "bytes": 836,
+      "name": "protocol_123.md",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "ba2cf40e74b527352d5815954cdc6afed8f9904054099c50d82fc577e94c66df"
+    },
+    {
+      "bytes": 1011,
+      "name": "spawn_check_123.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "c90745552ac267b4c5f86041ad0a285e114bb8b4fc55aff257158d4585a18061"
+    },
+    {
+      "bytes": 1455,
+      "name": "build_manifest_123.py",
+      "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+      "sha256": "9a2e971b32560b9b0cb8152135befd89a344d0807fefaf56e3899b4f18369402"
+    }
+  ],
+  "only_changed_variable": "training_seed:20261105->20261109",
+  "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_100ep_20261109_123",
+  "scientific_variable": "independent_training_seed_replication",
+  "status": "IMPLEMENTATION_SEALED_AND_AUTHORIZED",
+  "temporal_cooldown_frames": 8
+}

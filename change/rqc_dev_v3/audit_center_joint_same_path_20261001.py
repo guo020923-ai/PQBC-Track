@@ -22,7 +22,7 @@ def main():
     (dest/'identity.json').write_text(json.dumps(identity,indent=2));rows=[];start=time.time()
     read=lambda path:cv2.cvtColor(cv2.imread(str(path)),cv2.COLOR_BGR2RGB)
     stored=ROOT/'test/tracking_results/uvltrack'/f'{NAME}_100130'/'tnl2k_NLBBOX_030'
-    official=Path('/root/autodl-tmp/UVLTrack-master/test/tracking_results/uvltrack/baseline_base/tnl2k_NLBBOX_300')
+    official=ROOT/'test/tracking_results/uvltrack/baseline_base/tnl2k_NLBBOX_300'
     for done,i in enumerate(ids):
         seq=dataset[i];tracker=wrapper.tracker_class(wrapper.params,'tnl2k')
         tracker.max_score=0;tracker.out_dict=None;tracker.pred_box_net=None

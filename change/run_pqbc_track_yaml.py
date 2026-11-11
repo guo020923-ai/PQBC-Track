@@ -138,11 +138,19 @@ def validate_config(
 
     for name in ("BASELINE", "RQC", "ERC"):
         record = _require(config, f"CHECKPOINTS.{name}")
-        _check_identity(Path(record["PATH"]), str(record["SHA256"]), hash_artifacts)
+        _check_identity(
+            _resolve(project, str(record["PATH"])),
+            str(record["SHA256"]),
+            hash_artifacts,
+        )
     erc = _require(config, "CHECKPOINTS.ERC")
-    _check_identity(Path(erc["NUMERIC_PATH"]), str(erc["NUMERIC_SHA256"]), hash_artifacts)
     _check_identity(
-        Path(_require(config, "CACHE.PATH")) / "manifest.json",
+        _resolve(project, str(erc["NUMERIC_PATH"])),
+        str(erc["NUMERIC_SHA256"]),
+        hash_artifacts,
+    )
+    _check_identity(
+        _resolve(project, str(_require(config, "CACHE.PATH"))) / "manifest.json",
         str(_require(config, "CACHE.MANIFEST_SHA256")),
         hash_artifacts,
     )
@@ -171,7 +179,7 @@ def validate_config(
 
 def _pipeline_command(config: Dict[str, Any], project: Path, output: Path) -> list[str]:
     package = str(_require(config, "ERC.IMPLEMENTATION_PACKAGE"))
-    cache = Path(_require(config, "CACHE.PATH"))
+    cache = _resolve(project, str(_require(config, "CACHE.PATH")))
     return [
         sys.executable,
         "-B",
@@ -214,6 +222,7 @@ def _evaluation_command(
 
 def _evaluate_existing(
     config: Dict[str, Any],
+    project: Path,
     output: Path,
     result_name: str,
     run_id: int,
@@ -232,7 +241,6 @@ def _evaluate_existing(
     if processes < 1:
         raise ValueError("processes must be positive")
     require_idle_gpu()
-    project = Path(_require(config, "EXECUTION.PROJECT_ROOT"))
     recovery_package = project / "change" / recovery_runner.PACKAGE.rsplit(".", 1)[-1]
     authorization = json.loads(
         (recovery_package / "authorization_124.json").read_text(encoding="utf-8")
@@ -240,7 +248,7 @@ def _evaluate_existing(
     if authorization.get("status") != "AUTHORIZED_ENGINEERING_RECOVERY_TEST":
         raise PermissionError("Round124 recovery evaluation is not authorized")
     recovery_runner.verify_manifest(project, recovery_package)
-    final_job = Path(_require(config, "PROVENANCE.FINAL_TRAINING_JOB"))
+    final_job = _resolve(project, str(_require(config, "PROVENANCE.FINAL_TRAINING_JOB")))
     training_audit, numeric_dir, _, _ = recovery_runner.verify_source(final_job)
 
     # The sealed stage uses module-level names to construct result roots. Set
@@ -301,7 +309,9 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps({"evaluation_command": command}, indent=2), flush=True)
         if args.action == "evaluate-command":
             return 0
-        return _evaluate_existing(config, output, args.result_name, args.run_id, args.processes)
+        return _evaluate_existing(
+            config, project, output, args.result_name, args.run_id, args.processes
+        )
     command = _pipeline_command(config, project, output)
     print(json.dumps({"pipeline_command": command}, indent=2), flush=True)
     if args.action == "command":

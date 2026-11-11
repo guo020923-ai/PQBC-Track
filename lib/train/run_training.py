@@ -76,7 +76,7 @@ def main():
     parser.add_argument('--script', type=str, default="mvit", required=False, help='Name of the train script.')
     parser.add_argument('--config', type=str, default="baseline_256_5_notoken", required=False, help="Name of the config file.")
     parser.add_argument('--cudnn_benchmark', type=bool, default=True, help='Set cudnn benchmark on (1) or off (0) (default is on).')
-    parser.add_argument('--save_dir', type=str, default="/ssd/myc/VL_project/MUTrack", help='the directory to save checkpoints and logs')
+    parser.add_argument('--save_dir', type=str, default="output", help='the directory to save checkpoints and logs')
     parser.add_argument('--seed', type=int, default=42, help='seed for random numbers')
     parser.add_argument('--use_lmdb', type=int, choices=[0, 1], default=0)  # whether datasets are in lmdb format
     parser.add_argument('--script_prv', type=str, default=None, help='Name of the train script of previous model.')

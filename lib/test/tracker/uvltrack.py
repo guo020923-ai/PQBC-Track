@@ -35,10 +35,6 @@ class UVLTrack(BaseTracker):
         # for debug
         self.debug = self.params.debug
         self.frame_id = 0
-        # if self.debug:
-        #     self.save_dir = "/ssd/myc/VL_project/MUTrack/debug"
-        #     if not os.path.exists(self.save_dir):
-        #         os.makedirs(self.save_dir)
         self.update_interval = self.cfg.TEST.UPDATE_INTERVAL
         self.feat_size = self.params.search_size // 16
         self.tokenizer = BertTokenizer.from_pretrained(self.cfg.MODEL.BACKBONE.LANGUAGE.VOCAB_PATH, do_lower_case=True)

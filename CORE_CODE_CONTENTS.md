@@ -24,9 +24,10 @@ Important entry points:
 - `change/erc_rqc30_output_only_ablation_20261109_130/`
 - `change/erc_rqc30_unary_objective_ablation_20261109_132/`
 
-The YAML records the server-side locations and SHA256 values of the final
-checkpoints. The checkpoint files themselves are not included in this
-code-only archive.
+The YAML records portable repository-relative locations and SHA256 values of
+the final checkpoints. The checkpoint files themselves are not included in
+this code-only archive. Historical provenance records retain the paths from
+the sealed server run; those records are evidence, not local runtime defaults.
 
 Basic source validation:
 

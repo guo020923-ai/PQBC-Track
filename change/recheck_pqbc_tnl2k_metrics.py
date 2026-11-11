@@ -25,9 +25,8 @@ def main():
         _evaluate_once,
     )
 
-    report = args.report or Path(
-        "/root/autodl-tmp/pqbc_track_metric_recheck_"
-        + time.strftime("%Y%m%d_%H%M%S")
+    report = args.report or Path("outputs") / (
+        "pqbc_track_metric_recheck_" + time.strftime("%Y%m%d_%H%M%S")
     )
     if report.exists():
         raise FileExistsError(report)

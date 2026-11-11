@@ -11,10 +11,10 @@ from pathlib import Path
 from change.erc_round73_generalization_20261108_122.run_dataset import bca, evaluate_once
 
 
-PROJECT = Path("/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated")
+PROJECT = Path(__file__).resolve().parents[2]
 ROUND124_PACKAGE_NAME = "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124"
 ROUND124_PACKAGE = PROJECT / "change" / ROUND124_PACKAGE_NAME
-ROUND123_STAGE = Path("/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123")
+ROUND123_STAGE = PROJECT / "artifacts/pqbc_final/stages/erc_round73_seed20261109_replication_20261109_123"
 NUMERIC_DIR = ROUND123_STAGE / "numeric"
 CHECKPOINT = ROUND123_STAGE / "train" / "checkpoints" / "ERC_epoch_0100.pth.tar"
 CHECKPOINT_SHA256 = "354e3723cfe36a0ef861e16c93fbacd680ea548f5d508aeb9b9b72dd8c4baf53"

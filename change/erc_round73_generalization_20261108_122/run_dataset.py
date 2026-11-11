@@ -10,9 +10,9 @@ from pathlib import Path
 from statistics import NormalDist
 
 
-PROJECT = Path("/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated")
+PROJECT = Path(__file__).resolve().parents[2]
 ROUND73_PACKAGE = PROJECT / "change" / "erc_rqc30_temporal_cooldown_pairwise_100ep_20261107_73"
-ROUND73_STAGE = Path("/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_rqc30_temporal_cooldown_pairwise_pipeline_20261107_73")
+ROUND73_STAGE = PROJECT / "artifacts/pqbc_final/stages/erc_rqc30_temporal_cooldown_pairwise_pipeline_20261107_73"
 NUMERIC_DIR = ROUND73_STAGE / "numeric"
 CHECKPOINT = ROUND73_STAGE / "train" / "checkpoints" / "ERC_epoch_0100.pth.tar"
 CHECKPOINT_SHA256 = "65ce9732add17da4e1790f0c2b53bd36e0cea0c0a1e56bc18c1e2125135bebb3"

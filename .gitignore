@@ -1,12 +1,12 @@
-data/
-pretrain/
-checkpoints/
-artifacts/
-outputs/
-test/tracking_results/
-logs/
-terminal_logs/
-tensorboard/
+/data/
+/pretrain/
+/checkpoints/
+/artifacts/
+/outputs/
+/test/tracking_results/
+/logs/
+/terminal_logs/
+/tensorboard/
 
 *.pth
 *.pth.tar

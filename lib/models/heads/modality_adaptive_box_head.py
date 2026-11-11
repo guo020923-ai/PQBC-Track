@@ -1,6 +1,3 @@
-import sys
-sys.path.append('/ssd/myc/VL_project/MUTrack')
-
 import torch.nn as nn
 import torch
 import torch.nn.functional as F

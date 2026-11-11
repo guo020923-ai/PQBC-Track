@@ -35,7 +35,7 @@ assert_unchanged = infrastructure.assert_unchanged
 SOURCE = infrastructure.SOURCE
 SPLIT = HERE / 'data_policy_01.json'
 KIND = 'formal60_RQC30_original_TRAIN_mean_gain_risk_ERC_20261020_01'
-PYTHON = '/root/miniconda3/envs/uvltrack/bin/python'
+PYTHON = os.environ.get('PYTHON_BIN', sys.executable)
 
 
 def digest(path):

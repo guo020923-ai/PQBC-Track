@@ -114,7 +114,7 @@ TRAIN:
   RQC_LR: 0.0001
   RQC_LOSS_WEIGHT: 1.0
   RQC_TEMPERATURE: 0.1
-  INIT_CHECKPOINT: '/root/autodl-tmp/UVLTrack-master/checkpoints/train/uvltrack/baseline_base/UVLTrack_ep0300.pth.tar'
+  INIT_CHECKPOINT: 'checkpoints/baseline/UVLTrack_ep0300.pth.tar'
   FREEZE_BACKBONE: true
   ERC_ONLY: false
   FREEZE_HEAD: false

@@ -11,7 +11,7 @@ NAME='baseline_base_head_rqc_jq_bs16_30ep_20260929'
 
 def main(output_name='jq_natural_20260930',observer=None):
     dest=ROOT/'change/rqc_dev_v3'/output_name;dest.mkdir(exist_ok=False)
-    manifest=Path('/root/autodl-tmp/UVLTrack-master/change/rqc_pr_20260928_isolated/change/rqc_dev_v3/coverage_plan_20260929/manifest.json')
+    manifest=ROOT/'change/rqc_dev_v3/coverage_plan_20260929/manifest.json'
     allseq=json.loads(manifest.read_text());chosen=[]
     for domain in ('lasot_train','tnl2k_train'):
         group=sorted([m for m in allseq if m['domain']==domain and m['split']=='probe_calibration'],key=lambda m:m['name'])

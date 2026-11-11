@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd /root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated
-python_bin=/root/miniconda3/envs/uvltrack/bin/python
+project_root="${PQBC_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}"
+cd "$project_root"
+python_bin="${PYTHON_BIN:-python}"
 config=baseline_base_head_directional_center_guard_bs16_30ep_20261001
 checkpoint="change/directional_center_joint_training_20261001/${config}/DirectionalCenterJoint_ep0030.pth.tar"
 runid=101230

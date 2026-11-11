@@ -10,8 +10,8 @@ import traceback
 from pathlib import Path
 
 
-PROJECT = Path("/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated")
-ROOT = Path("/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round124_generalization_20261109_125")
+PROJECT = Path(__file__).resolve().parents[2]
+ROOT = PROJECT / "artifacts/pqbc_final/stages/erc_round124_generalization_20261109_125"
 PACKAGE = "change.erc_round124_generalization_20261109_125.run_dataset"
 ADAPTER_MANIFEST = Path(__file__).with_name("manifest.json")
 

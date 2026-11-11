@@ -8,8 +8,8 @@ import time
 from pathlib import Path
 
 
-PROJECT = Path("/root/autodl-tmp/UVLTrack-master/change/rqc_jq_20260929_isolated")
-ROOT = Path("/root/autodl-tmp/UVLTrack-master/artifacts/pqbc_final/stages/erc_round73_generalization_20261108_122")
+PROJECT = Path(__file__).resolve().parents[2]
+ROOT = PROJECT / "artifacts/pqbc_final/stages/erc_round73_generalization_20261108_122"
 PACKAGE = "change.erc_round73_generalization_20261108_122.run_dataset"
 
 

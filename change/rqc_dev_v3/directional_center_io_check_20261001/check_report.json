@@ -1,9 +1,0 @@
-{
-  "zero_exact_frames": 22,
-  "nonzero_same_state_prompt_frames": 24,
-  "changed_output_frames": 24,
-  "synthetic_formal_test_rejected": true,
-  "optimizer_steps": 0,
-  "formal_training_started": false,
-  "fixture": "change/rqc_dev_v3/directional_center_io_check_20261001/DirectionalCenterJoint_ep0030.pth.tar"
-}

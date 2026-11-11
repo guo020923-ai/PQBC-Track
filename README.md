@@ -21,6 +21,9 @@ descriptor, KEEP-relative pairwise utility learning, a TRAIN-only threshold of
 > this repository. Datasets and trained checkpoints are not stored in Git.
 > Checkpoint downloads will be provided through the
 > [GitHub Releases](https://github.com/guo020923-ai/PQBC-Track/releases) page.
+> Public checkpoint copies retain the trained tensors while replacing local
+> machine paths in metadata with repository-relative paths. The consolidated
+> YAML records both public-file and original scientific-source SHA256 values.
 
 ## Results
 

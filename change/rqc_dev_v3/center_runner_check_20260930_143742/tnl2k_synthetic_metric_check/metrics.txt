@@ -1,3 +1,0 @@
-
-tnl2k_NLBBOX_030                                                                    | AUC        | OP50       | OP75       | Precision    | Norm Precision    |
-uvltrack_baseline_base_frozen_head_output_center_safe_bs16_30ep_20260930_93098      | 93.85      | 100.00     | 100.00     | 100.00       | 100.00            |

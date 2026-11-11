@@ -1,7 +1,7 @@
 {
   "config": "baseline_base_head_directional_center_guard_bs16_30ep_20261001",
   "config_sha256": "8eabcc68cf678699e0e412641abffff43da2a80baf1f78bf478ba7cc4e074152",
-  "source_checkpoint": "/root/autodl-tmp/UVLTrack-master/checkpoints/train/uvltrack/baseline_base/UVLTrack_ep0300.pth.tar",
+  "source_checkpoint": "checkpoints/baseline/UVLTrack_ep0300.pth.tar",
   "source_checkpoint_sha256": "146599daa765c3f14f67d433a5c5b19501f7d0af583fb6e09ebefd123757e6c2",
   "epochs": 30,
   "samples_per_epoch": 30000,

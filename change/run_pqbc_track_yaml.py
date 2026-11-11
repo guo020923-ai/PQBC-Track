@@ -70,7 +70,10 @@ def _protocol_expectations(config: Dict[str, Any]) -> Iterable[Tuple[str, Any]]:
         ("cache_seed", _require(config, "CACHE.SEED")),
         ("training_seed", _require(config, "TRAIN.SEED")),
         ("source_rqc_epoch", _require(config, "CHECKPOINTS.RQC.EPOCH")),
-        ("source_rqc_checkpoint_sha256", _require(config, "CHECKPOINTS.RQC.SHA256")),
+        (
+            "source_rqc_checkpoint_sha256",
+            _require(config, "CHECKPOINTS.RQC.SOURCE_SHA256"),
+        ),
         ("source_cache_manifest_sha256", _require(config, "CACHE.MANIFEST_SHA256")),
         ("cache_examples", _require(config, "CACHE.EXAMPLES")),
         ("epochs", _require(config, "TRAIN.EPOCHS")),

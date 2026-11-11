@@ -1,6 +1,6 @@
 {
   "status": "AUTHORIZED_ENGINEERING_RECOVERY_TEST",
-  "source_stage": "/root/autodl-tmp/erc_round73_seed20261109_replication_20261109_123",
+  "source_stage": "artifacts/erc/round123_seed20261109_replication",
   "failure": "ValueError('invalid feedback geometry')",
   "only_code_change": "post-selection invalid feedback candidate falls back to native KEEP",
   "reuse_verified_epoch100": true,

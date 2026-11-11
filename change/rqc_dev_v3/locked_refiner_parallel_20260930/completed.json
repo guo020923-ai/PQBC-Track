@@ -1,8 +1,0 @@
-{
-  "sequences": 100,
-  "samples": 3861,
-  "tracked_frames": 141050,
-  "collection_seconds": 1498.6181230545044,
-  "serial_exact_compared": 76,
-  "final_holdout_loaded": false
-}

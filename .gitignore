@@ -8,6 +8,18 @@
 /terminal_logs/
 /tensorboard/
 
+# Historical runtime audits are intentionally excluded from the public
+# code release. The final reproducibility protocol and authorization record
+# remain tracked in their respective sealed experiment directories.
+/change/rqc_dev_v3/**/*.json
+/change/rqc_dev_v3/**/*.md
+/change/rqc_dev_v3/**/*.txt
+/change/erc_rqc30_originaltrain_formal60_20261020_01/**/*.json
+/change/erc_rqc30_originaltrain_formal60_20261020_01/**/*.md
+/change/erc_rqc30_originaltrain_formal60_20261020_01/**/*.txt
+/change/erc_rqc30_epoch_supervised_abstention_20261104_41/deployment_41.json
+/change/erc_rqc30_harm_aware_joint_utility_test_20261105_50/technical_failure_50.json
+
 *.pth
 *.pth.tar
 *.pt

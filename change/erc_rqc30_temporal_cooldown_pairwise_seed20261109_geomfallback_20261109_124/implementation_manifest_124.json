@@ -79,10 +79,10 @@
       "sha256": "079f657ba5e41a93297d7dff94d8923c403152ede96fa1cb2f9f1528fcfb86d2"
     },
     {
-      "bytes": 459,
+      "bytes": 440,
       "name": "authorization_124.json",
       "package": "erc_rqc30_temporal_cooldown_pairwise_seed20261109_geomfallback_20261109_124",
-      "sha256": "3f659f895d53de28aa81ba3ad3ba063519143d0807dd42e396faf36ff8660890"
+      "sha256": "7324da8d77927ed204a00c4cb7919e606b82a63462a930758b6bd75d2bb91b4e"
     },
     {
       "bytes": 666,

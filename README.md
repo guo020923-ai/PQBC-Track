@@ -51,9 +51,10 @@ PQBC-Track/
 ├── experiments/   # UVLTrack, RQC, and consolidated PQBC-Track configurations
 ├── lib/           # UVLTrack base framework plus PQBC-Track modifications
 ├── tracking/      # training, testing, profiling, and analysis entry points
+├── environment.yml
 ├── LICENSE
 ├── install.sh
-└── uvltrack_env.yaml
+└── README.md
 ```
 
 Important entry points:
@@ -71,10 +72,14 @@ Important entry points:
 Linux with a CUDA-capable GPU is recommended.
 
 ```bash
-conda env create -f uvltrack_env.yaml
-conda activate uvltrack
-bash install.sh
+conda env create -f environment.yml
+conda activate pqbc-track
 ```
+
+The environment file reflects the software stack used for the final
+experiments: Python 3.8, PyTorch 2.0.1, and CUDA 11.8. As an equivalent
+shortcut, run `bash install.sh`, then activate the environment with the command
+printed by the script.
 
 ## Data preparation
 
